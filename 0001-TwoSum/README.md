@@ -1,9 +1,5 @@
 # **Two Sum**
 
-## **Project Overview**
-This repository contains two solutions for the popular LeetCode problem "Two Sum." The goal is to find two indices in the array such that their elements sum up to the given target value.
----
-
 ## **Problem Statement**
 Given an array of integers nums and an integer target, return the indices of the two numbers such that they add up to the target.
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
