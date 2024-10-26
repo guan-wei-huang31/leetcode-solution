@@ -22,3 +22,17 @@ public:
         return ptr_l;
     }
 };
+int main() {
+    Solution s1;
+    vector<int> nums = { 0, 1, 2, 2, 3, 0, 4, 2 };
+    int val = 2;
+    int Output = s1.removeElement(nums, val);
+
+    cout << "Array after removal: ";
+    for (int i = 0; i < Output; ++i) {
+        cout << nums[i] << " ";
+    }
+    cout << endl;
+
+    cout << "New length: " << Output << endl;
+}
