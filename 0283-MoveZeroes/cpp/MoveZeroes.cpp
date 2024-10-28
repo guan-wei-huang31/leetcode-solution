@@ -22,7 +22,6 @@ public:
 int main() {
     Solution solution;
     vector<int> nums = { 0, 1, 0, 3, 12 };
-
     cout << "Before moveZeroes: ";
     for (int num : nums) {
         cout << num << " ";
