@@ -1,8 +1,7 @@
 # **Move Zeroes**
 
 ## **Problem Statement**
-This project demonstrates a simple algorithm to move all zero elements in an array to the end, while maintaining the relative order of the non-zero elements. The code is implemented in C++, highlighting vector operations and in-place rearrangement.
-
+This project demonstrates a simple algorithm to move all zero elements in an array to the end, while maintaining the relative order of the non-zero elements. Implementations are provided in C++ and Python, showcasing vector/list operations and in-place rearrangement.
 **Example Input:**
   ```
   Input: nums = [0, 1, 0, 3, 12]
@@ -41,19 +40,37 @@ This project demonstrates a simple algorithm to move all zero elements in an arr
       }
   };
   ```
+- Language: Python
+- Code:
+  ```
+  class Solution:
+     def moveZeroes(self, nums: List[int]) -> None:
+         insert_pos = 0
+         
+         for i in range(len(nums)):
+             if nums[i] != 0:
+                 nums[insert_pos] = nums[i]
+                 insert_pos += 1
+         
+         while insert_pos < len(nums):
+             nums[insert_pos] = 0
+             insert_pos += 1
+  ```
 
 - Time Complexity: O(n)
-  The algorithm traverses the input array twice: once to move non-zero elements and once to fill with zeros.
+  Both Python and C++ solutions traverse the input list/array twice.
+  1. First Pass: Moving non-zero elements to the front.
+  2. Second Pass: Filling the remaining positions with zeros.
 - Space Complexity: O(1)
-  The input vector is modified in-place, and no extra space proportional to the input size is used.
+  Both implementations modify the input in-place, meaning no additional space proportional to the input size is used.
   
 ---
 
 ## **Conclusion**
-This two-pass approach provides a simple and efficient way to move all zeroes to the end of the array while maintaining the order of non-zero elements. It is optimized for both time and space, making it a robust solution for real-world scenarios.
+This two-pass approach efficiently moves all zeroes to the end while maintaining the order of non-zero elements. It achieves O(n) time complexity and O(1) space complexity, making it an optimal solution for practical applications.
 
 ### **Future Plans**
-- Add implementations in other languages, such as Python and Java.
+- Add implementations in other languages, such as Java.
 - Create automated tests to validate edge cases.
 - Experiment with alternative algorithms to see if a single-pass solution could offer further performance improvements.
 
