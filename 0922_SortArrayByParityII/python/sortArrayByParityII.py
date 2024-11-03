@@ -2,11 +2,9 @@ from typing import List
 
 class Solution:
     def sortArrayByParityII(self, nums: List[int]) -> List[int]:
-        # 提取所有偶數和奇數
         evens = [num for num in nums if num % 2 == 0]
         odds = [num for num in nums if num % 2 == 1]
         
-        # 交替組合偶數和奇數
         sorted_nums = []
         for even, odd in zip(evens, odds):
             sorted_nums.extend([even, odd])
