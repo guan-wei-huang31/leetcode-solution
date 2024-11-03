@@ -15,6 +15,7 @@ I will continue adding more solutions and challenges as I progress in my learnin
 |0283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | [C++](./0283-MoveZeroes/cpp/MoveZeroes.cpp), [Python](./0283-MoveZeroes/python/MoveZeroes.py)|Easy|
 |0344|[Reverse String](https://leetcode.com/problems/reverse-string/description/) | [C++](./0344_ReverseString/cpp/ReverseString.cpp)|Easy|
 |0922|[SortArrayByParityII](https://leetcode.com/problems/sort-array-by-parity-ii/description/) | [C++](./0922_SortArrayByParityII/cpp/SortArrayByParityII.cpp), [Python](./0922_SortArrayByParityII/python/SortArrayByParityII.py)|Easy|
+|0941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/) | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
 
 ---
 
