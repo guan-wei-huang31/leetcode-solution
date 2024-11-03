@@ -9,14 +9,14 @@ I will continue adding more solutions and challenges as I progress in my learnin
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|0001|[Two Sum](https://leetcode.com/problems/two-sum/) | [C](./0001-TwoSum/c/TwoSum.c), [Python](./0001-TwoSum/python/TwoSum.py)|Easy|
-|0027|[Remove Element](https://leetcode.com/problems/remove-element/description/) | [C++](./0027-RemoveElement/cpp/RemoveElement.cpp)|Easy|
-|0088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | [C++](./0088_MergeSortedArray/cpp/mergeSortedArray.cpp), [Python](./0088_MergeSortedArray/python/mergeSortedArray.py)|Easy|
-|0125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) | [C](./0125-ValidPalindrome/c/validPalindrome.c), [C++](./0125-ValidPalindrome/c++/validPalindrome.cpp)|Easy|
-|0283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | [C++](./0283-MoveZeroes/cpp/MoveZeroes.cpp), [Python](./0283-MoveZeroes/python/MoveZeroes.py)|Easy|
-|0344|[Reverse String](https://leetcode.com/problems/reverse-string/description/) | [C++](./0344_ReverseString/cpp/ReverseString.cpp)|Easy|
-|0922|[SortArrayByParityII](https://leetcode.com/problems/sort-array-by-parity-ii/description/) | [C++](./0922_SortArrayByParityII/cpp/SortArrayByParityII.cpp), [Python](./0922_SortArrayByParityII/python/SortArrayByParityII.py)|Easy|
-|0941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/description/) | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
+|[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./0001-TwoSum/) | [C](./0001-TwoSum/c/TwoSum.c), [Python](./0001-TwoSum/python/TwoSum.py)|Easy|
+|[0027](https://leetcode.com/problems/remove-element/description/)|[Remove Element](./0027-RemoveElement/) | [C++](./0027-RemoveElement/cpp/RemoveElement.cpp)|Easy|
+|[0088](https://leetcode.com/problems/merge-sorted-array/description/)|[Merge Sorted Array](./0088_MergeSortedArray/) | [C++](./0088_MergeSortedArray/cpp/mergeSortedArray.cpp), [Python](./0088_MergeSortedArray/python/mergeSortedArray.py)|Easy|
+|[0125](https://leetcode.com/problems/valid-palindrome/description/)|[Valid Palindrome](./0125-ValidPalindrome/) | [C](./0125-ValidPalindrome/c/validPalindrome.c), [C++](./0125-ValidPalindrome/c++/validPalindrome.cpp)|Easy|
+|[0283](https://leetcode.com/problems/move-zeroes/description/)|[Move Zeroes](./0283-MoveZeroes/) | [C++](./0283-MoveZeroes/cpp/MoveZeroes.cpp), [Python](./0283-MoveZeroes/python/MoveZeroes.py)|Easy|
+|[0344](https://leetcode.com/problems/reverse-string/description/)|[Reverse String](./0344_ReverseString/) | [C++](./0344_ReverseString/cpp/ReverseString.cpp)|Easy|
+|[0922](https://leetcode.com/problems/sort-array-by-parity-ii/description/)|[SortArrayByParityII](./0922_SortArrayByParityII/) | [C++](./0922_SortArrayByParityII/cpp/SortArrayByParityII.cpp), [Python](./0922_SortArrayByParityII/python/SortArrayByParityII.py)|Easy|
+|[0941](https://leetcode.com/problems/valid-mountain-array/description/)|[Valid Mountain Array](./0941_ValidMountainArray/) | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
 
 ---
 
