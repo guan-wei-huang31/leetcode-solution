@@ -46,7 +46,7 @@ This C++ solution uses two pointers to merge nums1 and nums2 in-place, without u
   ```
 - Time Complexity: O(m+n)   
   This algorithm processes each element in nums1 and nums2 once.
-- Space Complexity: O(1)
+- Space Complexity: O(1)  
   No extra space is required other than the integer pointers.  
 
 ### **Append and Sort Approach (Python)**
