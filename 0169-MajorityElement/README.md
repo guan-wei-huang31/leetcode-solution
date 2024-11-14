@@ -11,7 +11,7 @@ This project provides a solution to find the majority element in a list of integ
 ---
 
 ## **Solutions Overview**
-### **Single-Pass Approach (Python)**
+### **Single-Pass Dictionary Approach (Python)**
 1. Initialize a dictionary to store the frequency of each element.
 2. Traverse through each element in the list and update the count in the dictionary.
 3. Check if the current element’s count exceeds n/2, where n is the length of the list:
@@ -45,7 +45,7 @@ This project provides a solution to find the majority element in a list of integ
 ---
 
 ## **Conclusion**
-This single-pass approach efficiently finds the majority element by counting occurrences as it traverses the list. The solution is both simple and effective for the given problem constraints.
+This single-pass dictionary approach efficiently finds the majority element by counting occurrences as it traverses the list. The solution is both simple and effective for the given problem constraints.
 
 ### **Future Plans**
 - Add implementations in other languages, such as C++, Java.

@@ -11,7 +11,7 @@ This project provides a solution to determine if two given strings are anagrams.
 ---
 
 ## **Solutions Overview**
-### **Dictionary-Based Approach (Python)**
+### **Single-Pass Dictionary Approach (Python)**
 1. Initialize a dictionary to store the frequency of each character in the first string.
 2. Traverse through each character in the first string and update the count in the dictionary.
 3. Traverse through each character in the second string:
