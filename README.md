@@ -17,6 +17,8 @@ I will continue adding more solutions and challenges as I progress in my learnin
 |[0242](https://leetcode.com/problems/valid-anagram/description/)|[Valid Anagram](./0242-ValidAnagram/) | [Python](./0242-ValidAnagram/python/ValidAnagram.py)|Easy|
 |[0283](https://leetcode.com/problems/move-zeroes/description/)|[Move Zeroes](./0283-MoveZeroes/) | [C++](./0283-MoveZeroes/cpp/MoveZeroes.cpp), [Python](./0283-MoveZeroes/python/MoveZeroes.py)|Easy|
 |[0344](https://leetcode.com/problems/reverse-string/description/)|[Reverse String](./0344_ReverseString/) | [C++](./0344_ReverseString/cpp/ReverseString.cpp)|Easy|
+|[0387](https://leetcode.com/problems/first-unique-character-in-a-string/description/)|[First Unique Character in a String](./0387-FirstUniqueCharacter/) | [Python](./0387-FirstUniqueCharacter/pyhon/FirstUniqueCharacter.py)|Easy|
+|[0485](https://leetcode.com/problems/max-consecutive-ones/description/)|[Max Consecutive Ones](./0485-MaxConsecutiveOnes/) | [Python](./0485-MaxConsecutiveOnes/pyhon/MaxConsecutiveOnes.py)|Easy|
 |[0922](https://leetcode.com/problems/sort-array-by-parity-ii/description/)|[SortArrayByParityII](./0922_SortArrayByParityII/) | [C++](./0922_SortArrayByParityII/cpp/SortArrayByParityII.cpp), [Python](./0922_SortArrayByParityII/python/SortArrayByParityII.py)|Easy|
 |[0941](https://leetcode.com/problems/valid-mountain-array/description/)|[Valid Mountain Array](./0941_ValidMountainArray/) | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
 
