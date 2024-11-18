@@ -20,6 +20,7 @@ I will continue adding more solutions and challenges as I progress in my learnin
 |[0387](https://leetcode.com/problems/first-unique-character-in-a-string/description/)|[First Unique Character in a String](./0387-FirstUniqueCharacter/) | [Python](./0387-FirstUniqueCharacter/pyhon/FirstUniqueCharacter.py)|Easy|
 |[0485](https://leetcode.com/problems/max-consecutive-ones/description/)|[Max Consecutive Ones](./0485-MaxConsecutiveOnes/) | [Python](./0485-MaxConsecutiveOnes/pyhon/MaxConsecutiveOnes.py)|Easy|
 |[0557](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)|[Reverse Words in a String III](./0557-ReverseWordsInAStringIII/) | [Python](./0557-ReverseWordsInAStringIII/pyhon/ReverseWordsInAStringIII.py)|Easy|
+|[0704](https://leetcode.com/problems/binary-search/description/)|[Binary Search](./0704-BinarySearch/) | [C](./0704-BinarySearch/c/BinarySearch.c), [Python](./0704-BinarySearch/pyhon/BinarySearch.py)|Easy|
 |[0922](https://leetcode.com/problems/sort-array-by-parity-ii/description/)|[SortArrayByParityII](./0922_SortArrayByParityII/) | [C++](./0922_SortArrayByParityII/cpp/SortArrayByParityII.cpp), [Python](./0922_SortArrayByParityII/python/SortArrayByParityII.py)|Easy|
 |[0941](https://leetcode.com/problems/valid-mountain-array/description/)|[Valid Mountain Array](./0941_ValidMountainArray/) | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
 
