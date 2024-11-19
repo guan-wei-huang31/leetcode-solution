@@ -23,7 +23,7 @@ I will continue adding more solutions and challenges as I progress in my learnin
 |[0704](https://leetcode.com/problems/binary-search/description/)|[Binary Search](./0704-BinarySearch/) | [C](./0704-BinarySearch/c/search_binary.c), [Python](./0704-BinarySearch/python/BinarySearch.py)|Easy|
 |[0922](https://leetcode.com/problems/sort-array-by-parity-ii/description/)|[SortArrayByParityII](./0922_SortArrayByParityII/) | [C++](./0922_SortArrayByParityII/cpp/SortArrayByParityII.cpp), [Python](./0922_SortArrayByParityII/python/SortArrayByParityII.py)|Easy|
 |[0941](https://leetcode.com/problems/valid-mountain-array/description/)|[Valid Mountain Array](./0941_ValidMountainArray/) | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
-|[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | [Python](./1556-ThousandSperator/python/thousandSperator.py)|Easy|
+|[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | [Python](./1556-ThousandSperator/python/ThousandSeperator.py)|Easy|
 
 ---
 
