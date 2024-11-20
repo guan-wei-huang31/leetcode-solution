@@ -20,21 +20,21 @@ The dictionary approach is used to solve this problem by leveraging the ability 
 - Language: Python
 - Code:
   ```
-class Solution:
-    def singleNumber(self, nums: List[int]) -> int:
-        dic = {}  
-        for num in nums:
-            dic[num] = dic.get(num, 0) + 1  
-        for key, val in dic.items():  
-            if val == 1:
-                return key
+  class Solution:
+      def singleNumber(self, nums: List[int]) -> int:
+          dic = {}  
+          for num in nums:
+              dic[num] = dic.get(num, 0) + 1  
+          for key, val in dic.items():  
+              if val == 1:
+                  return key
   ```
 
 - Time Complexity: O(n)
   Counting the occurrences in the array takes O(n) and Iterating through the dictionary to find the unique number takes O(n) in the worst case.
 - Space Complexity: O(n)
   The dictionary stores up to n entries in the worst case.
-
+  
 ---
 
 ## **Conclusion**
