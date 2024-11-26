@@ -15,6 +15,7 @@ I will continue adding more solutions and challenges as I progress in my learnin
 |[0125](https://leetcode.com/problems/valid-palindrome/description/)|[Valid Palindrome](./0125-ValidPalindrome/) | [C](./0125-ValidPalindrome/c/validPalindrome.c), [C++](./0125-ValidPalindrome/c++/validPalindrome.cpp)|Easy|
 |[0136](https://leetcode.com/problems/single-number/description/)|[Single Number](./0136-SingleNumber/) | [Python](./0136-SingleNumber/python/SingleNumber.py)|Easy|
 |[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./0169-MajorityElement/) | [Python](./0169-MajorityElement/python/MajorityElement.py)|Easy|
+|[0217](https://leetcode.com/problems/contains-duplicate/description/)|[Contains Duplicate](./0217-ContainsDuplicate/) | [C++](./0217-ContainsDuplicate/cpp/containsDuplicate.cpp)|Easy|
 |[0242](https://leetcode.com/problems/valid-anagram/description/)|[Valid Anagram](./0242-ValidAnagram/) | [Python](./0242-ValidAnagram/python/ValidAnagram.py)|Easy|
 |[0283](https://leetcode.com/problems/move-zeroes/description/)|[Move Zeroes](./0283-MoveZeroes/) | [C++](./0283-MoveZeroes/cpp/MoveZeroes.cpp), [Python](./0283-MoveZeroes/python/MoveZeroes.py)|Easy|
 |[0344](https://leetcode.com/problems/reverse-string/description/)|[Reverse String](./0344_ReverseString/) | [C++](./0344_ReverseString/cpp/ReverseString.cpp)|Easy|
