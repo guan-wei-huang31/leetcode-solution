@@ -10,6 +10,8 @@ I will continue adding more solutions and challenges as I progress in my learnin
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./0001-TwoSum/) | [C](./0001-TwoSum/c/TwoSum.c), [Python](./0001-TwoSum/python/TwoSum.py)|Easy|
+|[0009](https://leetcode.com/problems/palindrome-number/description/)|[Palindrome Number](./0009-PalindromeNumber/) | [Python](./0009-PalindromeNumber/python/PalindromeNumber.py)|Easy|
+|[0013](https://leetcode.com/problems/roman-to-integer/description//)|[Roman to Integer](./0013-RomanToInteger/) | [Python](./0013-RomanToInteger/python/RomanToInteger.py)|Easy|
 |[0027](https://leetcode.com/problems/remove-element/description/)|[Remove Element](./0027-RemoveElement/) | [C++](./0027-RemoveElement/cpp/RemoveElement.cpp)|Easy|
 |[0088](https://leetcode.com/problems/merge-sorted-array/description/)|[Merge Sorted Array](./0088_MergeSortedArray/) | [C++](./0088_MergeSortedArray/cpp/mergeSortedArray.cpp), [Python](./0088_MergeSortedArray/python/mergeSortedArray.py)|Easy|
 |[0125](https://leetcode.com/problems/valid-palindrome/description/)|[Valid Palindrome](./0125-ValidPalindrome/) | [C](./0125-ValidPalindrome/c/validPalindrome.c), [C++](./0125-ValidPalindrome/c++/validPalindrome.cpp)|Easy|
