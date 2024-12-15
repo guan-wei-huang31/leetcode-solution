@@ -24,6 +24,7 @@ I will continue adding more solutions and challenges as I progress in my learnin
 |[0344](https://leetcode.com/problems/reverse-string/description/)|[Reverse String](./0344_ReverseString/) | [C++](./0344_ReverseString/cpp/ReverseString.cpp)|Easy|
 |[0387](https://leetcode.com/problems/first-unique-character-in-a-string/description/)|[First Unique Character in a String](./0387-FirstUniqueCharacter/) | [Python](./0387-FirstUniqueCharacter/pyhon/FirstUniqueCharacter.py)|Easy|
 |[0485](https://leetcode.com/problems/max-consecutive-ones/description/)|[Max Consecutive Ones](./0485-MaxConsecutiveOnes/) | [Python](./0485-MaxConsecutiveOnes/pyhon/MaxConsecutiveOnes.py)|Easy|
+|[0541](https://leetcode.com/problems/reverse-string-ii/description/)|[Reverse String II](./0541-ReverseStringII/) | [Python](./0541-ReverseStringII/pyhon/ReverseStringII.py)|Easy|
 |[0557](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)|[Reverse Words in a String III](./0557-ReverseWordsInAStringIII/) | [Python](./0557-ReverseWordsInAStringIII/pyhon/ReverseWordsInAStringIII.py)|Easy|
 |[0704](https://leetcode.com/problems/binary-search/description/)|[Binary Search](./0704-BinarySearch/) | [C](./0704-BinarySearch/c/search_binary.c), [Python](./0704-BinarySearch/python/BinarySearch.py)|Easy|
 |[0922](https://leetcode.com/problems/sort-array-by-parity-ii/description/)|[SortArrayByParityII](./0922_SortArrayByParityII/) | [C++](./0922_SortArrayByParityII/cpp/SortArrayByParityII.cpp), [Python](./0922_SortArrayByParityII/python/SortArrayByParityII.py)|Easy|
