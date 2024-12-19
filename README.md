@@ -5,7 +5,7 @@ Welcome to my LeetCode solutions repository! 🚀 This is where I document my jo
 ---
 
 ## **📂Current Progress**
-I will continue adding more solutions and challenges as I progress in my learning journey. Feel free to explore the folders for code implementations in different programming languages!
+This repository is a work in progress as I continuously tackle new challenges and improve my solutions. Below is a summary of the problems I have solved so far:  
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
@@ -35,10 +35,14 @@ I will continue adding more solutions and challenges as I progress in my learnin
 ---
 
 ## **📈Roadmap**
-- Add more LeetCode problems in C, C++, Python, and other languages.
-- Improve code with optimized solutions.
-- Write detailed explanations for each problem.
-- Explore advanced topics like dynamic programming and graph algorithms.
+- Expand the repository with more LeetCode problems in C, C++, Python, and other languages.
+- Refactor existing solutions to improve code efficiency and clarity.
+- Write comprehensive explanations for problem-solving approaches.
+- Explore advanced topics like:
+  - Dynamic Programming
+  - Graph Algorithms
+  - System Design
+- Collaborate with the community for code reviews and optimization insights. 
 
 ---
 
