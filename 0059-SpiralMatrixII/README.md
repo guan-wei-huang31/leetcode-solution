@@ -21,46 +21,46 @@ This solution uses a simulation-based approach to iteratively fill the matrix in
 - Language: C++
 - Code:
   ```
-#include <iostream>
-#include <vector>
-using namespace std;
-
-class Solution {
-public:
-    vector<vector<int>> generateMatrix(int n) {
-        vector<vector<int>> res(n, vector<int>(n, 0));
-        int xstart = 0;
-        int ystart = 0;
-        int offset = 1;
-        int loop = n / 2;
-        int mid = n / 2;
-        int count = 1;
-        int i, j;
-        while (loop--) {
-            i = xstart;
-            j = ystart;
-            for (j; j < n - offset; j++) {
-                res[i][j] = count++;
-            }
-            for (i; i < n - offset; i++) {
-                res[i][j] = count++;
-            }
-            for (j; j > ystart; j--) {
-                res[i][j] = count++;
-            }
-            for (i; i > xstart; i--) {
-                res[i][j] = count++;
-            }
-            xstart++;
-            ystart++;
-            offset++;
-        }
-        if (n % 2) {
-            res[mid][mid] = count;
-        }
-        return res;
-    }
-};
+  #include <iostream>
+  #include <vector>
+  using namespace std;
+  
+  class Solution {
+  public:
+      vector<vector<int>> generateMatrix(int n) {
+          vector<vector<int>> res(n, vector<int>(n, 0));
+          int xstart = 0;
+          int ystart = 0;
+          int offset = 1;
+          int loop = n / 2;
+          int mid = n / 2;
+          int count = 1;
+          int i, j;
+          while (loop--) {
+              i = xstart;
+              j = ystart;
+              for (j; j < n - offset; j++) {
+                  res[i][j] = count++;
+              }
+              for (i; i < n - offset; i++) {
+                  res[i][j] = count++;
+              }
+              for (j; j > ystart; j--) {
+                  res[i][j] = count++;
+              }
+              for (i; i > xstart; i--) {
+                  res[i][j] = count++;
+              }
+              xstart++;
+              ystart++;
+              offset++;
+          }
+          if (n % 2) {
+              res[mid][mid] = count;
+          }
+          return res;
+      }
+  };
   ```
 - Time Complexity: O(n^2)  
   The algorithm visits every cell in the n x n matrix exactly once.
