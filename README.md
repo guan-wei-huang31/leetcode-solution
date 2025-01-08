@@ -14,6 +14,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0013](https://leetcode.com/problems/roman-to-integer/description/)|[Roman to Integer](./0013-RomanToInteger/) | [Python](./0013-RomanToInteger/python/RomanToInteger.py)|Easy|
 |[0020](https://leetcode.com/problems/valid-parentheses/description/)|[Valid Parentheses](./0020-ValidParentheses/) | [Python](./0020-ValidParentheses/python/ValidParentheses.py)|Easy|
 |[0027](https://leetcode.com/problems/remove-element/description/)|[Remove Element](./0027-RemoveElement/) | [C++](./0027-RemoveElement/cpp/RemoveElement.cpp)|Easy|
+|[0059](https://leetcode.com/problems/spiral-matrix-ii/description/)|[Spiral Matrix II](./0059-SpiralMatrixII/) | [C++](./0059-SpiralMatrixII/cpp/SpiralMatrixII.cpp)|Median|
 |[0088](https://leetcode.com/problems/merge-sorted-array/description/)|[Merge Sorted Array](./0088_MergeSortedArray/) | [C++](./0088_MergeSortedArray/cpp/mergeSortedArray.cpp), [Python](./0088_MergeSortedArray/python/mergeSortedArray.py)|Easy|
 |[0125](https://leetcode.com/problems/valid-palindrome/description/)|[Valid Palindrome](./0125-ValidPalindrome/) | [C](./0125-ValidPalindrome/c/validPalindrome.c), [C++](./0125-ValidPalindrome/c++/validPalindrome.cpp)|Easy|
 |[0136](https://leetcode.com/problems/single-number/description/)|[Single Number](./0136-SingleNumber/) | [Python](./0136-SingleNumber/python/SingleNumber.py)|Easy|
