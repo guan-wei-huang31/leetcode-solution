@@ -1,4 +1,4 @@
-# **Linked List: Remove Elements**
+# **Remove Linked List Elements**
 
 ## **Problem Statement**
 This project provides a solution for removing all nodes from a singly-linked list that have a specific value. The function takes the head of the linked list and a target value as inputs and returns the modified linked list with the specified nodes removed.  
