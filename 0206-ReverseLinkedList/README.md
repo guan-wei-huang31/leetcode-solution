@@ -1,56 +1,65 @@
-# **Remove Element**
+# **Reverse Linked List**
 
 ## **Problem Statement**
-Given an array of integers nums and an integer val, remove all occurrences of val in-place. The relative order of the elements may be changed, but you must do it with minimal memory usage. The function should return the new length of the modified array after removal.
+Given the head of a singly linked list, reverse the list in-place and return the head of the reversed list.
 
 **Example Input:**
   ```
-  Input: nums = [0, 1, 2, 2, 3, 0, 4, 2], val = 2  
-  Output: Array after removal: [0, 1, 3, 0, 4], New length: 5
+  Input: head = [1, 2, 3, 4, 5]  
+  Output: [5, 4, 3, 2, 1]    
   ```
 ---
 
 ## **Solutions Overview**
-### **Two-Pointer Approach (C++)**
-This solution uses two pointers: one (ptr_l) starting from the left and another (ptr_r) starting from the right. The goal is to swap elements when the left pointer encounters the target value (val), placing it at the end of the array. The right pointer decrements each time a target value is found, and the new length of the array is returned based on the left pointer's position.
+### **Three-Pointer Approach (C++)**
+This solution uses three pointers:
+ - ptr_r (right pointer) to traverse the list.
+ - ptr_l (left pointer) to keep track of the reversed portion of the list.
+ - temp to temporarily store the next node in the original list.
+The process iterates through the list, reversing the next pointers for each node. After the list is fully reversed, the ptr_l pointer becomes the new head of the list.  
+
+ 
 - Language: C++
 - Code:
   ```
   #include <iostream>
-  #include <vector>
   using namespace std;
+  
+  struct ListNode {
+      int val;
+      ListNode* next;
+      ListNode() : val(0), next(nullptr) {}
+      ListNode(int x) : val(x), next(nullptr) {}
+      ListNode(int x, ListNode* next) : val(x), next(next) {}
+  };
   
   class Solution {
   public:
-      int removeElement(vector<int>& nums, int val) {
-          int ptr_l = 0;
-          int ptr_r = nums.size() - 1;
-          while (ptr_l <= ptr_r) {
-              while (ptr_l <= ptr_r && nums[ptr_r] == val) {
-                  ptr_r--;
-              }
-              while (ptr_l <= ptr_r && nums[ptr_l] != val) {
-                  ptr_l++;
-              }
-              if (ptr_l < ptr_r) {
-                  nums[ptr_l] = nums[ptr_r];
-                  ptr_r--;
-                  ptr_l++;
-              }
+      ListNode* reverseList(ListNode* head) {
+          ListNode* temp = nullptr;
+          ListNode* ptr_r = head;
+          ListNode* ptr_l = nullptr;
+          
+          while (ptr_r) {
+              temp = ptr_r->next;  // Store the next node
+              ptr_r->next = ptr_l; // Reverse the pointer
+              ptr_l = ptr_r;       // Move ptr_l to current node
+              ptr_r = temp;        // Move ptr_r to the next node
           }
-          return ptr_l;
+          
+          return ptr_l; // New head of the reversed list
       }
   };
   ```
-- Time Complexity: O(n)
-  Each element is visited at most once by either ptr_l or ptr_r.
-- Space Complexity: O(1)
-  The algorithm performs the operation in-place without using additional space proportional to the input size.
-
+- Time Complexity: O(n)   
+  Each node is visited exactly once.  
+- Space Complexity: O(1) 
+  The algorithm reverses the list in-place without using extra space.  
+  
 ---
 
 ## **Conclusion**
-This two-pointer approach efficiently removes the specified elements from the array with a linear time complexity. It avoids using extra space, making it a space-efficient solution.
+This Two-Pointer approach efficiently reverses a linked list with a linear time complexity and constant space usage. It is simple to implement and suitable for most use cases. 
 
 ### **Future Plans**
 - Add more solutions using other languages like Python and Java.
