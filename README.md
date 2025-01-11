@@ -9,7 +9,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
-|[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./0001-TwoSum/)| Array, Hash Table] | [C](./0001-TwoSum/c/TwoSum.c), [Python](./0001-TwoSum/python/TwoSum.py)|Easy|
+|[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./0001-TwoSum/)| Array, Hash Table | [C](./0001-TwoSum/c/TwoSum.c), [Python](./0001-TwoSum/python/TwoSum.py)|Easy|
 |[0009](https://leetcode.com/problems/palindrome-number/description/)|[Palindrome Number](./0009-PalindromeNumber/) | Math | [Python](./0009-PalindromeNumber/python/PalindromeNumber.py)|Easy|
 |[0013](https://leetcode.com/problems/roman-to-integer/description/)|[Roman to Integer](./0013-RomanToInteger/) | Hash Table, Math, String | [Python](./0013-RomanToInteger/python/RomanToInteger.py)|Easy|
 |[0020](https://leetcode.com/problems/valid-parentheses/description/)|[Valid Parentheses](./0020-ValidParentheses/) | String, Stack | [Python](./0020-ValidParentheses/python/ValidParentheses.py)|Easy|
@@ -20,6 +20,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0136](https://leetcode.com/problems/single-number/description/)|[Single Number](./0136-SingleNumber/) | Array, Bit Manipulation | [Python](./0136-SingleNumber/python/SingleNumber.py)|Easy|
 |[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./0169-MajorityElement/) | Array, Hash Table, Divide and Conquer, Sorting | [Python](./0169-MajorityElement/python/MajorityElement.py)|Easy|
 |[0203](https://leetcode.com/problems/remove-linked-list-elements/description/)|[Remove Linked List Elements](./0203-RemoveLinkedListElements/) | Linked List, Recursion | [C++](./0203-RemoveLinkedListElements/cpp/RemoveLinkedListElements.cpp)|Easy|
+|[0206](https://leetcode.com/problems/reverse-linked-list/description/)|[Reverse Linked List](./0206-ReverseLinkedList/) | Linked List, Recursion | [C++](./0206-ReverseLinkedList/cpp/ReverseLinkedList.cpp)|Easy|
 |[0209](https://leetcode.com/problems/minimum-size-subarray-sum/description/)|[Minimum Size Subarray Sum](./0209-MinimumSizeSubarraySum/) | Arrary, Binary Search, Sliding Window | [C++](./0209-MinimumSizeSubarraySum/cpp/MinimumSizeSubarraySum.cpp)|Median|
 |[0217](https://leetcode.com/problems/contains-duplicate/description/)|[Contains Duplicate](./0217-ContainsDuplicate/) | Arrary, Hash Table, Sorting | [C++](./0217-ContainsDuplicate/cpp/containsDuplicate.cpp)|Easy|
 |[0242](https://leetcode.com/problems/valid-anagram/description/)|[Valid Anagram](./0242-ValidAnagram/) | Hash Table, String, Sorting | [Python](./0242-ValidAnagram/python/ValidAnagram.py)|Easy|
