@@ -1,49 +1,45 @@
-# **Remove Element**
+# **Remove Nth Node From End of List**
 
 ## **Problem Statement**
-Given an array of integers nums and an integer val, remove all occurrences of val in-place. The relative order of the elements may be changed, but you must do it with minimal memory usage. The function should return the new length of the modified array after removal.
+Given the head of a singly linked list and an integer n, remove the n-th node from the end of the list and return its head.  
 
 **Example Input:**
   ```
-  Input: nums = [0, 1, 2, 2, 3, 0, 4, 2], val = 2  
-  Output: Array after removal: [0, 1, 3, 0, 4], New length: 5
+  Input: head = [1, 2, 3, 4, 5], n = 2
+  Output: head = [1, 2, 3, 5]
   ```
 ---
 
 ## **Solutions Overview**
 ### **Two-Pointer Approach (C++)**
-This solution uses two pointers: one (ptr_l) starting from the left and another (ptr_r) starting from the right. The goal is to swap elements when the left pointer encounters the target value (val), placing it at the end of the array. The right pointer decrements each time a target value is found, and the new length of the array is returned based on the left pointer's position.
+This solution uses a dummy node and two pointers (ptr_r and ptr_l) to find the n-th node from the end in a single pass. Initially, both pointers start at the dummy node. The right pointer (ptr_r) advances n + 1 steps ahead, creating a gap of n nodes between the two pointers. Both pointers then move one step at a time until ptr_r reaches the end of the list. The left pointer (ptr_l) will then point to the node before the target, allowing for easy removal by adjusting the pointers.  
+
 - Language: C++
 - Code:
   ```
-  #include <iostream>
-  #include <vector>
-  using namespace std;
-  
   class Solution {
   public:
-      int removeElement(vector<int>& nums, int val) {
-          int ptr_l = 0;
-          int ptr_r = nums.size() - 1;
-          while (ptr_l <= ptr_r) {
-              while (ptr_l <= ptr_r && nums[ptr_r] == val) {
-                  ptr_r--;
-              }
-              while (ptr_l <= ptr_r && nums[ptr_l] != val) {
-                  ptr_l++;
-              }
-              if (ptr_l < ptr_r) {
-                  nums[ptr_l] = nums[ptr_r];
-                  ptr_r--;
-                  ptr_l++;
-              }
+      ListNode* removeNthFromEnd(ListNode* head, int n) {
+          ListNode* dummy = new ListNode(0);
+          dummy->next = head;
+          ListNode* ptr_r = dummy;
+          ListNode* ptr_l = dummy;
+  
+          while (n-- && ptr_r != nullptr) {
+              ptr_r = ptr_r->next;
           }
-          return ptr_l;
+          ptr_r = ptr_r->next;
+          while (ptr_r) {
+              ptr_r = ptr_r->next;
+              ptr_l = ptr_l->next;
+          }
+          ptr_l->next = ptr_l->next->next;
+          return dummy->next;
       }
   };
   ```
 - Time Complexity: O(n)
-  Each element is visited at most once by either ptr_l or ptr_r.
+  where L is the length of the linked list. The list is traversed twice (once to move ptr_r and once for both pointers together).
 - Space Complexity: O(1)
   The algorithm performs the operation in-place without using additional space proportional to the input size.
 
