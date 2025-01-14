@@ -39,14 +39,14 @@ This solution uses a dummy node and two pointers (ptr_r and ptr_l) to find the n
   };
   ```
 - Time Complexity: O(n)
-  where L is the length of the linked list. The list is traversed twice (once to move ptr_r and once for both pointers together).
-- Space Complexity: O(1)
-  The algorithm performs the operation in-place without using additional space proportional to the input size.
+  The list is traversed twice (once to move ptr_r and once for both pointers together).
+- Space Complexity: O(1)  
+  As no additional data structures proportional to the size of the input are used.
 
 ---
 
 ## **Conclusion**
-This two-pointer approach efficiently removes the specified elements from the array with a linear time complexity. It avoids using extra space, making it a space-efficient solution.
+The two-pointer approach is efficient for removing the n-th node from the end of a linked list. By leveraging a dummy node, the solution ensures edge cases such as removing the head node are handled seamlessly. This method is optimal in both time and space complexity.  
 
 ### **Future Plans**
 - Add more solutions using other languages like Python and Java.
