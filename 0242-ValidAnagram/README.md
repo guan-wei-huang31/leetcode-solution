@@ -43,13 +43,53 @@ This project provides a solution to determine if two given strings are anagrams.
 - Space Complexity: O(n)
   The dictionary requires space to store the count for each unique character in the string.
 
+### **Hash Map Approach (C++)**
+1. Check if the lengths of the two strings are different. If yes, return `false`.
+2. Create a fixed-size integer array (acting as a hash map) to count occurrences of each character in the first string.
+3. Traverse through the first string to increment the counts in the hash map.
+4. Traverse through the second string to decrement the counts in the hash map:
+   - If any count goes negative, return `false`.
+5. Finally, ensure all counts in the hash map are zero. If true, return `true`.  
+
+- Language: C++
+- Code:
+  ```
+  #include <iostream>
+  #include <string>
+  using namespace std;
+
+  class Solution {
+  public:
+      bool isAnagram(string s, string t) {
+          if (s.length() != t.length()) {
+              return false;
+          }
+          int map[26]{};
+          for (int i = 0; i < s.length(); i++) {
+              map[s[i] - 'a']++;
+          }
+          for (int i = 0; i < t.length(); i++) {
+              map[t[i] - 'a']--;
+              if (map[t[i] - 'a'] < 0) {
+                  return false;
+              }
+          }
+          return true;
+      }
+  };
+  ```
+  
+- Time Complexity: O(n)  
+  The algorithm iterates over each string once, resulting in linear time complexity.
+- Space Complexity: O(1)  
+  The hash map is a fixed-size array of 26 integers, regardless of input size.
 ---
 
 ## **Conclusion**
-This dictionary-based approach efficiently checks for anagrams by counting character occurrences in one pass through each string. The solution is simple, effective, and well-suited for the given problem constraints.
+Both the dictionary-based Python solution and the hash map-based C++ solution provide efficient methods to determine if two strings are anagrams. The Python version is more dynamic and can handle Unicode characters with additional modifications, while the C++ version is optimized for lower-level operations with fixed ASCII assumptions.
 
 ### **Future Plans**
-- Add implementations in other languages, such as C++, Java.
+- Add implementations in other languages, such as Java.
 - Create automated tests to validate edge cases.
 - Explore alternative methods to achieve a single-pass solution with minimal memory usage.
   
