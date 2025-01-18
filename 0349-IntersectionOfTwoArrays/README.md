@@ -1,69 +1,52 @@
-# **Find Common Characters**
+# **Intersection of Two Arrays**
 
 ## **Problem Statement**
-This project provides a solution to find all common characters in an array of strings. Each common character must appear the minimum number of times it occurs in all strings.
-
+This project provides a solution to find the intersection of two arrays. Each element in the result must be unique, and the order does not matter.
+  
 **Example Input:**
   ```
-  Input: words = ["bella", "label", "roller"]
-  Output: ["e", "l", "l"]
+  Input: nums1 = [4, 9, 5], nums2 = [9, 4, 9, 8, 4]
+  Output: [4, 9]
   ```
 ---
 
 ## **Solutions Overview**
-### **Hash Map Approach (C++)**
-1. Check if the first string is empty. If yes, return an empty result.
-2. Create a hash map (array) to store the frequency of each character in the first string.
-3. For each subsequent string:
-   - Create a temporary hash map to store character frequencies.
-   - Update the original hash map to store the minimum frequency of each character across all strings.
-4. Traverse the final hash map to generate the result:
-   - For each non-zero frequency, append the character to the result as many times as it occurs.
+### **Unordered Set Approach (C++)**
+1. Use an `unordered_set` to store the elements of the first array (`nums1`).
+2. Iterate through the second array (`nums2`):
+   - If an element exists in the set, add it to a result set.
+   - Remove the element from the initial set to avoid duplicates.
+3. Convert the result set to a vector and return it.
      
 - Language: C++
 - Code:
   ```
   class Solution {
   public:
-      vector<string> commonChars(vector<string>& words) {
-          vector<string> result;
-          if (words[0].size() == 0) {
-              return result;
-          }
-          int hashmap1[26]{};
-          for (char c : words[0]) {
-              hashmap1[c - 'a']++;
-          }
-          for (int i = 1; i < words.size(); i++) {
-              int hashmap2[26]{};
-              for (char c : words[i]) {
-                  hashmap2[c - 'a']++;
-              }
-              for (int k = 0; k < 26; k++) {
-                  hashmap1[k] = min(hashmap1[k], hashmap2[k]);
+      vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
+          unordered_set<int> set1(nums1.begin(), nums1.end());
+          unordered_set<int> resultSet;
+          
+          for (int num : nums2) {
+              if (set1.count(num)) {
+                  resultSet.insert(num);
               }
           }
 
-          for (int i = 0; i < 26; i++) {
-              while (hashmap1[i] != 0) { 
-                  result.push_back(string(1, i + 'a'));
-                  hashmap1[i]--;
-              }
-          }
-          return result;
+          return vector<int>(resultSet.begin(), resultSet.end());
       }
   };
   ```
   
-- Time Complexity: O(n * m)  
-  - `n` is the number of strings.
-  - `m` is the average length of the strings.
-- Space Complexity: O(1)  
-  - The hash maps use fixed space of size 26 for each character in the alphabet.
+- Time Complexity: O(n + m)
+  - `n` is the size of `nums1`.
+  - `m` is the size of `nums2`.
+- Space Complexity: O(n)
+  - Space is used to store elements of `nums1` in the set.
 ---
 
 ## **Conclusion**
-This approach effectively determines the common characters among multiple strings, ensuring the minimum occurrence of each character is preserved. Its linear complexity relative to the input size makes it suitable for most practical scenarios.
+This approach effectively finds the intersection of two arrays, ensuring unique elements in the result. The use of hash sets provides an efficient solution with linear complexity relative to the input size.
   
 ### **Future Plans**
 - Add implementations in other languages, such as Python and Java.
