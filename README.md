@@ -35,6 +35,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0707](https://leetcode.com/problems/design-linked-list/description/)|[Design Linked List](./0707-DesignLinkedList/) | Linked List, Design | [C++](./0707-DesignLinkedList/cpp/DesignLinkedList.cpp)|Median|
 |[0922](https://leetcode.com/problems/sort-array-by-parity-ii/description/)|[SortArrayByParityII](./0922_SortArrayByParityII/) | Array, Two Pointers, Sorting | [C++](./0922_SortArrayByParityII/cpp/SortArrayByParityII.cpp), [Python](./0922_SortArrayByParityII/python/SortArrayByParityII.py)|Easy|
 |[0941](https://leetcode.com/problems/valid-mountain-array/description/)|[Valid Mountain Array](./0941_ValidMountainArray/) | Array | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
+|[1002](https://leetcode.com/problems/find-common-characters/description/)|[Find Common Characters](./1002-FindCommonCharacters/) | Array, Hash Table, String | [C++](./1002-FindCommonCharacters/cpp/FindCommonCharacters.cpp)|Easy|
 |[1480](https://leetcode.com/problems/running-sum-of-1d-array/description/)|[Running Sum of 1d Array](./1480-RunningSumOf1dArray/) | Array | [Python](./1480-RunningSumOf1dArray/python/RunningSumOf1dArray.py)|Easy|
 |[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | String | [Python](./1556-ThousandSperator/python/ThousandSeperator.py)|Easy|
 
