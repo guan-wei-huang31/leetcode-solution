@@ -9,7 +9,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
-|[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./0001-TwoSum/)| Array, Hash Table | [C](./0001-TwoSum/c/TwoSum.c), [Python](./0001-TwoSum/python/TwoSum.py)|Easy|
+|[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./0001-TwoSum/)| Array, Hash Table | [C](./0001-TwoSum/c/TwoSum.c), [Python](./0001-TwoSum/python/TwoSum.py), [C++](./0001-TwoSum/cpp/TwoSum.cpp)|Easy|
 |[0009](https://leetcode.com/problems/palindrome-number/description/)|[Palindrome Number](./0009-PalindromeNumber/) | Math | [Python](./0009-PalindromeNumber/python/PalindromeNumber.py)|Easy|
 |[0013](https://leetcode.com/problems/roman-to-integer/description/)|[Roman to Integer](./0013-RomanToInteger/) | Hash Table, Math, String | [Python](./0013-RomanToInteger/python/RomanToInteger.py)|Easy|
 |[0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|[Remove Nth Node From End of List](./0019-RemoveNthNodeFromEndofList/) | Linked List, Two Pointers | [Python](./0019-RemoveNthNodeFromEndofList/cpp/RemoveNthNodeFromEndofList.cpp)|Median|
