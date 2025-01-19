@@ -58,8 +58,36 @@ We traverse the list only once, and lookups in the hash map take constant time.
 The hash map stores at most n elements.
 ---
 
+### **Hash Map Approach (C++)**
+This solution uses an unordered map to store indices of previously seen elements and efficiently finds the complement.
+It has a time complexity of O(n).  
+
+- Language: C++
+- Code:
+```
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> hashmap;
+        for (int i = 0; i < nums.size(); i++) {
+            auto index = hashmap.find(target - nums[i]);
+            if (index != hashmap.end()) {
+                return {index->second, i};
+            }
+            hashmap.insert(pair<int, int>(nums[i], i));
+        }
+        return {};
+    }
+};
+```
+- Time Complexity: O(n)  
+We traverse the list only once, and lookups in the unordered map take constant time.  
+- Space Complexity: O(n)  
+The unordered map stores at most n elements.
+---
+
 ## **Conclusion**
-Both solutions solve the Two Sum problem, but the hash map approach (Python) is more efficient for larger datasets. The brute force approach (C) demonstrates a straightforward way to solve the problem, which may be useful for understanding the basic logic.
+Both solutions solve the Two Sum problem, but the hash map approach (Python and C++) is more efficient for larger datasets. The brute force approach (C) demonstrates a straightforward way to solve the problem, which may be useful for understanding the basic logic.  
 
 ### **Future Plans**
 - Add more solutions using other languages like Java or JavaScript.
