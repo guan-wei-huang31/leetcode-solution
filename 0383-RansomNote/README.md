@@ -50,6 +50,7 @@ The hashmap approach efficiently counts the occurrences of each character in the
   ```
   
 - Time Complexity: O(m + n)  
+  m is ransomNote length, and n is magazine length. 
   Each character is processed once, making the solution linear in time complexity.  
 
 - Space Complexity: O(1)  
