@@ -1,68 +1,64 @@
-# **Remove Linked List Elements**
+# **Ransom Note**
 
 ## **Problem Statement**
-This project provides a solution for removing all nodes from a singly-linked list that have a specific value. The function takes the head of the linked list and a target value as inputs and returns the modified linked list with the specified nodes removed.  
+The goal of this project is to determine if a ransom note can be constructed using the characters from a given magazine string. Each character in the magazine can only be used once. The function takes two input strings: `ransomNote` and `magazine`, and returns `true` if the ransom note can be constructed, otherwise returns `false`.
 
 **Example Input:**
   ```
-  Input: head = [1, 2, 6, 3, 4, 5, 6], val = 6
-  Output: [1, 2, 3, 4, 5]
-  Explanation: The nodes with the value 6 are removed from the list.
+  Input: ransomNote = "a", magazine = "b"
+  Output: false
+
+  Input: ransomNote = "aa", magazine = "ab"
+  Output: false
+
+  Input: ransomNote = "aa", magazine = "aab"
+  Output: true
   ```
 ---
 
 ## **Solutions Overview**
-### **Iterative Approach (C++)**
-The iterative approach is used to efficiently traverse the linked list and remove nodes with the specified value. The solution uses a dummy node to simplify edge cases such as removing the head node.  
-  1. Create a dummy node pointing to the head of the linked list.
-  2. Use a pointer (pos) to traverse the list.
-  3. If the next node's value matches the target value, remove it by updating the next pointer.
-  4. Otherwise, move the pointer forward.
-  5. Finally, return the modified list, excluding the dummy node.
+### **Hashmap Approach (C++)**
+The hashmap approach efficiently counts the occurrences of each character in the `ransomNote` and `magazine` strings to determine if the note can be constructed.
+  1. Create an integer array of size 26 to store the frequency of characters.
+  2. Traverse the `ransomNote` string and increment the frequency for each character.
+  3. Traverse the `magazine` string and decrement the frequency.
+  4. If any value in the frequency array is greater than zero, return `false`.
+  5. Otherwise, return `true`.  
   
 - Language: C++
 - Code:
   ```
-  struct ListNode {
-      int val;
-      ListNode* next;
-      ListNode() : val(0), next(nullptr) {}
-      ListNode(int x) : val(x), next(nullptr) {}
-      ListNode(int x, ListNode* next) : val(x), next(next) {}
-  };
-  
   class Solution {
   public:
-      ListNode* removeElements(ListNode* head, int val) {
-          ListNode* dummy = new ListNode(0);
-          dummy->next = head;
-          ListNode* pos = dummy;
-          while (pos->next != nullptr) {
-              if (pos->next->val == val) {
-                  ListNode* tmp = pos->next;
-                  pos->next = pos->next->next;
-                  delete tmp;
-              } else {
-                  pos = pos->next;
+      bool canConstruct(string ransomNote, string magazine) {
+          int hashmap[26]{};
+          if (magazine.length() < ransomNote.length()) return false;
+          for (int i = 0; i < ransomNote.length(); i++) {
+              hashmap[ransomNote[i] - 'a']++;
+          }
+          for (int i = 0; i < magazine.length(); i++) {
+              hashmap[magazine[i] - 'a']--;
+          }
+          for (int i = 0; i < 26; i++) {
+              if (hashmap[i] > 0) {
+                  return false;
               }
           }
-          head = dummy->next;
-          delete dummy;
-          return head;
+          return true;
       }
   };
   ```
+  
+- Time Complexity: O(m + n)  
+  Each character is processed once, making the solution linear in time complexity.  
 
-- Time Complexity: O(n)
-  Each node is visited exactly once, making the solution linear in time complexity.  
-
-- Space Complexity: O(1)
-  The solution uses only a few pointers, with no additional data structures.  
+- Space Complexity: O(1)  
+  The solution uses a fixed-size array for frequency counting.  
   
 ---
 
 ## **Conclusion**
-The iterative approach is an efficient solution for the "Remove Elements from Linked List" problem. It handles edge cases like removing the head node seamlessly by using a dummy node. With linear time complexity and constant space complexity, the solution is optimal for large linked lists.  
+The hashmap approach is an efficient solution for the "Ransom Note" problem. It handles edge cases and ensures optimal performance with linear time complexity and constant space complexity.
 
 ### **Future Plans**
 - Add implementations in other languages, such as Python and Java.
