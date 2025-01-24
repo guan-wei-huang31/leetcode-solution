@@ -10,29 +10,26 @@ public:
         vector<vector<int>> result;
         sort(nums.begin(), nums.end());
 
-        for (int i = 0; i < nums.size(); i++) {
-            if (nums[i] > 0)
-                break;
-
+        for (int i = 0; i < nums.size() - 2; i++) {
             if (i > 0 && nums[i] == nums[i - 1])
                 continue;
 
-            unordered_set<int> set;
-
-            for (int k = i + 1; k < nums.size(); k++) {
-                if (k > i + 2 && nums[k] == nums[k - 1] && nums[k - 1] == nums[k - 2])
-                    continue;
-
-                int target = 0 - (nums[i] + nums[k]);
-                if (set.find(target) != set.end()) {
-                    result.push_back({nums[i], target, nums[k]});
-                    set.erase(target);
+            int left = i + 1, right = nums.size() - 1;
+            while (left < right) {
+                int sum = nums[i] + nums[left] + nums[right];
+                if (sum == 0) {
+                    result.push_back({nums[i], nums[left], nums[right]});
+                    while (left < right && nums[left] == nums[left + 1]) left++;
+                    while (left < right && nums[right] == nums[right - 1]) right--;
+                    left++;
+                    right--;
+                } else if (sum < 0) {
+                    left++;
                 } else {
-                    set.insert(nums[k]);
+                    right--;
                 }
             }
         }
-
         return result;
     }
 };
