@@ -25,6 +25,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0206](https://leetcode.com/problems/reverse-linked-list/description/)|[Reverse Linked List](./0206-ReverseLinkedList/) | Linked List, Recursion | [C++](./0206-ReverseLinkedList/cpp/ReverseLinkedList.cpp)|Easy|
 |[0209](https://leetcode.com/problems/minimum-size-subarray-sum/description/)|[Minimum Size Subarray Sum](./0209-MinimumSizeSubarraySum/) | Arrary, Binary Search, Sliding Window | [C++](./0209-MinimumSizeSubarraySum/cpp/MinimumSizeSubarraySum.cpp)|Median|
 |[0217](https://leetcode.com/problems/contains-duplicate/description/)|[Contains Duplicate](./0217-ContainsDuplicate/) | Arrary, Hash Table, Sorting | [C++](./0217-ContainsDuplicate/cpp/containsDuplicate.cpp)|Easy|
+|[0226](https://leetcode.com/problems/invert-binary-tree/description/)|[Invert Binary Tree](./0226-InvertBinaryTree/) | Tree, BFS, Binary Tree | [Python](./0226-InvertBinaryTree/python/InvertBinaryTree.py)|Easy|
 |[0242](https://leetcode.com/problems/valid-anagram/description/)|[Valid Anagram](./0242-ValidAnagram/) | Hash Table, String, Sorting | [Python](./0242-ValidAnagram/python/ValidAnagram.py), [C++](./0242-ValidAnagram/cpp/ValidAnagram.cpp)|Easy|
 |[0283](https://leetcode.com/problems/move-zeroes/description/)|[Move Zeroes](./0283-MoveZeroes/) | Array, Two Pointers | [C++](./0283-MoveZeroes/cpp/MoveZeroes.cpp), [Python](./0283-MoveZeroes/python/MoveZeroes.py)|Easy|
 |[0344](https://leetcode.com/problems/reverse-string/description/)|[Reverse String](./0344_ReverseString/) | Two Pointers, String | [C++](./0344_ReverseString/cpp/ReverseString.cpp)|Easy|
@@ -41,6 +42,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[1002](https://leetcode.com/problems/find-common-characters/description/)|[Find Common Characters](./1002-FindCommonCharacters/) | Array, Hash Table, String | [C++](./1002-FindCommonCharacters/cpp/FindCommonCharacters.cpp)|Easy|
 |[1480](https://leetcode.com/problems/running-sum-of-1d-array/description/)|[Running Sum of 1d Array](./1480-RunningSumOf1dArray/) | Array | [Python](./1480-RunningSumOf1dArray/python/RunningSumOf1dArray.py)|Easy|
 |[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | String | [Python](./1556-ThousandSperator/python/ThousandSeperator.py)|Easy|
+|[1757](https://leetcode.com/problems/recyclable-and-low-fat-products/description/)|[Recyclable and Low Fat Products](./1757-RecyclableandLowFatProducts/) | Database | [Oracle](./1757-RecyclableandLowFatProducts/Oracle/RecyclableandLowFatProducts.sql)|Easy|
 
 ---
 
