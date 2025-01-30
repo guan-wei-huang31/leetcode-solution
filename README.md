@@ -35,6 +35,8 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0485](https://leetcode.com/problems/max-consecutive-ones/description/)|[Max Consecutive Ones](./0485-MaxConsecutiveOnes/) | Array | [Python](./0485-MaxConsecutiveOnes/pyhon/MaxConsecutiveOnes.py)|Easy|
 |[0541](https://leetcode.com/problems/reverse-string-ii/description/)|[Reverse String II](./0541-ReverseStringII/) | Two Pointers, String | [Python](./0541-ReverseStringII/pyhon/ReverseStringII.py)|Easy|
 |[0557](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)|[Reverse Words in a String III](./0557-ReverseWordsInAStringIII/) | Two Pointers, String | [Python](./0557-ReverseWordsInAStringIII/pyhon/ReverseWordsInAStringIII.py)|Easy|
+|[0584](https://leetcode.com/problems/find-customer-referee/description/)|[Find Customer Referee](./0584-FindCustomerReferee/) | Database | [Oracle SQL](./0584-FindCustomerReferee/Oracle/FindCustomerReferee.sql)|Easy|
+|[0595](https://leetcode.com/problems/big-countries/description/)|[Big Countries](./0595-BigCountries/) | Database | [Oracle SQL](./0595-BigCountries/Oracle/BigCountries.sql)|Easy|
 |[0704](https://leetcode.com/problems/binary-search/description/)|[Binary Search](./0704-BinarySearch/) | Array, Binary Search  | [C](./0704-BinarySearch/c/search_binary.c), [Python](./0704-BinarySearch/python/BinarySearch.py)|Easy|
 |[0707](https://leetcode.com/problems/design-linked-list/description/)|[Design Linked List](./0707-DesignLinkedList/) | Linked List, Design | [C++](./0707-DesignLinkedList/cpp/DesignLinkedList.cpp)|Median|
 |[0922](https://leetcode.com/problems/sort-array-by-parity-ii/description/)|[SortArrayByParityII](./0922_SortArrayByParityII/) | Array, Two Pointers, Sorting | [C++](./0922_SortArrayByParityII/cpp/SortArrayByParityII.cpp), [Python](./0922_SortArrayByParityII/python/SortArrayByParityII.py)|Easy|
@@ -42,12 +44,12 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[1002](https://leetcode.com/problems/find-common-characters/description/)|[Find Common Characters](./1002-FindCommonCharacters/) | Array, Hash Table, String | [C++](./1002-FindCommonCharacters/cpp/FindCommonCharacters.cpp)|Easy|
 |[1480](https://leetcode.com/problems/running-sum-of-1d-array/description/)|[Running Sum of 1d Array](./1480-RunningSumOf1dArray/) | Array | [Python](./1480-RunningSumOf1dArray/python/RunningSumOf1dArray.py)|Easy|
 |[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | String | [Python](./1556-ThousandSperator/python/ThousandSeperator.py)|Easy|
-|[1757](https://leetcode.com/problems/recyclable-and-low-fat-products/description/)|[Recyclable and Low Fat Products](./1757-RecyclableandLowFatProducts/) | Database | [Oracle](./1757-RecyclableandLowFatProducts/Oracle/RecyclableandLowFatProducts.sql)|Easy|
+|[1757](https://leetcode.com/problems/recyclable-and-low-fat-products/description/)|[Recyclable and Low Fat Products](./1757-RecyclableandLowFatProducts/) | Database | [Oracle SQL](./1757-RecyclableandLowFatProducts/Oracle/RecyclableandLowFatProducts.sql)|Easy|
 
 ---
 
 ## **📈Roadmap**
-- Expand the repository with more LeetCode problems in C, C++, Python, and other languages.
+- Expand the repository with more LeetCode problems in C, C++, Python, SQL and other languages.
 - Refactor existing solutions to improve code efficiency and clarity.
 - Write comprehensive explanations for problem-solving approaches.
 - Explore advanced topics like:
