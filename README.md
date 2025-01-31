@@ -42,8 +42,12 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0922](https://leetcode.com/problems/sort-array-by-parity-ii/description/)|[SortArrayByParityII](./0922_SortArrayByParityII/) | Array, Two Pointers, Sorting | [C++](./0922_SortArrayByParityII/cpp/SortArrayByParityII.cpp), [Python](./0922_SortArrayByParityII/python/SortArrayByParityII.py)|Easy|
 |[0941](https://leetcode.com/problems/valid-mountain-array/description/)|[Valid Mountain Array](./0941_ValidMountainArray/) | Array | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
 |[1002](https://leetcode.com/problems/find-common-characters/description/)|[Find Common Characters](./1002-FindCommonCharacters/) | Array, Hash Table, String | [C++](./1002-FindCommonCharacters/cpp/FindCommonCharacters.cpp)|Easy|
+|[1068](https://leetcode.com/problems/product-sales-analysis-i/description/)|[Product Sales Analysis I](./1068-ProductSalesAnalysisI/) | Database | [MySQL](./1068-ProductSalesAnalysisI/MySQL/ProductSalesAnalysisI.sql)|Easy|
+|[1148](https://leetcode.com/problems/article-views-i/description/)|[Article Views I](./1148-ArticleViewsI/) | Database | [Oracle SQL](./1148-ArticleViewsI/Oracle/ArticleViewsI.sql)|Easy|
+|[1378](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/)|[Replace Employee ID With The Unique Identifier](./1378-ReplaceEmployeeIDWithTheUniqueIdentifier/) | Database | [MySQL](./1378-ReplaceEmployeeIDWithTheUniqueIdentifier/MySQL/ReplaceEmployeeIDWithTheUniqueIdentifier.sql)|Easy|
 |[1480](https://leetcode.com/problems/running-sum-of-1d-array/description/)|[Running Sum of 1d Array](./1480-RunningSumOf1dArray/) | Array | [Python](./1480-RunningSumOf1dArray/python/RunningSumOf1dArray.py)|Easy|
 |[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | String | [Python](./1556-ThousandSperator/python/ThousandSeperator.py)|Easy|
+|[1683](https://leetcode.com/problems/invalid-tweets/description/)|[Invalid Tweets](./1683-InvalidTweets/) | Database | [Oracle SQL](./1683-InvalidTweets/Oracle/InvalidTweets.sql)|Easy|
 |[1757](https://leetcode.com/problems/recyclable-and-low-fat-products/description/)|[Recyclable and Low Fat Products](./1757-RecyclableandLowFatProducts/) | Database | [Oracle SQL](./1757-RecyclableandLowFatProducts/Oracle/RecyclableandLowFatProducts.sql)|Easy|
 
 ---
