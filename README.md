@@ -49,7 +49,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | String | [Python](./1556-ThousandSperator/python/ThousandSeperator.py)|Easy|
 |[1683](https://leetcode.com/problems/invalid-tweets/description/)|[Invalid Tweets](./1683-InvalidTweets/) | Database | [Oracle SQL](./1683-InvalidTweets/Oracle/InvalidTweets.sql)|Easy|
 |[1757](https://leetcode.com/problems/recyclable-and-low-fat-products/description/)|[Recyclable and Low Fat Products](./1757-RecyclableandLowFatProducts/) | Database | [Oracle SQL](./1757-RecyclableandLowFatProducts/Oracle/RecyclableandLowFatProducts.sql)|Easy|
-
+|[1934](https://leetcode.com/problems/confirmation-rate/description/)|[Confirmation Rate](./1934-ConfirmationRate/) | Database | [Oracle SQL](./1934-ConfirmationRate/Oracle/ConfirmationRate.sql)|Medium|
 ---
 
 ## **📈Roadmap**
