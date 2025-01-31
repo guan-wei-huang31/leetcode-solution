@@ -1,4 +1,4 @@
-# **584. Find Customer Referee**
+# **Find Customer Referee**
 
 ## **Problem Statement**
 This query filters a list of customers to find those who either do not have a referee or whose referee is not equal to 2. The goal is to extract customers who meet these conditions.  

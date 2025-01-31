@@ -3,7 +3,7 @@
 ## **Problem Statement**
 This query calculates the confirmation rate for each user by determining the proportion of confirmation actions relative to the total number of requests. If a user has no confirmation requests, their rate is recorded as 0.00.   
 Formula:  
-\(\text{Confirmation Rate} = \frac{\sum (\text{confirmed actions})}{\text{total confirmation requests}}\)
+Confirmation Rate = (&#8721; confirmed actions) / (total confirmation requests)
   
   
 **Example Input:**

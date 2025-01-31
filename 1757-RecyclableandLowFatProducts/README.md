@@ -27,7 +27,7 @@ This query is used to filter a list of products and find those that meet specifi
 ---
 
 ## **Solutions Overview**
-### **Single-Pass Approach (Python)**
+### **Single-Pass Approach (Oracle SQL)**
 1. Filter Rows:  
    - Use the WHERE clause to specify conditions:
      - low_fats = 'Y': Selects products labeled as low fat. 
