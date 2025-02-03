@@ -1,4 +1,4 @@
-# **Article Views I**
+# **Rising Temperature**
 
 ## **Problem Statement**
 This query retrieves the IDs of records where the temperature was higher than the previous day. The goal is to find all dates where the recorded temperature increased compared to the prior day.  
