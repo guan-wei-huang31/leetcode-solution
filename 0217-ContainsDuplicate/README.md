@@ -37,20 +37,42 @@ This project provides a solution to determine if a list of integers contains any
       }
   };
   ```
+  
+### **Hash Map Approach (Python)**
+1. Use a Dictionary (dict in Python):
+   - Create an empty dictionary to store seen numbers.
+2. Traverse the List:
+   - For each number, check if it exists in the dictionary:
+   - If it exists, return True (duplicate found).
+   - Otherwise, add the number to the dictionary.
+3. Return False if no duplicates are found.
+   
+- Language: Python
+- Code:
+  ```
+  class Solution:
+      def containsDuplicate(self, nums: List[int]) -> bool:
+          hashmap = {}
+          for num in nums:
+              if num in hashmap:
+                  return True
+              hashmap[num] = 1
+          return False
+  ```  
+  
 
-- Time Complexity: O(n log n)  
-  Sorting the list takes O(n log n) time.  
-  The linear scan after sorting takes O(n) time.  
-- Space Complexity: O(1)  
-  Sorting is done in-place, and no additional data structures are used.  
+- Time Complexity: O(n)    
+  The dictionary lookup and insert operations are O(1) on average, making the overall complexity O(n). 
+- Space Complexity: O(n)    
+  In the worst case, all n elements are stored in the dictionary.
   
 ---
 
 ## **Conclusion**
-This solution effectively identifies duplicates in a list using a sorting-based approach. While not the most optimal in terms of time complexity for larger datasets, it provides a straightforward and reliable solution for small to medium-sized inputs.  
+Both approaches effectively identify duplicates in a list. The sorting approach provides a simple solution but has a higher time complexity (O(n log n)), while the dictionary approach provides an optimal O(n) solution using additional space.  
 
 ### **Future Plans**
-- Add implementations in other languages, such as Python, Java.
+- Add implementations in other languages, such as Java.
 - Create automated tests to validate edge cases.
 - Explore alternative methods to achieve a single-pass solution with minimal memory usage.
   
