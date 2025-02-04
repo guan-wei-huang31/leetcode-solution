@@ -13,9 +13,9 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-50%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-40-19A974)
-![Static Badge](https://img.shields.io/badge/Medium-10-F38020)
+![Progress](https://img.shields.io/badge/Progress-53%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-42-19A974)
+![Static Badge](https://img.shields.io/badge/Medium-11-F38020)
 
 
 
@@ -53,12 +53,15 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0570](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/description/)|[Managers with at Least 5 Direct Reports](./0570-ManagerswithatLeast5DirectReports/) | Database | [Oracle SQL](./0570-ManagerswithatLeast5DirectReports/Oracle/ManagerswithatLeast5DirectReports.sql)|Medium|
 |[0584](https://leetcode.com/problems/find-customer-referee/description/)|[Find Customer Referee](./0584-FindCustomerReferee/) | Database | [Oracle SQL](./0584-FindCustomerReferee/Oracle/FindCustomerReferee.sql)|Easy|
 |[0595](https://leetcode.com/problems/big-countries/description/)|[Big Countries](./0595-BigCountries/) | Database | [Oracle SQL](./0595-BigCountries/Oracle/BigCountries.sql)|Easy|
+|[0596](https://leetcode.com/problems/classes-more-than-5-students/description/)|[Classes More Than 5 Students](./0596-ClassesMoreThan5Students/) | Database | [Oracle SQL](./0596-ClassesMoreThan5Students/Oracle/ClassesMoreThan5Students.sql)|Easy|
+|[0619](https://leetcode.com/problems/biggest-single-number/description/)|[Biggest Single Number](./0619-BiggestSingleNumber/) | Database | [Oracle SQL](./0619-BiggestSingleNumber/Oracle/BiggestSingleNumber.sql)|Easy|
 |[0620](https://leetcode.com/problems/not-boring-movies/description/)|[Not Boring Movies](./0620-NotBoringMovies/) | Database | [PostgreSQL](./0620-NotBoringMovies/PostgreSQL/NotBoringMovies.sql)|Easy|
 |[0704](https://leetcode.com/problems/binary-search/description/)|[Binary Search](./0704-BinarySearch/) | Binary Search  | [C](./0704-BinarySearch/c/search_binary.c), [Python](./0704-BinarySearch/python/BinarySearch.py)|Easy|
 |[0707](https://leetcode.com/problems/design-linked-list/description/)|[Design Linked List](./0707-DesignLinkedList/) | Linked List | [C++](./0707-DesignLinkedList/cpp/DesignLinkedList.cpp)|Medium|
 |[0922](https://leetcode.com/problems/sort-array-by-parity-ii/description/)|[SortArrayByParityII](./0922_SortArrayByParityII/) | Two Pointers, Zip | [C++](./0922_SortArrayByParityII/cpp/SortArrayByParityII.cpp), [Python](./0922_SortArrayByParityII/python/SortArrayByParityII.py)|Easy|
 |[0941](https://leetcode.com/problems/valid-mountain-array/description/)|[Valid Mountain Array](./0941_ValidMountainArray/) | Array | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
 |[1002](https://leetcode.com/problems/find-common-characters/description/)|[Find Common Characters](./1002-FindCommonCharacters/) | Hash Table | [C++](./1002-FindCommonCharacters/cpp/FindCommonCharacters.cpp)|Easy|
+|[1045](https://leetcode.com/problems/customers-who-bought-all-products/description/)|[Customers Who Bought All Products](./1045-CustomersWhoBoughtAllProducts/) | Database | [Oracle SQL](./1045-CustomersWhoBoughtAllProducts/Oracle/CustomersWhoBoughtAllProducts.sql)|Medium|
 |[1068](https://leetcode.com/problems/product-sales-analysis-i/description/)|[Product Sales Analysis I](./1068-ProductSalesAnalysisI/) | Database | [MySQL](./1068-ProductSalesAnalysisI/MySQL/ProductSalesAnalysisI.sql)|Easy|
 |[1075](https://leetcode.com/problems/project-employees-i/description/)|[Project Employees I](./1075-ProjectEmployeesI/) | Database | [Oracle SQL](./1075-ProjectEmployeesI/Oracle/ProjectEmployeesI.sql)|Easy|
 |[1148](https://leetcode.com/problems/article-views-i/description/)|[Article Views I](./1148-ArticleViewsI/) | Database | [Oracle SQL](./1148-ArticleViewsI/Oracle/ArticleViewsI.sql)|Easy|
