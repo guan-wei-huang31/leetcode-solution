@@ -7,6 +7,8 @@ Welcome to my LeetCode solutions repository! 🚀 This is where I document my jo
 ## **📂Current Progress**
 This repository is a work in progress as I continuously tackle new challenges and improve my solutions. Below is a summary of the problems I have solved so far:  
 
+![Language](https://img.shields.io/badge/language-C%20%2F%20C%2B%2B%20%2F%20Python%20-orange)&nbsp;
+
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
 |[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./0001-TwoSum/)| Array, Hash Table | [C](./0001-TwoSum/c/TwoSum.c), [Python](./0001-TwoSum/python/TwoSum.py), [C++](./0001-TwoSum/cpp/TwoSum.cpp)|Easy|
