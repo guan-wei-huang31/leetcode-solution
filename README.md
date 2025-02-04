@@ -7,7 +7,17 @@ Welcome to my LeetCode solutions repository! 🚀 This is where I document my jo
 ## **📂Current Progress**
 This repository is a work in progress as I continuously tackle new challenges and improve my solutions. Below is a summary of the problems I have solved so far:  
 
-![Language](https://img.shields.io/badge/language-C%20%2F%20C%2B%2B%20%2F%20Python%20-orange)&nbsp;
+![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)&nbsp;
+![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)&nbsp;
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)&nbsp;
+![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
+![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
+![Progress](https://img.shields.io/badge/Progress-50%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-40-19A974)
+![Static Badge](https://img.shields.io/badge/Medium-10-F38020)
+
+
 
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
