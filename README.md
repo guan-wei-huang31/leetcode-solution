@@ -13,9 +13,9 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-56%2F3445-025E8C)
+![Progress](https://img.shields.io/badge/Progress-57%2F3445-025E8C)
 ![Static Badge](https://img.shields.io/badge/Easy-44-19A974)
-![Static Badge](https://img.shields.io/badge/Medium-12-F38020)
+![Static Badge](https://img.shields.io/badge/Medium-13-F38020)
 
 
 
@@ -28,6 +28,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|[Remove Nth Node From End of List](./0019-RemoveNthNodeFromEndofList/) | Two Pointers | [Python](./0019-RemoveNthNodeFromEndofList/cpp/RemoveNthNodeFromEndofList.cpp)|Medium|
 |[0020](https://leetcode.com/problems/valid-parentheses/description/)|[Valid Parentheses](./0020-ValidParentheses/) | Stack | [Python](./0020-ValidParentheses/python/ValidParentheses.py)|Easy|
 |[0027](https://leetcode.com/problems/remove-element/description/)|[Remove Element](./0027-RemoveElement/) | Two Pointers | [C++](./0027-RemoveElement/cpp/RemoveElement.cpp)|Easy|
+|[0049](https://leetcode.com/problems/group-anagrams/description/)|[Group Anagrams](./0049-GroupAnagrams/) | Hash Table, Sorting | [C++](./0049-GroupAnagrams/cpp/GroupAnagrams.cpp)|Medium|
 |[0059](https://leetcode.com/problems/spiral-matrix-ii/description/)|[Spiral Matrix II](./0059-SpiralMatrixII/) | Simulation | [C++](./0059-SpiralMatrixII/cpp/SpiralMatrixII.cpp)|Medium|
 |[0088](https://leetcode.com/problems/merge-sorted-array/description/)|[Merge Sorted Array](./0088_MergeSortedArray/) | Two Pointers, Sorting | [C++](./0088_MergeSortedArray/cpp/mergeSortedArray.cpp), [Python](./0088_MergeSortedArray/python/mergeSortedArray.py)|Easy|
 |[0125](https://leetcode.com/problems/valid-palindrome/description/)|[Valid Palindrome](./0125-ValidPalindrome/) | Two Pointers | [C](./0125-ValidPalindrome/c/validPalindrome.c), [C++](./0125-ValidPalindrome/c++/validPalindrome.cpp)|Easy|
