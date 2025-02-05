@@ -13,9 +13,9 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-53%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-42-19A974)
-![Static Badge](https://img.shields.io/badge/Medium-11-F38020)
+![Progress](https://img.shields.io/badge/Progress-56%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-44-19A974)
+![Static Badge](https://img.shields.io/badge/Medium-12-F38020)
 
 
 
@@ -63,11 +63,14 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[1002](https://leetcode.com/problems/find-common-characters/description/)|[Find Common Characters](./1002-FindCommonCharacters/) | Hash Table | [C++](./1002-FindCommonCharacters/cpp/FindCommonCharacters.cpp)|Easy|
 |[1045](https://leetcode.com/problems/customers-who-bought-all-products/description/)|[Customers Who Bought All Products](./1045-CustomersWhoBoughtAllProducts/) | Database | [Oracle SQL](./1045-CustomersWhoBoughtAllProducts/Oracle/CustomersWhoBoughtAllProducts.sql)|Medium|
 |[1068](https://leetcode.com/problems/product-sales-analysis-i/description/)|[Product Sales Analysis I](./1068-ProductSalesAnalysisI/) | Database | [MySQL](./1068-ProductSalesAnalysisI/MySQL/ProductSalesAnalysisI.sql)|Easy|
+|[1070](https://leetcode.com/problems/product-sales-analysis-iii/description/)|[Product Sales Analysis III](./1070-ProductSalesAnalysisIII/) | Database | [Oracle SQL](./1070-ProductSalesAnalysisIII/Oracle/ProductSalesAnalysisIII.sql)|Medium|
 |[1075](https://leetcode.com/problems/project-employees-i/description/)|[Project Employees I](./1075-ProjectEmployeesI/) | Database | [Oracle SQL](./1075-ProjectEmployeesI/Oracle/ProjectEmployeesI.sql)|Easy|
+|[1141](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/description/)|[User Activity for the Past 30 Days I](./1141-UserActivityforthePast30DaysI/) | Database | [Oracle SQL](./1141-UserActivityforthePast30DaysI/Oracle/UserActivityforthePast30DaysI.sql)|Easy|
 |[1148](https://leetcode.com/problems/article-views-i/description/)|[Article Views I](./1148-ArticleViewsI/) | Database | [Oracle SQL](./1148-ArticleViewsI/Oracle/ArticleViewsI.sql)|Easy|
 |[1174](https://leetcode.com/problems/immediate-food-delivery-ii/description/)|[Immediate Food Delivery II](./1174-ImmediateFoodDeliveryII/) | Database | [Oracle SQL](./1174-ImmediateFoodDeliveryII/Oracle/ImmediateFoodDeliveryII.sql)|Medium|
 |[1193](https://leetcode.com/problems/monthly-transactions-i/description/)|[Monthly Transactions I](./1193-MonthlyTransactionsI/) | Database | [Oracle SQL](./1193-MonthlyTransactionsI/Oracle/MonthlyTransactionsI.sql)|Medium|
 |[1211](https://leetcode.com/problems/queries-quality-and-percentage/description/)|[Queries Quality and Percentage](./1211-QueriesQualityandPercentage/) | Database | [Oracle SQL](./1211-QueriesQualityandPercentage/Oracle/QueriesQualityandPercentage.sql)|Easy|
+|[1251](https://leetcode.com/problems/average-selling-price/description/)|[Average Selling Price](./1251-AverageSellingPrice/) | Database | [Oracle SQL](./1251-AverageSellingPrice/Oracle/AverageSellingPrice.sql)|Easy|
 |[1378](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/)|[Replace Employee ID With The Unique Identifier](./1378-ReplaceEmployeeIDWithTheUniqueIdentifier/) | Database | [MySQL](./1378-ReplaceEmployeeIDWithTheUniqueIdentifier/MySQL/ReplaceEmployeeIDWithTheUniqueIdentifier.sql)|Easy|
 |[1480](https://leetcode.com/problems/running-sum-of-1d-array/description/)|[Running Sum of 1d Array](./1480-RunningSumOf1dArray/) | Array | [Python](./1480-RunningSumOf1dArray/python/RunningSumOf1dArray.py)|Easy|
 |[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | String | [Python](./1556-ThousandSperator/python/ThousandSeperator.py)|Easy|
