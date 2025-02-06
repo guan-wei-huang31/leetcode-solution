@@ -13,8 +13,8 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-57%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-44-19A974)
+![Progress](https://img.shields.io/badge/Progress-60%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-47-19A974)
 ![Static Badge](https://img.shields.io/badge/Medium-13-F38020)
 
 
@@ -72,9 +72,12 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[1193](https://leetcode.com/problems/monthly-transactions-i/description/)|[Monthly Transactions I](./1193-MonthlyTransactionsI/) | Database | [Oracle SQL](./1193-MonthlyTransactionsI/Oracle/MonthlyTransactionsI.sql)|Medium|
 |[1211](https://leetcode.com/problems/queries-quality-and-percentage/description/)|[Queries Quality and Percentage](./1211-QueriesQualityandPercentage/) | Database | [Oracle SQL](./1211-QueriesQualityandPercentage/Oracle/QueriesQualityandPercentage.sql)|Easy|
 |[1251](https://leetcode.com/problems/average-selling-price/description/)|[Average Selling Price](./1251-AverageSellingPrice/) | Database | [Oracle SQL](./1251-AverageSellingPrice/Oracle/AverageSellingPrice.sql)|Easy|
+|[1280](https://leetcode.com/problems/students-and-examinations/description/)|[Students and Examinations](./1280-StudentsandExaminations/) | Database | [Oracle SQL](./1280-StudentsandExaminations/Oracle/StudentsandExaminations.sql)|Easy|
 |[1378](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/)|[Replace Employee ID With The Unique Identifier](./1378-ReplaceEmployeeIDWithTheUniqueIdentifier/) | Database | [MySQL](./1378-ReplaceEmployeeIDWithTheUniqueIdentifier/MySQL/ReplaceEmployeeIDWithTheUniqueIdentifier.sql)|Easy|
 |[1480](https://leetcode.com/problems/running-sum-of-1d-array/description/)|[Running Sum of 1d Array](./1480-RunningSumOf1dArray/) | Array | [Python](./1480-RunningSumOf1dArray/python/RunningSumOf1dArray.py)|Easy|
 |[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | String | [Python](./1556-ThousandSperator/python/ThousandSeperator.py)|Easy|
+|[1581](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/description/)|[Customer Who Visited but Did Not Make Any Transactions](./1581-CustomerWhoVisitedbutDidNotMakeAnyTransactions/) | Database | [MySQL](./1581-CustomerWhoVisitedbutDidNotMakeAnyTransactions/MySQL/CustomerWhoVisitedbutDidNotMakeAnyTransactions.sql)|Easy|
+|[1633](https://leetcode.com/problems/percentage-of-users-attended-a-contest/description/)|[Percentage of Users Attended a Contest](./1633-PercentageofUsersAttendedaContest/) | Database | [Oracle SQL](./1633-PercentageofUsersAttendedaContest/Oracle/PercentageofUsersAttendedaContest.sql)|Easy|
 |[1683](https://leetcode.com/problems/invalid-tweets/description/)|[Invalid Tweets](./1683-InvalidTweets/) | Database | [Oracle SQL](./1683-InvalidTweets/Oracle/InvalidTweets.sql)|Easy|
 |[1757](https://leetcode.com/problems/recyclable-and-low-fat-products/description/)|[Recyclable and Low Fat Products](./1757-RecyclableandLowFatProducts/) | Database | [Oracle SQL](./1757-RecyclableandLowFatProducts/Oracle/RecyclableandLowFatProducts.sql)|Easy|
 |[1934](https://leetcode.com/problems/confirmation-rate/description/)|[Confirmation Rate](./1934-ConfirmationRate/) | Database | [Oracle SQL](./1934-ConfirmationRate/Oracle/ConfirmationRate.sql)|Medium|
