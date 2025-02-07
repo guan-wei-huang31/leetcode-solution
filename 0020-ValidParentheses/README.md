@@ -12,7 +12,7 @@ Given a string s containing only the characters '(', ')', '{', '}', '[', and ']'
 ---
 
 ## **Solutions Overview**
-### **Solution 1: Stack-Based Approach  (Python Language)**
+### **Stack-Based Approach  (Python Language)**
 This solution uses a stack data structure to ensure proper nesting and order of brackets:  
  1. Traverse the string s character by character.
  2. If the character is an opening bracket, push it onto the stack.
@@ -44,6 +44,42 @@ This solution uses a stack data structure to ensure proper nesting and order of 
 - Space Complexity: O(n)  
   In the worst case, all characters in the string could be opening brackets, requiring space proportional to the input size.
 
+### **Stack-Based Approach  (C++ Language)**
+1. Use an unordered map (map_close) to store closing brackets as keys and their corresponding opening brackets as values.
+2. Use a stack (st) to track unmatched opening brackets.
+3. Iterate through the string s:
+   - If e is an opening bracket ('(', '{', '['), push it onto the stack.
+   - If e is a closing bracket (')', '}', ']'):
+     - If the stack is empty or the top of the stack does not match the expected opening bracket, return false.
+     - Otherwise, pop the stack.
+4. Return true if the stack is empty, indicating all brackets are correctly matched.  
+
+- Language: C++
+- Code:
+  ```
+  class Solution {
+  public:
+      bool isValid(string s) {
+          unordered_map<char, char> map_close = {{')', '('}, {'}', '{'}, {']', '['}};
+          stack<char>st;
+          for (auto e : s){
+              if(!map_close.count(e)){
+                  st.push(e);
+              }else{
+                  if (st.empty() || map_close[e] != st.top()){
+                      return false;
+                  }
+                  st.pop();
+              }
+          }
+          return st.empty();
+      }
+  };
+  ```
+- Time Complexity: O(n)   
+  Each character is pushed and popped at most once, leading to linear complexity.
+- Space Complexity: O(n)  
+  In the worst case (all opening brackets), the stack stores n elements.  
 
 ---
 

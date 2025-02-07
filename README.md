@@ -13,10 +13,10 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-60%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-47-19A974)
-![Static Badge](https://img.shields.io/badge/Medium-13-F38020)
-
+![Progress](https://img.shields.io/badge/Progress-63%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-48-19A974)
+![Static Badge](https://img.shields.io/badge/Medium-14-F38020)
+![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
 
 | # | Title | Topics | Solutions | Difficulty |
@@ -26,13 +26,15 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0013](https://leetcode.com/problems/roman-to-integer/description/)|[Roman to Integer](./0013-RomanToInteger/) | String | [Python](./0013-RomanToInteger/python/RomanToInteger.py)|Easy|
 |[0015](https://leetcode.com/problems/3sum/description/)|[3Sum](./0015-3Sum/) | Two Pointers | [C++](./0015-3Sum/cpp/3Sum.cpp)|Medium|
 |[0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|[Remove Nth Node From End of List](./0019-RemoveNthNodeFromEndofList/) | Two Pointers | [Python](./0019-RemoveNthNodeFromEndofList/cpp/RemoveNthNodeFromEndofList.cpp)|Medium|
-|[0020](https://leetcode.com/problems/valid-parentheses/description/)|[Valid Parentheses](./0020-ValidParentheses/) | Stack | [Python](./0020-ValidParentheses/python/ValidParentheses.py)|Easy|
+|[0020](https://leetcode.com/problems/valid-parentheses/description/)|[Valid Parentheses](./0020-ValidParentheses/) | Stack | [C++](./0020-ValidParentheses/cpp/ValidParentheses.cpp), [Python](./0020-ValidParentheses/python/ValidParentheses.py)|Easy|
 |[0027](https://leetcode.com/problems/remove-element/description/)|[Remove Element](./0027-RemoveElement/) | Two Pointers | [C++](./0027-RemoveElement/cpp/RemoveElement.cpp)|Easy|
+|[0042](https://leetcode.com/problems/trapping-rain-water/description/)|[Trapping Rain Water](./0042-TrappingRainWater/) | Two Pointers | [C++](./0042-TrappingRainWater/cpp/TrappingRainWater.cpp)|Hard|
 |[0049](https://leetcode.com/problems/group-anagrams/description/)|[Group Anagrams](./0049-GroupAnagrams/) | Hash Table, Sorting | [C++](./0049-GroupAnagrams/cpp/GroupAnagrams.cpp)|Medium|
 |[0059](https://leetcode.com/problems/spiral-matrix-ii/description/)|[Spiral Matrix II](./0059-SpiralMatrixII/) | Simulation | [C++](./0059-SpiralMatrixII/cpp/SpiralMatrixII.cpp)|Medium|
 |[0088](https://leetcode.com/problems/merge-sorted-array/description/)|[Merge Sorted Array](./0088_MergeSortedArray/) | Two Pointers, Sorting | [C++](./0088_MergeSortedArray/cpp/mergeSortedArray.cpp), [Python](./0088_MergeSortedArray/python/mergeSortedArray.py)|Easy|
 |[0125](https://leetcode.com/problems/valid-palindrome/description/)|[Valid Palindrome](./0125-ValidPalindrome/) | Two Pointers | [C](./0125-ValidPalindrome/c/validPalindrome.c), [C++](./0125-ValidPalindrome/c++/validPalindrome.cpp)|Easy|
 |[0136](https://leetcode.com/problems/single-number/description/)|[Single Number](./0136-SingleNumber/) | Hash Table | [Python](./0136-SingleNumber/python/SingleNumber.py)|Easy|
+|[0167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|[Two Sum II - Input Array Is Sorted](./0167-TwoSumII-InputArrayIsSorted/) | Two Pointers | [C++](./0167-TwoSumII-InputArrayIsSorted/cpp/TwoSumII-InputArrayIsSorted.cpp)|Medium|
 |[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./0169-MajorityElement/) | Hash Table | [Python](./0169-MajorityElement/python/MajorityElement.py)|Easy|
 |[0197](https://leetcode.com/problems/rising-temperature/description/)|[Rising Temperature](./0197-RisingTemperature/) | Database | [MySQL](./0197-RisingTemperature/MySQL/RisingTemperature.sql)|Easy|
 |[0203](https://leetcode.com/problems/remove-linked-list-elements/description/)|[Remove Linked List Elements](./0203-RemoveLinkedListElements/) | Linked List | [C++](./0203-RemoveLinkedListElements/cpp/RemoveLinkedListElements.cpp)|Easy|
@@ -81,6 +83,8 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[1683](https://leetcode.com/problems/invalid-tweets/description/)|[Invalid Tweets](./1683-InvalidTweets/) | Database | [Oracle SQL](./1683-InvalidTweets/Oracle/InvalidTweets.sql)|Easy|
 |[1757](https://leetcode.com/problems/recyclable-and-low-fat-products/description/)|[Recyclable and Low Fat Products](./1757-RecyclableandLowFatProducts/) | Database | [Oracle SQL](./1757-RecyclableandLowFatProducts/Oracle/RecyclableandLowFatProducts.sql)|Easy|
 |[1934](https://leetcode.com/problems/confirmation-rate/description/)|[Confirmation Rate](./1934-ConfirmationRate/) | Database | [Oracle SQL](./1934-ConfirmationRate/Oracle/ConfirmationRate.sql)|Medium|
+|[2356](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/description/)|[Number of Unique Subjects Taught by Each Teacher](./2356-NumberofUniqueSubjectsTaughtbyEachTeacher/) | Database | [Oracle SQL](./2356-NumberofUniqueSubjectsTaughtbyEachTeacher/Oracle/NumberofUniqueSubjectsTaughtbyEachTeacher.sql)|Easy|
+
 ---
 
 ## **📈Roadmap**
