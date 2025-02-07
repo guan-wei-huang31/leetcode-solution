@@ -13,8 +13,8 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-63%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-48-19A974)
+![Progress](https://img.shields.io/badge/Progress-64%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-49-19A974)
 ![Static Badge](https://img.shields.io/badge/Medium-14-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
@@ -32,11 +32,11 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0049](https://leetcode.com/problems/group-anagrams/description/)|[Group Anagrams](./0049-GroupAnagrams/) | Hash Table, Sorting | [C++](./0049-GroupAnagrams/cpp/GroupAnagrams.cpp)|Medium|
 |[0059](https://leetcode.com/problems/spiral-matrix-ii/description/)|[Spiral Matrix II](./0059-SpiralMatrixII/) | Simulation | [C++](./0059-SpiralMatrixII/cpp/SpiralMatrixII.cpp)|Medium|
 |[0088](https://leetcode.com/problems/merge-sorted-array/description/)|[Merge Sorted Array](./0088_MergeSortedArray/) | Two Pointers, Sorting | [C++](./0088_MergeSortedArray/cpp/mergeSortedArray.cpp), [Python](./0088_MergeSortedArray/python/mergeSortedArray.py)|Easy|
+|[0121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)|[Best Time to Buy and Sell Stock](./0121-BestTimetoBuyandSellStock/) | Sliding Window | [C++](./0121-BestTimetoBuyandSellStock/cpp/BestTimetoBuyandSellStock.cpp), [Python](./0121-BestTimetoBuyandSellStock/python/BestTimetoBuyandSellStock.py)|Easy|
 |[0125](https://leetcode.com/problems/valid-palindrome/description/)|[Valid Palindrome](./0125-ValidPalindrome/) | Two Pointers | [C](./0125-ValidPalindrome/c/validPalindrome.c), [C++](./0125-ValidPalindrome/c++/validPalindrome.cpp)|Easy|
 |[0136](https://leetcode.com/problems/single-number/description/)|[Single Number](./0136-SingleNumber/) | Hash Table | [Python](./0136-SingleNumber/python/SingleNumber.py)|Easy|
 |[0167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|[Two Sum II - Input Array Is Sorted](./0167-TwoSumII-InputArrayIsSorted/) | Two Pointers | [C++](./0167-TwoSumII-InputArrayIsSorted/cpp/TwoSumII-InputArrayIsSorted.cpp)|Medium|
 |[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./0169-MajorityElement/) | Hash Table | [Python](./0169-MajorityElement/python/MajorityElement.py)|Easy|
-|[0197](https://leetcode.com/problems/rising-temperature/description/)|[Rising Temperature](./0197-RisingTemperature/) | Database | [MySQL](./0197-RisingTemperature/MySQL/RisingTemperature.sql)|Easy|
 |[0203](https://leetcode.com/problems/remove-linked-list-elements/description/)|[Remove Linked List Elements](./0203-RemoveLinkedListElements/) | Linked List | [C++](./0203-RemoveLinkedListElements/cpp/RemoveLinkedListElements.cpp)|Easy|
 |[0206](https://leetcode.com/problems/reverse-linked-list/description/)|[Reverse Linked List](./0206-ReverseLinkedList/) | Linked List | [C++](./0206-ReverseLinkedList/cpp/ReverseLinkedList.cpp)|Easy|
 |[0209](https://leetcode.com/problems/minimum-size-subarray-sum/description/)|[Minimum Size Subarray Sum](./0209-MinimumSizeSubarraySum/) | Sliding Window | [C++](./0209-MinimumSizeSubarraySum/cpp/MinimumSizeSubarraySum.cpp)|Medium|
@@ -45,25 +45,33 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0242](https://leetcode.com/problems/valid-anagram/description/)|[Valid Anagram](./0242-ValidAnagram/) | Hash Table | [Python](./0242-ValidAnagram/python/ValidAnagram.py), [C++](./0242-ValidAnagram/cpp/ValidAnagram.cpp)|Easy|
 |[0283](https://leetcode.com/problems/move-zeroes/description/)|[Move Zeroes](./0283-MoveZeroes/) | Two Pointers | [C++](./0283-MoveZeroes/cpp/MoveZeroes.cpp), [Python](./0283-MoveZeroes/python/MoveZeroes.py)|Easy|
 |[0344](https://leetcode.com/problems/reverse-string/description/)|[Reverse String](./0344_ReverseString/) | Two Pointers | [C++](./0344_ReverseString/cpp/ReverseString.cpp)|Easy|
-|[0349](https://leetcode.com/problems/intersection-of-two-arrays/description/)|[Intersection of Two Arrays](./0349-IntersectionOfTwoArrays/) | Unordered Set | [C++](./0349-IntersectionOfTwoArrays/cpp/IntersectionOfTwoArrays.cpp)|Easy|
+|[0349](https://leetcode.com/problems/intersection-of-two-arrays/description/)|[Intersection of Two Arrays](./0349-IntersectionOfTwoArrays/) | Hash Table | [C++](./0349-IntersectionOfTwoArrays/cpp/IntersectionOfTwoArrays.cpp)|Easy|
 |[0383](https://leetcode.com/problems/ransom-note/description/)|[Ransom Note](./0383-RansomNote/) | Hash Table | [C++](./0383-RansomNote/cpp/RansomNote.cpp)|Easy|
 |[0387](https://leetcode.com/problems/first-unique-character-in-a-string/description/)|[First Unique Character in a String](./0387-FirstUniqueCharacter/) | Queue | [Python](./0387-FirstUniqueCharacter/pyhon/FirstUniqueCharacter.py)|Easy|
 |[0485](https://leetcode.com/problems/max-consecutive-ones/description/)|[Max Consecutive Ones](./0485-MaxConsecutiveOnes/) | Array | [Python](./0485-MaxConsecutiveOnes/pyhon/MaxConsecutiveOnes.py)|Easy|
 |[0541](https://leetcode.com/problems/reverse-string-ii/description/)|[Reverse String II](./0541-ReverseStringII/) | Two Pointers | [Python](./0541-ReverseStringII/pyhon/ReverseStringII.py)|Easy|
+|[0557](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)|[Reverse Words in a String III](./0557-ReverseWordsInAStringIII/) | Two Pointers | [Python](./0557-ReverseWordsInAStringIII/pyhon/ReverseWordsInAStringIII.py)|Easy|
+|[0704](https://leetcode.com/problems/binary-search/description/)|[Binary Search](./0704-BinarySearch/) | Binary Search  | [C](./0704-BinarySearch/c/search_binary.c), [Python](./0704-BinarySearch/python/BinarySearch.py)|Easy|
+|[0707](https://leetcode.com/problems/design-linked-list/description/)|[Design Linked List](./0707-DesignLinkedList/) | Linked List | [C++](./0707-DesignLinkedList/cpp/DesignLinkedList.cpp)|Medium|
+|[0922](https://leetcode.com/problems/sort-array-by-parity-ii/description/)|[SortArrayByParityII](./0922_SortArrayByParityII/) | Two Pointers, Zip | [C++](./0922_SortArrayByParityII/cpp/SortArrayByParityII.cpp), [Python](./0922_SortArrayByParityII/python/SortArrayByParityII.py)|Easy|
+|[0941](https://leetcode.com/problems/valid-mountain-array/description/)|[Valid Mountain Array](./0941_ValidMountainArray/) | Array | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
+|[1002](https://leetcode.com/problems/find-common-characters/description/)|[Find Common Characters](./1002-FindCommonCharacters/) | Hash Table | [C++](./1002-FindCommonCharacters/cpp/FindCommonCharacters.cpp)|Easy|
+|[1480](https://leetcode.com/problems/running-sum-of-1d-array/description/)|[Running Sum of 1d Array](./1480-RunningSumOf1dArray/) | Array | [Python](./1480-RunningSumOf1dArray/python/RunningSumOf1dArray.py)|Easy|
+|[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | String | [Python](./1556-ThousandSperator/python/ThousandSeperator.py)|Easy|
+
+
+### **DataBase**
+| # | Title | Topics | Solutions | Difficulty |
+|---| ----- | -------- | -------- | ---------- |
+|[0197](https://leetcode.com/problems/rising-temperature/description/)|[Rising Temperature](./0197-RisingTemperature/) | Database | [MySQL](./0197-RisingTemperature/MySQL/RisingTemperature.sql)|Easy|
 |[0550](https://leetcode.com/problems/game-play-analysis-iv/description/)|[Game Play Analysis IV](./0550-GamePlayAnalysisIV/) | Database | [Oracle SQL](./0550-GamePlayAnalysisIV/Oracle/GamePlayAnalysisIV.sql)|Medium|
 |[0577](https://leetcode.com/problems/employee-bonus/description/)|[Employee Bonus](./0577-EmployeeBonus/) | Database | [Oracle SQL](./0577-EmployeeBonus/Oracle/EmployeeBonus.sql)|Easy|
-|[0557](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)|[Reverse Words in a String III](./0557-ReverseWordsInAStringIII/) | Two Pointers | [Python](./0557-ReverseWordsInAStringIII/pyhon/ReverseWordsInAStringIII.py)|Easy|
 |[0570](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/description/)|[Managers with at Least 5 Direct Reports](./0570-ManagerswithatLeast5DirectReports/) | Database | [Oracle SQL](./0570-ManagerswithatLeast5DirectReports/Oracle/ManagerswithatLeast5DirectReports.sql)|Medium|
 |[0584](https://leetcode.com/problems/find-customer-referee/description/)|[Find Customer Referee](./0584-FindCustomerReferee/) | Database | [Oracle SQL](./0584-FindCustomerReferee/Oracle/FindCustomerReferee.sql)|Easy|
 |[0595](https://leetcode.com/problems/big-countries/description/)|[Big Countries](./0595-BigCountries/) | Database | [Oracle SQL](./0595-BigCountries/Oracle/BigCountries.sql)|Easy|
 |[0596](https://leetcode.com/problems/classes-more-than-5-students/description/)|[Classes More Than 5 Students](./0596-ClassesMoreThan5Students/) | Database | [Oracle SQL](./0596-ClassesMoreThan5Students/Oracle/ClassesMoreThan5Students.sql)|Easy|
 |[0619](https://leetcode.com/problems/biggest-single-number/description/)|[Biggest Single Number](./0619-BiggestSingleNumber/) | Database | [Oracle SQL](./0619-BiggestSingleNumber/Oracle/BiggestSingleNumber.sql)|Easy|
 |[0620](https://leetcode.com/problems/not-boring-movies/description/)|[Not Boring Movies](./0620-NotBoringMovies/) | Database | [PostgreSQL](./0620-NotBoringMovies/PostgreSQL/NotBoringMovies.sql)|Easy|
-|[0704](https://leetcode.com/problems/binary-search/description/)|[Binary Search](./0704-BinarySearch/) | Binary Search  | [C](./0704-BinarySearch/c/search_binary.c), [Python](./0704-BinarySearch/python/BinarySearch.py)|Easy|
-|[0707](https://leetcode.com/problems/design-linked-list/description/)|[Design Linked List](./0707-DesignLinkedList/) | Linked List | [C++](./0707-DesignLinkedList/cpp/DesignLinkedList.cpp)|Medium|
-|[0922](https://leetcode.com/problems/sort-array-by-parity-ii/description/)|[SortArrayByParityII](./0922_SortArrayByParityII/) | Two Pointers, Zip | [C++](./0922_SortArrayByParityII/cpp/SortArrayByParityII.cpp), [Python](./0922_SortArrayByParityII/python/SortArrayByParityII.py)|Easy|
-|[0941](https://leetcode.com/problems/valid-mountain-array/description/)|[Valid Mountain Array](./0941_ValidMountainArray/) | Array | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
-|[1002](https://leetcode.com/problems/find-common-characters/description/)|[Find Common Characters](./1002-FindCommonCharacters/) | Hash Table | [C++](./1002-FindCommonCharacters/cpp/FindCommonCharacters.cpp)|Easy|
 |[1045](https://leetcode.com/problems/customers-who-bought-all-products/description/)|[Customers Who Bought All Products](./1045-CustomersWhoBoughtAllProducts/) | Database | [Oracle SQL](./1045-CustomersWhoBoughtAllProducts/Oracle/CustomersWhoBoughtAllProducts.sql)|Medium|
 |[1068](https://leetcode.com/problems/product-sales-analysis-i/description/)|[Product Sales Analysis I](./1068-ProductSalesAnalysisI/) | Database | [MySQL](./1068-ProductSalesAnalysisI/MySQL/ProductSalesAnalysisI.sql)|Easy|
 |[1070](https://leetcode.com/problems/product-sales-analysis-iii/description/)|[Product Sales Analysis III](./1070-ProductSalesAnalysisIII/) | Database | [Oracle SQL](./1070-ProductSalesAnalysisIII/Oracle/ProductSalesAnalysisIII.sql)|Medium|
@@ -76,8 +84,6 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[1251](https://leetcode.com/problems/average-selling-price/description/)|[Average Selling Price](./1251-AverageSellingPrice/) | Database | [Oracle SQL](./1251-AverageSellingPrice/Oracle/AverageSellingPrice.sql)|Easy|
 |[1280](https://leetcode.com/problems/students-and-examinations/description/)|[Students and Examinations](./1280-StudentsandExaminations/) | Database | [Oracle SQL](./1280-StudentsandExaminations/Oracle/StudentsandExaminations.sql)|Easy|
 |[1378](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/)|[Replace Employee ID With The Unique Identifier](./1378-ReplaceEmployeeIDWithTheUniqueIdentifier/) | Database | [MySQL](./1378-ReplaceEmployeeIDWithTheUniqueIdentifier/MySQL/ReplaceEmployeeIDWithTheUniqueIdentifier.sql)|Easy|
-|[1480](https://leetcode.com/problems/running-sum-of-1d-array/description/)|[Running Sum of 1d Array](./1480-RunningSumOf1dArray/) | Array | [Python](./1480-RunningSumOf1dArray/python/RunningSumOf1dArray.py)|Easy|
-|[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | String | [Python](./1556-ThousandSperator/python/ThousandSeperator.py)|Easy|
 |[1581](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/description/)|[Customer Who Visited but Did Not Make Any Transactions](./1581-CustomerWhoVisitedbutDidNotMakeAnyTransactions/) | Database | [MySQL](./1581-CustomerWhoVisitedbutDidNotMakeAnyTransactions/MySQL/CustomerWhoVisitedbutDidNotMakeAnyTransactions.sql)|Easy|
 |[1633](https://leetcode.com/problems/percentage-of-users-attended-a-contest/description/)|[Percentage of Users Attended a Contest](./1633-PercentageofUsersAttendedaContest/) | Database | [Oracle SQL](./1633-PercentageofUsersAttendedaContest/Oracle/PercentageofUsersAttendedaContest.sql)|Easy|
 |[1683](https://leetcode.com/problems/invalid-tweets/description/)|[Invalid Tweets](./1683-InvalidTweets/) | Database | [Oracle SQL](./1683-InvalidTweets/Oracle/InvalidTweets.sql)|Easy|
