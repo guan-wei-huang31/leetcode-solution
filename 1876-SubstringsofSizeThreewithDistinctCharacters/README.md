@@ -60,6 +60,28 @@ This project provides a solution to the Count Good Substrings of Size Three prob
 - Space Complexity: O(1)  
   - The frequency array has fixed size (26 lowercase letters), resulting in constant space usage.
   
+### **Single Pass Approach (Python)**
+1. Instead of using a frequency array, we can directly check if characters in the window are unique.
+
+
+- Language: Python
+- Code:
+  ```
+  class Solution:
+      def countGoodSubstrings(self, s: str) -> int:
+          if len(s) < 3: return 0
+          count = 0
+          for i in range(len(s)-2):
+              if(s[i] != s[i+1] and s[i] != s[i+2] and s[i+1] != s[i+2]):
+                  count+=1
+          return count
+  ```
+
+- Time Complexity: O(n)  
+  - Each character is processed at most once, making the overall complexity O(n).
+- Space Complexity: O(1)  
+  - No extra storage used
+  
 ---
 
 ## **Conclusion**
