@@ -49,6 +49,26 @@ This project provides a solution to the Find Numbers with Even Number of Digits 
   - Since the number of digits is at most 10 (2³¹ - 1 fits in int), this is effectively O(n).
 - Space Complexity: O(n)
   - (no extra storage apart from variables).
+  
+### **Math Approach (Python)**
+1. count digits using logarithms or division.
+ 
+- Language: Python
+- Code:
+  ```
+  class Solution:
+      def findNumbers(self, nums: List[int]) -> int:
+          count = 0
+          for i in range(len(nums)):
+              if ((int(log10(nums[i])) + 1) % 2 == 0):
+                  count+=1
+          return count
+  ```
+  
+- Time Complexity: O(n)  
+  - iterate once
+- Space Complexity: O(n)
+  - (no extra storage apart from variables).
 ---
 
 ## **Conclusion**
