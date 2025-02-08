@@ -13,21 +13,24 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-64%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-49-19A974)
-![Static Badge](https://img.shields.io/badge/Medium-14-F38020)
+![Progress](https://img.shields.io/badge/Progress-68%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-50-19A974)
+![Static Badge](https://img.shields.io/badge/Medium-17-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
 
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
 |[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./0001-TwoSum/)| Array, Hash Table | [C](./0001-TwoSum/c/TwoSum.c), [Python](./0001-TwoSum/python/TwoSum.py), [C++](./0001-TwoSum/cpp/TwoSum.cpp)|Easy|
+|[0003](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)|[Longest Substring Without Repeating Characters](./0003-LongestSubstringWithoutRepeatingCharacters/) | Sliding Window | [Python](./0003-LongestSubstringWithoutRepeatingCharacters/python/LongestSubstringWithoutRepeatingCharacters.py)|Medium|
 |[0009](https://leetcode.com/problems/palindrome-number/description/)|[Palindrome Number](./0009-PalindromeNumber/) | Two Pointers | [Python](./0009-PalindromeNumber/python/PalindromeNumber.py)|Easy|
 |[0013](https://leetcode.com/problems/roman-to-integer/description/)|[Roman to Integer](./0013-RomanToInteger/) | String | [Python](./0013-RomanToInteger/python/RomanToInteger.py)|Easy|
+|[0011](https://leetcode.com/problems/container-with-most-water/description/)|[Container With Most Water](./0011-ContainerWithMostWater/) | Two Pointers | [C++](./0011-ContainerWithMostWater/cpp/ContainerWithMostWater.cpp)|Medium|
 |[0015](https://leetcode.com/problems/3sum/description/)|[3Sum](./0015-3Sum/) | Two Pointers | [C++](./0015-3Sum/cpp/3Sum.cpp)|Medium|
 |[0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|[Remove Nth Node From End of List](./0019-RemoveNthNodeFromEndofList/) | Two Pointers | [Python](./0019-RemoveNthNodeFromEndofList/cpp/RemoveNthNodeFromEndofList.cpp)|Medium|
 |[0020](https://leetcode.com/problems/valid-parentheses/description/)|[Valid Parentheses](./0020-ValidParentheses/) | Stack | [C++](./0020-ValidParentheses/cpp/ValidParentheses.cpp), [Python](./0020-ValidParentheses/python/ValidParentheses.py)|Easy|
 |[0027](https://leetcode.com/problems/remove-element/description/)|[Remove Element](./0027-RemoveElement/) | Two Pointers | [C++](./0027-RemoveElement/cpp/RemoveElement.cpp)|Easy|
+|[0036](https://leetcode.com/problems/valid-sudoku/description/)|[Valid Sudoku](./0036-ValidSudoku/) | Hash Table | [C++](./0036-ValidSudoku/cpp/ValidSudoku.cpp)|Medium|
 |[0042](https://leetcode.com/problems/trapping-rain-water/description/)|[Trapping Rain Water](./0042-TrappingRainWater/) | Two Pointers | [C++](./0042-TrappingRainWater/cpp/TrappingRainWater.cpp)|Hard|
 |[0049](https://leetcode.com/problems/group-anagrams/description/)|[Group Anagrams](./0049-GroupAnagrams/) | Hash Table, Sorting | [C++](./0049-GroupAnagrams/cpp/GroupAnagrams.cpp)|Medium|
 |[0059](https://leetcode.com/problems/spiral-matrix-ii/description/)|[Spiral Matrix II](./0059-SpiralMatrixII/) | Simulation | [C++](./0059-SpiralMatrixII/cpp/SpiralMatrixII.cpp)|Medium|
@@ -58,6 +61,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[1002](https://leetcode.com/problems/find-common-characters/description/)|[Find Common Characters](./1002-FindCommonCharacters/) | Hash Table | [C++](./1002-FindCommonCharacters/cpp/FindCommonCharacters.cpp)|Easy|
 |[1480](https://leetcode.com/problems/running-sum-of-1d-array/description/)|[Running Sum of 1d Array](./1480-RunningSumOf1dArray/) | Array | [Python](./1480-RunningSumOf1dArray/python/RunningSumOf1dArray.py)|Easy|
 |[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | String | [Python](./1556-ThousandSperator/python/ThousandSeperator.py)|Easy|
+|[1876](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/description/)|[Substrings of Size Three with Distinct Characters](./1876-SubstringsofSizeThreewithDistinctCharacters/) | Sliding Window, Hash Table | [C++](./1876-SubstringsofSizeThreewithDistinctCharacters/cpp/SubstringsofSizeThreewithDistinctCharacters.cpp), [Python](./1876-SubstringsofSizeThreewithDistinctCharacters/python/SubstringsofSizeThreewithDistinctCharacters.py)|Easy|
 
 
 ### **DataBase**
