@@ -25,7 +25,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |---| ----- | -------- | -------- | ---------- |
 |[0013](https://leetcode.com/problems/roman-to-integer/description/)|[Roman to Integer](./0013-RomanToInteger/) | String | [Python](./0013-RomanToInteger/python/RomanToInteger.py)|Easy|
 |[0059](https://leetcode.com/problems/spiral-matrix-ii/description/)|[Spiral Matrix II](./0059-SpiralMatrixII/) | Matrix | [C++](./0059-SpiralMatrixII/cpp/SpiralMatrixII.cpp)|Medium|
-|[0485](https://leetcode.com/problems/max-consecutive-ones/description/)|[Max Consecutive Ones](./0485-MaxConsecutiveOnes/) | Array | [Python](./0485-MaxConsecutiveOnes/pyhon/MaxConsecutiveOnes.py)|Easy|
+|[0485](https://leetcode.com/problems/max-consecutive-ones/description/)|[Max Consecutive Ones](./0485-MaxConsecutiveOnes/) | Array | [Python](./0485-MaxConsecutiveOnes/python/MaxConsecutiveOnes.py)|Easy|
 |[0941](https://leetcode.com/problems/valid-mountain-array/description/)|[Valid Mountain Array](./0941_ValidMountainArray/) | Array | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
 |[0977](https://leetcode.com/problems/squares-of-a-sorted-array/description/)|[Squares of a Sorted Array](./0977_SquaresOfASortedArray/) | Array, Sorting | [C++](./0977_SquaresOfASortedArray/cpp/SquaresOfASortedArray.cpp)|Easy|
 |[1295](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[Find Numbers with Even Number of Digits](./1295-FindNumberswithEvenNumberofDigits/) | Math, String | [C++](./1295-FindNumberswithEvenNumberofDigits/cpp/FindNumberswithEvenNumberofDigits.cpp), [Python](./1295-FindNumberswithEvenNumberofDigits/python/FindNumberswithEvenNumberofDigits.py)|Easy|
@@ -38,6 +38,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 - The array or linked list is sorted, and you need to find a "pair" or "continuous sequence".
 - Usually involves two indices (left & right) moving inward or outward.
 - Often used to optimize brute-force O(n^2) solutions to O(n).  
+
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
 |[0009](https://leetcode.com/problems/palindrome-number/description/)|[Palindrome Number](./0009-PalindromeNumber/) | Two Pointers | [Python](./0009-PalindromeNumber/python/PalindromeNumber.py)|Easy|
@@ -61,6 +62,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 - Quickly check if a value has been seen before.
 - Track frequency/count of elements.
 - Need O(1) lookups for key-value relationships.  
+
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
 |[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./0001-TwoSum/)| Array, Hash Table | [C](./0001-TwoSum/c/TwoSum.c), [C++](./0001-TwoSum/cpp/TwoSum.cpp), [Python](./0001-TwoSum/python/TwoSum.py)|Easy|
@@ -82,6 +84,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 - Finding the longest/shortest/max/min subarray or substring.
 - Used to replace O(n^2) brute-force solutions with O(n).
 - When a "range" of elements is involved, and that range is continuous.  
+
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
 |[0003](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)|[Longest Substring Without Repeating Characters](./0003-LongestSubstringWithoutRepeatingCharacters/) | Sliding Window | [Python](./0003-LongestSubstringWithoutRepeatingCharacters/python/LongestSubstringWithoutRepeatingCharacters.py)|Medium|
@@ -95,6 +98,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 - When inserting/deleting elements frequently
 - When traversal is required without using extra space
 - When solving pointer manipulation problems  
+
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
 |[0203](https://leetcode.com/problems/remove-linked-list-elements/description/)|[Remove Linked List Elements](./0203-RemoveLinkedListElements/) | Linked List | [C++](./0203-RemoveLinkedListElements/cpp/RemoveLinkedListElements.cpp)|Easy|
@@ -107,6 +111,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 - LIFO (Last In, First Out) problems
 - Need to track previous elements and process them in reverse order
 - Problems involving "nested" structures, such as parentheses or expressions  
+
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
 |[0020](https://leetcode.com/problems/valid-parentheses/description/)|[Valid Parentheses](./0020-ValidParentheses/) | Stack | [C++](./0020-ValidParentheses/cpp/ValidParentheses.cpp), [Python](./0020-ValidParentheses/python/ValidParentheses.py)|Easy|
@@ -118,6 +123,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 - The problem requires an O(log n) solution.
 - The array is sorted (or can be transformed into a monotonic function).
 - You need to determine whether a value exists or find the closest match.  
+
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
 |[0704](https://leetcode.com/problems/binary-search/description/)|[Binary Search](./0704-BinarySearch/) | Binary Search  | [C](./0704-BinarySearch/c/search_binary.c), [Python](./0704-BinarySearch/python/BinarySearch.py)|Easy|
@@ -128,6 +134,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 - The problem involves hierarchical relationships (parent-child structure)
 - You need to process nodes in a specific traversal order (DFS, BFS, Inorder, Preorder, Postorder)
 - You need to optimize searching with Binary Search Tree (BST)  
+
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
 |[0226](https://leetcode.com/problems/invert-binary-tree/description/)|[Invert Binary Tree](./0226-InvertBinaryTree/) | Tree, Recursive | [Python](./0226-InvertBinaryTree/python/InvertBinaryTree.py)|Easy|
