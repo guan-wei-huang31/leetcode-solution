@@ -10,6 +10,40 @@ This project demonstrates an efficient algorithm to find the index of the first 
 ---
 
 ## **Solutions Overview**
+### **Hash Map Approach (C++)**
+1. Create a frequency array (freq[26]):
+   - Count occurrences of each character in s.
+2. Iterate through s:
+   - Find the first character with freq[c - 'a'] == 1.
+3. Return the index of the first unique character.
+4. Return -1 if no unique character is found.
+
+- Language: C++
+- Code:
+  ```
+  class Solution {
+  public:
+      int firstUniqChar(string s) {
+          vector<int> freq(26, 0);  
+          
+          for (char c : s) {
+              freq[c - 'a']++;
+          }
+  
+          for (int i = 0; i < s.size(); i++) {
+              if (freq[s[i] - 'a'] == 1) return i;
+          }
+  
+          return -1;
+      }
+  };
+  ```
+
+- Time Complexity: O(n)  
+  - The string is processed twice, making it O(n) complexity.
+- Space Complexity: O(1)
+  - The frequency array has a fixed size (26 characters).
+
 ### **Frequency Counting Approach (Python)**
 1. Character Frequency Count:
    - Use the Counter class from the collections module to compute the frequency of each character in the string.
@@ -49,12 +83,12 @@ This project demonstrates an efficient algorithm to find the index of the first 
 ---
 
 ## **Conclusion**
-This algorithm efficiently identifies the index of the first non-repeating character in a string. With O(n) time complexity and minimal space overhead, it is well-suited for handling large input strings.
+The frequency array approach (O(n)) is the most efficient solution for English lowercase letters. The unordered map approach is an alternative that generalizes to larger character sets.  
 
 ### **Future Plans**
 - Add implementations in other languages, such as Java.
-- Create automated tests to validate edge cases.
-- Experiment with alternative algorithms to see if a single-pass solution could offer further performance improvements.
+- Extend the approach for Unicode character sets.
+- Optimize for streaming input (real-time character processing).
 
 ### **Contact**
 For questions or suggestions, feel free to contact:  
