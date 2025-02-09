@@ -13,56 +13,102 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-68%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-50-19A974)
+![Progress](https://img.shields.io/badge/Progress-69%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-51-19A974)
 ![Static Badge](https://img.shields.io/badge/Medium-17-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
+---
 
+### **Array and String and Math and Matrix**
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
-|[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./0001-TwoSum/)| Array, Hash Table | [C](./0001-TwoSum/c/TwoSum.c), [Python](./0001-TwoSum/python/TwoSum.py), [C++](./0001-TwoSum/cpp/TwoSum.cpp)|Easy|
-|[0003](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)|[Longest Substring Without Repeating Characters](./0003-LongestSubstringWithoutRepeatingCharacters/) | Sliding Window | [Python](./0003-LongestSubstringWithoutRepeatingCharacters/python/LongestSubstringWithoutRepeatingCharacters.py)|Medium|
-|[0009](https://leetcode.com/problems/palindrome-number/description/)|[Palindrome Number](./0009-PalindromeNumber/) | Two Pointers | [Python](./0009-PalindromeNumber/python/PalindromeNumber.py)|Easy|
 |[0013](https://leetcode.com/problems/roman-to-integer/description/)|[Roman to Integer](./0013-RomanToInteger/) | String | [Python](./0013-RomanToInteger/python/RomanToInteger.py)|Easy|
-|[0011](https://leetcode.com/problems/container-with-most-water/description/)|[Container With Most Water](./0011-ContainerWithMostWater/) | Two Pointers | [C++](./0011-ContainerWithMostWater/cpp/ContainerWithMostWater.cpp)|Medium|
-|[0015](https://leetcode.com/problems/3sum/description/)|[3Sum](./0015-3Sum/) | Two Pointers | [C++](./0015-3Sum/cpp/3Sum.cpp)|Medium|
-|[0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|[Remove Nth Node From End of List](./0019-RemoveNthNodeFromEndofList/) | Two Pointers | [Python](./0019-RemoveNthNodeFromEndofList/cpp/RemoveNthNodeFromEndofList.cpp)|Medium|
-|[0020](https://leetcode.com/problems/valid-parentheses/description/)|[Valid Parentheses](./0020-ValidParentheses/) | Stack | [C++](./0020-ValidParentheses/cpp/ValidParentheses.cpp), [Python](./0020-ValidParentheses/python/ValidParentheses.py)|Easy|
-|[0027](https://leetcode.com/problems/remove-element/description/)|[Remove Element](./0027-RemoveElement/) | Two Pointers | [C++](./0027-RemoveElement/cpp/RemoveElement.cpp)|Easy|
-|[0036](https://leetcode.com/problems/valid-sudoku/description/)|[Valid Sudoku](./0036-ValidSudoku/) | Hash Table | [C++](./0036-ValidSudoku/cpp/ValidSudoku.cpp)|Medium|
-|[0042](https://leetcode.com/problems/trapping-rain-water/description/)|[Trapping Rain Water](./0042-TrappingRainWater/) | Two Pointers | [C++](./0042-TrappingRainWater/cpp/TrappingRainWater.cpp)|Hard|
-|[0049](https://leetcode.com/problems/group-anagrams/description/)|[Group Anagrams](./0049-GroupAnagrams/) | Hash Table, Sorting | [C++](./0049-GroupAnagrams/cpp/GroupAnagrams.cpp)|Medium|
-|[0059](https://leetcode.com/problems/spiral-matrix-ii/description/)|[Spiral Matrix II](./0059-SpiralMatrixII/) | Simulation | [C++](./0059-SpiralMatrixII/cpp/SpiralMatrixII.cpp)|Medium|
-|[0088](https://leetcode.com/problems/merge-sorted-array/description/)|[Merge Sorted Array](./0088_MergeSortedArray/) | Two Pointers, Sorting | [C++](./0088_MergeSortedArray/cpp/mergeSortedArray.cpp), [Python](./0088_MergeSortedArray/python/mergeSortedArray.py)|Easy|
-|[0121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)|[Best Time to Buy and Sell Stock](./0121-BestTimetoBuyandSellStock/) | Sliding Window | [C++](./0121-BestTimetoBuyandSellStock/cpp/BestTimetoBuyandSellStock.cpp), [Python](./0121-BestTimetoBuyandSellStock/python/BestTimetoBuyandSellStock.py)|Easy|
-|[0125](https://leetcode.com/problems/valid-palindrome/description/)|[Valid Palindrome](./0125-ValidPalindrome/) | Two Pointers | [C](./0125-ValidPalindrome/c/validPalindrome.c), [C++](./0125-ValidPalindrome/c++/validPalindrome.cpp)|Easy|
-|[0136](https://leetcode.com/problems/single-number/description/)|[Single Number](./0136-SingleNumber/) | Hash Table | [Python](./0136-SingleNumber/python/SingleNumber.py)|Easy|
-|[0167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|[Two Sum II - Input Array Is Sorted](./0167-TwoSumII-InputArrayIsSorted/) | Two Pointers | [C++](./0167-TwoSumII-InputArrayIsSorted/cpp/TwoSumII-InputArrayIsSorted.cpp)|Medium|
-|[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./0169-MajorityElement/) | Hash Table | [Python](./0169-MajorityElement/python/MajorityElement.py)|Easy|
-|[0203](https://leetcode.com/problems/remove-linked-list-elements/description/)|[Remove Linked List Elements](./0203-RemoveLinkedListElements/) | Linked List | [C++](./0203-RemoveLinkedListElements/cpp/RemoveLinkedListElements.cpp)|Easy|
-|[0206](https://leetcode.com/problems/reverse-linked-list/description/)|[Reverse Linked List](./0206-ReverseLinkedList/) | Linked List | [C++](./0206-ReverseLinkedList/cpp/ReverseLinkedList.cpp)|Easy|
-|[0209](https://leetcode.com/problems/minimum-size-subarray-sum/description/)|[Minimum Size Subarray Sum](./0209-MinimumSizeSubarraySum/) | Sliding Window | [C++](./0209-MinimumSizeSubarraySum/cpp/MinimumSizeSubarraySum.cpp)|Medium|
-|[0217](https://leetcode.com/problems/contains-duplicate/description/)|[Contains Duplicate](./0217-ContainsDuplicate/) | Sorting, Hash Table | [C++](./0217-ContainsDuplicate/cpp/containsDuplicate.cpp), [Python](./0217-ContainsDuplicate/python/ContainsDuplicate.py)|Easy|
-|[0226](https://leetcode.com/problems/invert-binary-tree/description/)|[Invert Binary Tree](./0226-InvertBinaryTree/) | Tree, Recursive | [Python](./0226-InvertBinaryTree/python/InvertBinaryTree.py)|Easy|
-|[0242](https://leetcode.com/problems/valid-anagram/description/)|[Valid Anagram](./0242-ValidAnagram/) | Hash Table | [Python](./0242-ValidAnagram/python/ValidAnagram.py), [C++](./0242-ValidAnagram/cpp/ValidAnagram.cpp)|Easy|
-|[0283](https://leetcode.com/problems/move-zeroes/description/)|[Move Zeroes](./0283-MoveZeroes/) | Two Pointers | [C++](./0283-MoveZeroes/cpp/MoveZeroes.cpp), [Python](./0283-MoveZeroes/python/MoveZeroes.py)|Easy|
-|[0344](https://leetcode.com/problems/reverse-string/description/)|[Reverse String](./0344_ReverseString/) | Two Pointers | [C++](./0344_ReverseString/cpp/ReverseString.cpp)|Easy|
-|[0349](https://leetcode.com/problems/intersection-of-two-arrays/description/)|[Intersection of Two Arrays](./0349-IntersectionOfTwoArrays/) | Hash Table | [C++](./0349-IntersectionOfTwoArrays/cpp/IntersectionOfTwoArrays.cpp)|Easy|
-|[0383](https://leetcode.com/problems/ransom-note/description/)|[Ransom Note](./0383-RansomNote/) | Hash Table | [C++](./0383-RansomNote/cpp/RansomNote.cpp)|Easy|
-|[0387](https://leetcode.com/problems/first-unique-character-in-a-string/description/)|[First Unique Character in a String](./0387-FirstUniqueCharacter/) | Queue | [Python](./0387-FirstUniqueCharacter/pyhon/FirstUniqueCharacter.py)|Easy|
+|[0059](https://leetcode.com/problems/spiral-matrix-ii/description/)|[Spiral Matrix II](./0059-SpiralMatrixII/) | Matrix | [C++](./0059-SpiralMatrixII/cpp/SpiralMatrixII.cpp)|Medium|
 |[0485](https://leetcode.com/problems/max-consecutive-ones/description/)|[Max Consecutive Ones](./0485-MaxConsecutiveOnes/) | Array | [Python](./0485-MaxConsecutiveOnes/pyhon/MaxConsecutiveOnes.py)|Easy|
-|[0541](https://leetcode.com/problems/reverse-string-ii/description/)|[Reverse String II](./0541-ReverseStringII/) | Two Pointers | [Python](./0541-ReverseStringII/pyhon/ReverseStringII.py)|Easy|
-|[0557](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)|[Reverse Words in a String III](./0557-ReverseWordsInAStringIII/) | Two Pointers | [Python](./0557-ReverseWordsInAStringIII/pyhon/ReverseWordsInAStringIII.py)|Easy|
-|[0704](https://leetcode.com/problems/binary-search/description/)|[Binary Search](./0704-BinarySearch/) | Binary Search  | [C](./0704-BinarySearch/c/search_binary.c), [Python](./0704-BinarySearch/python/BinarySearch.py)|Easy|
-|[0707](https://leetcode.com/problems/design-linked-list/description/)|[Design Linked List](./0707-DesignLinkedList/) | Linked List | [C++](./0707-DesignLinkedList/cpp/DesignLinkedList.cpp)|Medium|
-|[0922](https://leetcode.com/problems/sort-array-by-parity-ii/description/)|[SortArrayByParityII](./0922_SortArrayByParityII/) | Two Pointers, Zip | [C++](./0922_SortArrayByParityII/cpp/SortArrayByParityII.cpp), [Python](./0922_SortArrayByParityII/python/SortArrayByParityII.py)|Easy|
 |[0941](https://leetcode.com/problems/valid-mountain-array/description/)|[Valid Mountain Array](./0941_ValidMountainArray/) | Array | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
-|[1002](https://leetcode.com/problems/find-common-characters/description/)|[Find Common Characters](./1002-FindCommonCharacters/) | Hash Table | [C++](./1002-FindCommonCharacters/cpp/FindCommonCharacters.cpp)|Easy|
+|[1295](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[Find Numbers with Even Number of Digits](./1295-FindNumberswithEvenNumberofDigits/) | Math, String | [C++](./1295-FindNumberswithEvenNumberofDigits/cpp/FindNumberswithEvenNumberofDigits.cpp), [Python](./1295-FindNumberswithEvenNumberofDigits/python/FindNumberswithEvenNumberofDigits.py)|Easy|
 |[1480](https://leetcode.com/problems/running-sum-of-1d-array/description/)|[Running Sum of 1d Array](./1480-RunningSumOf1dArray/) | Array | [Python](./1480-RunningSumOf1dArray/python/RunningSumOf1dArray.py)|Easy|
 |[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | String | [Python](./1556-ThousandSperator/python/ThousandSeperator.py)|Easy|
+
+---  
+
+### **Two Pointers**
+| # | Title | Topics | Solutions | Difficulty |
+|---| ----- | -------- | -------- | ---------- |
+|[0009](https://leetcode.com/problems/palindrome-number/description/)|[Palindrome Number](./0009-PalindromeNumber/) | Two Pointers | [Python](./0009-PalindromeNumber/python/PalindromeNumber.py)|Easy|
+|[0011](https://leetcode.com/problems/container-with-most-water/description/)|[Container With Most Water](./0011-ContainerWithMostWater/) | Two Pointers | [C++](./0011-ContainerWithMostWater/cpp/ContainerWithMostWater.cpp)|Medium|
+|[0015](https://leetcode.com/problems/3sum/description/)|[3Sum](./0015-3Sum/) | Two Pointers | [C++](./0015-3Sum/cpp/3Sum.cpp)|Medium|
+|[0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|[Remove Nth Node From End of List](./0019-RemoveNthNodeFromEndofList/) | Two Pointers | [C++](./0019-RemoveNthNodeFromEndofList/cpp/RemoveNthNodeFromEndofList.cpp)|Medium|
+|[0027](https://leetcode.com/problems/remove-element/description/)|[Remove Element](./0027-RemoveElement/) | Two Pointers | [C++](./0027-RemoveElement/cpp/RemoveElement.cpp)|Easy|
+|[0042](https://leetcode.com/problems/trapping-rain-water/description/)|[Trapping Rain Water](./0042-TrappingRainWater/) | Two Pointers | [C++](./0042-TrappingRainWater/cpp/TrappingRainWater.cpp)|Hard|
+|[0088](https://leetcode.com/problems/merge-sorted-array/description/)|[Merge Sorted Array](./0088_MergeSortedArray/) | Two Pointers, Sorting | [C++](./0088_MergeSortedArray/cpp/mergeSortedArray.cpp), [Python](./0088_MergeSortedArray/python/mergeSortedArray.py)|Easy|
+|[0125](https://leetcode.com/problems/valid-palindrome/description/)|[Valid Palindrome](./0125-ValidPalindrome/) | Two Pointers | [C](./0125-ValidPalindrome/c/validPalindrome.c), [C++](./0125-ValidPalindrome/c++/validPalindrome.cpp)|Easy|
+|[0167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|[Two Sum II - Input Array Is Sorted](./0167-TwoSumII-InputArrayIsSorted/) | Two Pointers | [C++](./0167-TwoSumII-InputArrayIsSorted/cpp/TwoSumII-InputArrayIsSorted.cpp)|Medium|
+|[0283](https://leetcode.com/problems/move-zeroes/description/)|[Move Zeroes](./0283-MoveZeroes/) | Two Pointers | [C++](./0283-MoveZeroes/cpp/MoveZeroes.cpp), [Python](./0283-MoveZeroes/python/MoveZeroes.py)|Easy|
+|[0344](https://leetcode.com/problems/reverse-string/description/)|[Reverse String](./0344_ReverseString/) | Two Pointers | [C++](./0344_ReverseString/cpp/ReverseString.cpp)|Easy|
+|[0541](https://leetcode.com/problems/reverse-string-ii/description/)|[Reverse String II](./0541-ReverseStringII/) | Two Pointers | [Python](./0541-ReverseStringII/pyhon/ReverseStringII.py)|Easy|
+|[0557](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)|[Reverse Words in a String III](./0557-ReverseWordsInAStringIII/) | Two Pointers | [Python](./0557-ReverseWordsInAStringIII/pyhon/ReverseWordsInAStringIII.py)|Easy|
+|[0922](https://leetcode.com/problems/sort-array-by-parity-ii/description/)|[SortArrayByParityII](./0922_SortArrayByParityII/) | Two Pointers, Zip | [C++](./0922_SortArrayByParityII/cpp/SortArrayByParityII.cpp), [Python](./0922_SortArrayByParityII/python/SortArrayByParityII.py)|Easy|
+
+---  
+
+### **Hash Table**
+| # | Title | Topics | Solutions | Difficulty |
+|---| ----- | -------- | -------- | ---------- |
+|[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./0001-TwoSum/)| Array, Hash Table | [C](./0001-TwoSum/c/TwoSum.c), [C++](./0001-TwoSum/cpp/TwoSum.cpp), [Python](./0001-TwoSum/python/TwoSum.py)|Easy|
+|[0036](https://leetcode.com/problems/valid-sudoku/description/)|[Valid Sudoku](./0036-ValidSudoku/) | Hash Table | [C++](./0036-ValidSudoku/cpp/ValidSudoku.cpp)|Medium|
+|[0049](https://leetcode.com/problems/group-anagrams/description/)|[Group Anagrams](./0049-GroupAnagrams/) | Hash Table, Sorting | [C++](./0049-GroupAnagrams/cpp/GroupAnagrams.cpp)|Medium|
+|[0136](https://leetcode.com/problems/single-number/description/)|[Single Number](./0136-SingleNumber/) | Hash Table | [Python](./0136-SingleNumber/python/SingleNumber.py)|Easy|
+|[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./0169-MajorityElement/) | Hash Table | [Python](./0169-MajorityElement/python/MajorityElement.py)|Easy|
+|[0217](https://leetcode.com/problems/contains-duplicate/description/)|[Contains Duplicate](./0217-ContainsDuplicate/) | Sorting, Hash Table | [C++](./0217-ContainsDuplicate/cpp/containsDuplicate.cpp), [Python](./0217-ContainsDuplicate/python/ContainsDuplicate.py)|Easy|
+|[0242](https://leetcode.com/problems/valid-anagram/description/)|[Valid Anagram](./0242-ValidAnagram/) | Hash Table | [C++](./0242-ValidAnagram/cpp/ValidAnagram.cpp), [Python](./0242-ValidAnagram/python/ValidAnagram.py)|Easy|
+|[0349](https://leetcode.com/problems/intersection-of-two-arrays/description/)|[Intersection of Two Arrays](./0349-IntersectionOfTwoArrays/) | Hash Table | [C++](./0349-IntersectionOfTwoArrays/cpp/IntersectionOfTwoArrays.cpp)|Easy|
+|[0383](https://leetcode.com/problems/ransom-note/description/)|[Ransom Note](./0383-RansomNote/) | Hash Table | [C++](./0383-RansomNote/cpp/RansomNote.cpp)|Easy|
+|[0387](https://leetcode.com/problems/first-unique-character-in-a-string/description/)|[First Unique Character in a String](./0387-FirstUniqueCharacter/) | Hash Table, Queue | [C++](./0387-FirstUniqueCharacter/cpp/FirstUniqueCharacter.cpp), [Python](./0387-FirstUniqueCharacter/pyhon/FirstUniqueCharacter.py)|Easy|
+|[1002](https://leetcode.com/problems/find-common-characters/description/)|[Find Common Characters](./1002-FindCommonCharacters/) | Hash Table | [C++](./1002-FindCommonCharacters/cpp/FindCommonCharacters.cpp)|Easy|
+
+---  
+
+### **Sliding Window**
+| # | Title | Topics | Solutions | Difficulty |
+|---| ----- | -------- | -------- | ---------- |
+|[0003](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)|[Longest Substring Without Repeating Characters](./0003-LongestSubstringWithoutRepeatingCharacters/) | Sliding Window | [Python](./0003-LongestSubstringWithoutRepeatingCharacters/python/LongestSubstringWithoutRepeatingCharacters.py)|Medium|
+|[0121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)|[Best Time to Buy and Sell Stock](./0121-BestTimetoBuyandSellStock/) | Sliding Window | [C++](./0121-BestTimetoBuyandSellStock/cpp/BestTimetoBuyandSellStock.cpp), [Python](./0121-BestTimetoBuyandSellStock/python/BestTimetoBuyandSellStock.py)|Easy|
+|[0209](https://leetcode.com/problems/minimum-size-subarray-sum/description/)|[Minimum Size Subarray Sum](./0209-MinimumSizeSubarraySum/) | Sliding Window | [C++](./0209-MinimumSizeSubarraySum/cpp/MinimumSizeSubarraySum.cpp)|Medium|
 |[1876](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/description/)|[Substrings of Size Three with Distinct Characters](./1876-SubstringsofSizeThreewithDistinctCharacters/) | Sliding Window, Hash Table | [C++](./1876-SubstringsofSizeThreewithDistinctCharacters/cpp/SubstringsofSizeThreewithDistinctCharacters.cpp), [Python](./1876-SubstringsofSizeThreewithDistinctCharacters/python/SubstringsofSizeThreewithDistinctCharacters.py)|Easy|
 
+---  
+
+### **Linked List**
+| # | Title | Topics | Solutions | Difficulty |
+|---| ----- | -------- | -------- | ---------- |
+|[0203](https://leetcode.com/problems/remove-linked-list-elements/description/)|[Remove Linked List Elements](./0203-RemoveLinkedListElements/) | Linked List | [C++](./0203-RemoveLinkedListElements/cpp/RemoveLinkedListElements.cpp)|Easy|
+|[0206](https://leetcode.com/problems/reverse-linked-list/description/)|[Reverse Linked List](./0206-ReverseLinkedList/) | Linked List | [C++](./0206-ReverseLinkedList/cpp/ReverseLinkedList.cpp)|Easy|
+|[0707](https://leetcode.com/problems/design-linked-list/description/)|[Design Linked List](./0707-DesignLinkedList/) | Linked List | [C++](./0707-DesignLinkedList/cpp/DesignLinkedList.cpp)|Medium|
+
+---  
+
+### **Stack**
+| # | Title | Topics | Solutions | Difficulty |
+|---| ----- | -------- | -------- | ---------- |
+|[0020](https://leetcode.com/problems/valid-parentheses/description/)|[Valid Parentheses](./0020-ValidParentheses/) | Stack | [C++](./0020-ValidParentheses/cpp/ValidParentheses.cpp), [Python](./0020-ValidParentheses/python/ValidParentheses.py)|Easy|
+
+---  
+
+### **Binary Search**
+| # | Title | Topics | Solutions | Difficulty |
+|---| ----- | -------- | -------- | ---------- |
+|[0704](https://leetcode.com/problems/binary-search/description/)|[Binary Search](./0704-BinarySearch/) | Binary Search  | [C](./0704-BinarySearch/c/search_binary.c), [Python](./0704-BinarySearch/python/BinarySearch.py)|Easy|
+
+---  
+
+### **Tree**
+| # | Title | Topics | Solutions | Difficulty |
+|---| ----- | -------- | -------- | ---------- |
+|[0226](https://leetcode.com/problems/invert-binary-tree/description/)|[Invert Binary Tree](./0226-InvertBinaryTree/) | Tree, Recursive | [Python](./0226-InvertBinaryTree/python/InvertBinaryTree.py)|Easy|
+
+---  
 
 ### **DataBase**
 | # | Title | Topics | Solutions | Difficulty |

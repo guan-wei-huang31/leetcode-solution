@@ -47,7 +47,7 @@ This project provides a solution to the Find Numbers with Even Number of Digits 
 - Time Complexity: O(n)  
   - Each number is converted to a string in O(log n) time.
   - Since the number of digits is at most 10 (2³¹ - 1 fits in int), this is effectively O(n).
-- Space Complexity: O(n)
+- Space Complexity: O(1)
   - (no extra storage apart from variables).
   
 ### **Math Approach (Python)**
@@ -67,7 +67,7 @@ This project provides a solution to the Find Numbers with Even Number of Digits 
   
 - Time Complexity: O(n)  
   - iterate once
-- Space Complexity: O(n)
+- Space Complexity: O(1)
   - (no extra storage apart from variables).
 ---
 
