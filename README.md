@@ -13,9 +13,9 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-72%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-53-19A974)
-![Static Badge](https://img.shields.io/badge/Medium-18-F38020)
+![Progress](https://img.shields.io/badge/Progress-75%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-55-19A974)
+![Static Badge](https://img.shields.io/badge/Medium-19-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
 ---
@@ -75,6 +75,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0349](https://leetcode.com/problems/intersection-of-two-arrays/description/)|[Intersection of Two Arrays](./0349-IntersectionOfTwoArrays/) | Hash Table | [C++](./0349-IntersectionOfTwoArrays/cpp/IntersectionOfTwoArrays.cpp)|Easy|
 |[0383](https://leetcode.com/problems/ransom-note/description/)|[Ransom Note](./0383-RansomNote/) | Hash Table | [C++](./0383-RansomNote/cpp/RansomNote.cpp)|Easy|
 |[0387](https://leetcode.com/problems/first-unique-character-in-a-string/description/)|[First Unique Character in a String](./0387-FirstUniqueCharacter/) | Hash Table, Queue | [C++](./0387-FirstUniqueCharacter/cpp/FirstUniqueCharacter.cpp), [Python](./0387-FirstUniqueCharacter/pyhon/FirstUniqueCharacter.py)|Easy|
+|[0575](https://leetcode.com/problems/distribute-candies/)|[Distribute Candies](./0575-DistributeCandies/) | Hash Table | [C++](./0575-DistributeCandies/cpp/DistributeCandies.cpp)|Easy|
 |[1002](https://leetcode.com/problems/find-common-characters/description/)|[Find Common Characters](./1002-FindCommonCharacters/) | Hash Table | [C++](./1002-FindCommonCharacters/cpp/FindCommonCharacters.cpp)|Easy|
 |[1512](https://leetcode.com/problems/number-of-good-pairs/description/)|[Number of Good Pairs](./1512-NumberofGoodPairs/) | Hash Table | [C++](./1512-NumberofGoodPairs/cpp/NumberofGoodPairs.cpp)|Easy|
 
@@ -104,6 +105,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0203](https://leetcode.com/problems/remove-linked-list-elements/description/)|[Remove Linked List Elements](./0203-RemoveLinkedListElements/) | Linked List | [C++](./0203-RemoveLinkedListElements/cpp/RemoveLinkedListElements.cpp)|Easy|
 |[0206](https://leetcode.com/problems/reverse-linked-list/description/)|[Reverse Linked List](./0206-ReverseLinkedList/) | Linked List | [C++](./0206-ReverseLinkedList/cpp/ReverseLinkedList.cpp)|Easy|
 |[0707](https://leetcode.com/problems/design-linked-list/description/)|[Design Linked List](./0707-DesignLinkedList/) | Linked List | [C++](./0707-DesignLinkedList/cpp/DesignLinkedList.cpp)|Medium|
+|[0876](https://leetcode.com/problems/middle-of-the-linked-list/description/)|[Design Linked List](./0876-MiddleoftheLinkedList/) | Linked List, Two Pointers | [C++](./0876-MiddleoftheLinkedList/cpp/MiddleoftheLinkedList.cpp)|Easy|
 
 ---  
 
@@ -161,6 +163,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[1148](https://leetcode.com/problems/article-views-i/description/)|[Article Views I](./1148-ArticleViewsI/) | Database | [Oracle SQL](./1148-ArticleViewsI/Oracle/ArticleViewsI.sql)|Easy|
 |[1174](https://leetcode.com/problems/immediate-food-delivery-ii/description/)|[Immediate Food Delivery II](./1174-ImmediateFoodDeliveryII/) | Database | [Oracle SQL](./1174-ImmediateFoodDeliveryII/Oracle/ImmediateFoodDeliveryII.sql)|Medium|
 |[1193](https://leetcode.com/problems/monthly-transactions-i/description/)|[Monthly Transactions I](./1193-MonthlyTransactionsI/) | Database | [Oracle SQL](./1193-MonthlyTransactionsI/Oracle/MonthlyTransactionsI.sql)|Medium|
+|[1204](https://leetcode.com/problems/last-person-to-fit-in-the-bus/description/)|[Last Person to Fit in the Bus](./1204-LastPersontoFitintheBus/) | Database | [Oracle SQL](./1204-LastPersontoFitintheBus/Oracle/LastPersontoFitintheBus.sql)|Medium|
 |[1211](https://leetcode.com/problems/queries-quality-and-percentage/description/)|[Queries Quality and Percentage](./1211-QueriesQualityandPercentage/) | Database | [Oracle SQL](./1211-QueriesQualityandPercentage/Oracle/QueriesQualityandPercentage.sql)|Easy|
 |[1251](https://leetcode.com/problems/average-selling-price/description/)|[Average Selling Price](./1251-AverageSellingPrice/) | Database | [Oracle SQL](./1251-AverageSellingPrice/Oracle/AverageSellingPrice.sql)|Easy|
 |[1280](https://leetcode.com/problems/students-and-examinations/description/)|[Students and Examinations](./1280-StudentsandExaminations/) | Database | [Oracle SQL](./1280-StudentsandExaminations/Oracle/StudentsandExaminations.sql)|Easy|
