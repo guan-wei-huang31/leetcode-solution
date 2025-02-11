@@ -13,9 +13,9 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-75%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-55-19A974)
-![Static Badge](https://img.shields.io/badge/Medium-19-F38020)
+![Progress](https://img.shields.io/badge/Progress-78%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-57-19A974)
+![Static Badge](https://img.shields.io/badge/Medium-20-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
 ---
@@ -26,10 +26,12 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0013](https://leetcode.com/problems/roman-to-integer/description/)|[Roman to Integer](./0013-RomanToInteger/) | String | [Python](./0013-RomanToInteger/python/RomanToInteger.py)|Easy|
 |[0059](https://leetcode.com/problems/spiral-matrix-ii/description/)|[Spiral Matrix II](./0059-SpiralMatrixII/) | Matrix | [C++](./0059-SpiralMatrixII/cpp/SpiralMatrixII.cpp)|Medium|
 |[0485](https://leetcode.com/problems/max-consecutive-ones/description/)|[Max Consecutive Ones](./0485-MaxConsecutiveOnes/) | Array | [Python](./0485-MaxConsecutiveOnes/python/MaxConsecutiveOnes.py)|Easy|
+|[0796](https://leetcode.com/problems/rotate-string/description/)|[Rotate String](./0796-RotateString/) | String | [C++](./0796-RotateString/cpp/RotateString.cpp)|Easy|
 |[0941](https://leetcode.com/problems/valid-mountain-array/description/)|[Valid Mountain Array](./0941_ValidMountainArray/) | Array | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
 |[0977](https://leetcode.com/problems/squares-of-a-sorted-array/description/)|[Squares of a Sorted Array](./0977_SquaresOfASortedArray/) | Array, Sorting | [C++](./0977_SquaresOfASortedArray/cpp/SquaresOfASortedArray.cpp)|Easy|
 |[1295](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[Find Numbers with Even Number of Digits](./1295-FindNumberswithEvenNumberofDigits/) | Math, String | [C++](./1295-FindNumberswithEvenNumberofDigits/cpp/FindNumberswithEvenNumberofDigits.cpp), [Python](./1295-FindNumberswithEvenNumberofDigits/python/FindNumberswithEvenNumberofDigits.py)|Easy|
 |[1480](https://leetcode.com/problems/running-sum-of-1d-array/description/)|[Running Sum of 1d Array](./1480-RunningSumOf1dArray/) | Array | [Python](./1480-RunningSumOf1dArray/python/RunningSumOf1dArray.py)|Easy|
+|[1464](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/)|[Maximum Product of Two Elements in an Array](./1464-MaximumProductofTwoElementsinanArray/) | Array | [C++](./1464-MaximumProductofTwoElementsinanArray/cpp/RunningSumOf1dArray.cpp)|Easy|
 |[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | String | [Python](./1556-ThousandSperator/python/ThousandSeperator.py)|Easy|
 
 ---  
@@ -155,6 +157,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0596](https://leetcode.com/problems/classes-more-than-5-students/description/)|[Classes More Than 5 Students](./0596-ClassesMoreThan5Students/) | Database | [Oracle SQL](./0596-ClassesMoreThan5Students/Oracle/ClassesMoreThan5Students.sql)|Easy|
 |[0619](https://leetcode.com/problems/biggest-single-number/description/)|[Biggest Single Number](./0619-BiggestSingleNumber/) | Database | [Oracle SQL](./0619-BiggestSingleNumber/Oracle/BiggestSingleNumber.sql)|Easy|
 |[0620](https://leetcode.com/problems/not-boring-movies/description/)|[Not Boring Movies](./0620-NotBoringMovies/) | Database | [PostgreSQL](./0620-NotBoringMovies/PostgreSQL/NotBoringMovies.sql)|Easy|
+|[0626](https://leetcode.com/problems/exchange-seats/description/)|[Exchange Seats](./0626-ExchangeSeats/) | Database | [Oracle SQL](./0626-ExchangeSeats/Oracle/ExchangeSeats.sql)|Medium|
 |[1045](https://leetcode.com/problems/customers-who-bought-all-products/description/)|[Customers Who Bought All Products](./1045-CustomersWhoBoughtAllProducts/) | Database | [Oracle SQL](./1045-CustomersWhoBoughtAllProducts/Oracle/CustomersWhoBoughtAllProducts.sql)|Medium|
 |[1068](https://leetcode.com/problems/product-sales-analysis-i/description/)|[Product Sales Analysis I](./1068-ProductSalesAnalysisI/) | Database | [MySQL](./1068-ProductSalesAnalysisI/MySQL/ProductSalesAnalysisI.sql)|Easy|
 |[1070](https://leetcode.com/problems/product-sales-analysis-iii/description/)|[Product Sales Analysis III](./1070-ProductSalesAnalysisIII/) | Database | [Oracle SQL](./1070-ProductSalesAnalysisIII/Oracle/ProductSalesAnalysisIII.sql)|Medium|
