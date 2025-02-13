@@ -13,9 +13,9 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-78%2F3445-025E8C)
+![Progress](https://img.shields.io/badge/Progress-81%2F3445-025E8C)
 ![Static Badge](https://img.shields.io/badge/Easy-57-19A974)
-![Static Badge](https://img.shields.io/badge/Medium-20-F38020)
+![Static Badge](https://img.shields.io/badge/Medium-23-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
 ---
@@ -31,7 +31,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0977](https://leetcode.com/problems/squares-of-a-sorted-array/description/)|[Squares of a Sorted Array](./0977_SquaresOfASortedArray/) | Array, Sorting | [C++](./0977_SquaresOfASortedArray/cpp/SquaresOfASortedArray.cpp)|Easy|
 |[1295](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[Find Numbers with Even Number of Digits](./1295-FindNumberswithEvenNumberofDigits/) | Math, String | [C++](./1295-FindNumberswithEvenNumberofDigits/cpp/FindNumberswithEvenNumberofDigits.cpp), [Python](./1295-FindNumberswithEvenNumberofDigits/python/FindNumberswithEvenNumberofDigits.py)|Easy|
 |[1480](https://leetcode.com/problems/running-sum-of-1d-array/description/)|[Running Sum of 1d Array](./1480-RunningSumOf1dArray/) | Array | [Python](./1480-RunningSumOf1dArray/python/RunningSumOf1dArray.py)|Easy|
-|[1464](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/)|[Maximum Product of Two Elements in an Array](./1464-MaximumProductofTwoElementsinanArray/) | Array | [C++](./1464-MaximumProductofTwoElementsinanArray/cpp/RunningSumOf1dArray.cpp)|Easy|
+|[1464](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/)|[Maximum Product of Two Elements in an Array](./1464-MaximumProductofTwoElementsinanArray/) | Array | [C++](./1464-MaximumProductofTwoElementsinanArray/cpp/MaximumProductofTwoElementsinanArray.cpp)|Easy|
 |[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | String | [Python](./1556-ThousandSperator/python/ThousandSeperator.py)|Easy|
 
 ---  
@@ -70,6 +70,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./0001-TwoSum/)| Array, Hash Table | [C](./0001-TwoSum/c/TwoSum.c), [C++](./0001-TwoSum/cpp/TwoSum.cpp), [Python](./0001-TwoSum/python/TwoSum.py)|Easy|
 |[0036](https://leetcode.com/problems/valid-sudoku/description/)|[Valid Sudoku](./0036-ValidSudoku/) | Hash Table | [C++](./0036-ValidSudoku/cpp/ValidSudoku.cpp)|Medium|
 |[0049](https://leetcode.com/problems/group-anagrams/description/)|[Group Anagrams](./0049-GroupAnagrams/) | Hash Table, Sorting | [C++](./0049-GroupAnagrams/cpp/GroupAnagrams.cpp)|Medium|
+|[0128](https://leetcode.com/problems/longest-consecutive-sequence/)|[Longest Consecutive Sequence](./0128-LongestConsecutiveSequence/) | Hash Table | [C++](./0128-LongestConsecutiveSequence/cpp/LongestConsecutiveSequence.cpp)|Medium|
 |[0136](https://leetcode.com/problems/single-number/description/)|[Single Number](./0136-SingleNumber/) | Hash Table | [Python](./0136-SingleNumber/python/SingleNumber.py)|Easy|
 |[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./0169-MajorityElement/) | Hash Table | [Python](./0169-MajorityElement/python/MajorityElement.py)|Easy|
 |[0217](https://leetcode.com/problems/contains-duplicate/description/)|[Contains Duplicate](./0217-ContainsDuplicate/) | Sorting, Hash Table | [C++](./0217-ContainsDuplicate/cpp/containsDuplicate.cpp), [Python](./0217-ContainsDuplicate/python/ContainsDuplicate.py)|Easy|
@@ -119,6 +120,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
 |[0020](https://leetcode.com/problems/valid-parentheses/description/)|[Valid Parentheses](./0020-ValidParentheses/) | Stack | [C++](./0020-ValidParentheses/cpp/ValidParentheses.cpp), [Python](./0020-ValidParentheses/python/ValidParentheses.py)|Easy|
+|[0150](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)|[Evaluate Reverse Polish Notation](./0150-EvaluateReversePolishNotation/) | Stack | [C++](./0150-EvaluateReversePolishNotation/cpp/EvaluateReversePolishNotation.cpp)|Medium|
 |[0155](https://leetcode.com/problems/min-stack/description/)|[Min Stack](./0155-MinStack/) | Stack | [C++](./0155-MinStack/cpp/MinStack.cpp)|Medium|
 
 ---  
@@ -148,6 +150,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 ### **DataBase**
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
+|[0180](https://leetcode.com/problems/consecutive-numbers/description/)|[Consecutive Numbers](./0180-ConsecutiveNumbers/) | Database | [Oracle SQL](./0180-ConsecutiveNumbers/Oracle/ConsecutiveNumbers.sql)|Medium|
 |[0197](https://leetcode.com/problems/rising-temperature/description/)|[Rising Temperature](./0197-RisingTemperature/) | Database | [MySQL](./0197-RisingTemperature/MySQL/RisingTemperature.sql)|Easy|
 |[0550](https://leetcode.com/problems/game-play-analysis-iv/description/)|[Game Play Analysis IV](./0550-GamePlayAnalysisIV/) | Database | [Oracle SQL](./0550-GamePlayAnalysisIV/Oracle/GamePlayAnalysisIV.sql)|Medium|
 |[0577](https://leetcode.com/problems/employee-bonus/description/)|[Employee Bonus](./0577-EmployeeBonus/) | Database | [Oracle SQL](./0577-EmployeeBonus/Oracle/EmployeeBonus.sql)|Easy|
