@@ -13,9 +13,9 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-81%2F3445-025E8C)
+![Progress](https://img.shields.io/badge/Progress-84%2F3445-025E8C)
 ![Static Badge](https://img.shields.io/badge/Easy-57-19A974)
-![Static Badge](https://img.shields.io/badge/Medium-23-F38020)
+![Static Badge](https://img.shields.io/badge/Medium-26-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
 ---
@@ -25,6 +25,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |---| ----- | -------- | -------- | ---------- |
 |[0013](https://leetcode.com/problems/roman-to-integer/description/)|[Roman to Integer](./0013-RomanToInteger/) | String | [Python](./0013-RomanToInteger/python/RomanToInteger.py)|Easy|
 |[0059](https://leetcode.com/problems/spiral-matrix-ii/description/)|[Spiral Matrix II](./0059-SpiralMatrixII/) | Matrix | [C++](./0059-SpiralMatrixII/cpp/SpiralMatrixII.cpp)|Medium|
+|[0238](https://leetcode.com/problems/product-of-array-except-self/description/)|[Product of Array Except Self](./0238-ProductofArrayExceptSelf/) | Array | [C++](./0238-ProductofArrayExceptSelf/cpp/ProductofArrayExceptSelf.cpp)|Medium|
 |[0485](https://leetcode.com/problems/max-consecutive-ones/description/)|[Max Consecutive Ones](./0485-MaxConsecutiveOnes/) | Array | [Python](./0485-MaxConsecutiveOnes/python/MaxConsecutiveOnes.py)|Easy|
 |[0796](https://leetcode.com/problems/rotate-string/description/)|[Rotate String](./0796-RotateString/) | String | [C++](./0796-RotateString/cpp/RotateString.cpp)|Easy|
 |[0941](https://leetcode.com/problems/valid-mountain-array/description/)|[Valid Mountain Array](./0941_ValidMountainArray/) | Array | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
@@ -75,6 +76,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./0169-MajorityElement/) | Hash Table | [Python](./0169-MajorityElement/python/MajorityElement.py)|Easy|
 |[0217](https://leetcode.com/problems/contains-duplicate/description/)|[Contains Duplicate](./0217-ContainsDuplicate/) | Sorting, Hash Table | [C++](./0217-ContainsDuplicate/cpp/containsDuplicate.cpp), [Python](./0217-ContainsDuplicate/python/ContainsDuplicate.py)|Easy|
 |[0242](https://leetcode.com/problems/valid-anagram/description/)|[Valid Anagram](./0242-ValidAnagram/) | Hash Table | [C++](./0242-ValidAnagram/cpp/ValidAnagram.cpp), [Python](./0242-ValidAnagram/python/ValidAnagram.py)|Easy|
+|[0347](https://leetcode.com/problems/top-k-frequent-elements/description/)|[Top K Frequent Elements](./0347-TopKFrequentElements/) | Hash Table | [C++](./0347-TopKFrequentElements/cpp/TopKFrequentElements.cpp)|Medium|
 |[0349](https://leetcode.com/problems/intersection-of-two-arrays/description/)|[Intersection of Two Arrays](./0349-IntersectionOfTwoArrays/) | Hash Table | [C++](./0349-IntersectionOfTwoArrays/cpp/IntersectionOfTwoArrays.cpp)|Easy|
 |[0383](https://leetcode.com/problems/ransom-note/description/)|[Ransom Note](./0383-RansomNote/) | Hash Table | [C++](./0383-RansomNote/cpp/RansomNote.cpp)|Easy|
 |[0387](https://leetcode.com/problems/first-unique-character-in-a-string/description/)|[First Unique Character in a String](./0387-FirstUniqueCharacter/) | Hash Table, Queue | [C++](./0387-FirstUniqueCharacter/cpp/FirstUniqueCharacter.cpp), [Python](./0387-FirstUniqueCharacter/pyhon/FirstUniqueCharacter.py)|Easy|
@@ -94,6 +96,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0003](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)|[Longest Substring Without Repeating Characters](./0003-LongestSubstringWithoutRepeatingCharacters/) | Sliding Window | [Python](./0003-LongestSubstringWithoutRepeatingCharacters/python/LongestSubstringWithoutRepeatingCharacters.py)|Medium|
 |[0121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)|[Best Time to Buy and Sell Stock](./0121-BestTimetoBuyandSellStock/) | Sliding Window | [C++](./0121-BestTimetoBuyandSellStock/cpp/BestTimetoBuyandSellStock.cpp), [Python](./0121-BestTimetoBuyandSellStock/python/BestTimetoBuyandSellStock.py)|Easy|
 |[0209](https://leetcode.com/problems/minimum-size-subarray-sum/description/)|[Minimum Size Subarray Sum](./0209-MinimumSizeSubarraySum/) | Sliding Window | [C++](./0209-MinimumSizeSubarraySum/cpp/MinimumSizeSubarraySum.cpp)|Medium|
+|[0209](https://leetcode.com/problems/longest-repeating-character-replacement/description/)|[Longest Repeating Character Replacement](./0424-LongestRepeatingCharacterReplacement/) | Sliding Window, Hash Map | [C++](./0424-LongestRepeatingCharacterReplacement/cpp/LongestRepeatingCharacterReplacement.cpp)|Medium|
 |[1876](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/description/)|[Substrings of Size Three with Distinct Characters](./1876-SubstringsofSizeThreewithDistinctCharacters/) | Sliding Window, Hash Table | [C++](./1876-SubstringsofSizeThreewithDistinctCharacters/cpp/SubstringsofSizeThreewithDistinctCharacters.cpp), [Python](./1876-SubstringsofSizeThreewithDistinctCharacters/python/SubstringsofSizeThreewithDistinctCharacters.py)|Easy|
 
 ---  
