@@ -13,9 +13,9 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-84%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-57-19A974)
-![Static Badge](https://img.shields.io/badge/Medium-26-F38020)
+![Progress](https://img.shields.io/badge/Progress-87%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-59-19A974)
+![Static Badge](https://img.shields.io/badge/Medium-27-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
 ---
@@ -124,6 +124,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |---| ----- | -------- | -------- | ---------- |
 |[0020](https://leetcode.com/problems/valid-parentheses/description/)|[Valid Parentheses](./0020-ValidParentheses/) | Stack | [C++](./0020-ValidParentheses/cpp/ValidParentheses.cpp), [Python](./0020-ValidParentheses/python/ValidParentheses.py)|Easy|
 |[0150](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)|[Evaluate Reverse Polish Notation](./0150-EvaluateReversePolishNotation/) | Stack | [C++](./0150-EvaluateReversePolishNotation/cpp/EvaluateReversePolishNotation.cpp)|Medium|
+|[0739](https://leetcode.com/problems/daily-temperatures/description/)|[Daily Temperatures](./0739-DailyTemperatures/) | Stack | [C++](./0739-DailyTemperatures/cpp/DailyTemperatures.cpp)|Medium|
 |[0155](https://leetcode.com/problems/min-stack/description/)|[Min Stack](./0155-MinStack/) | Stack | [C++](./0155-MinStack/cpp/MinStack.cpp)|Medium|
 
 ---  
@@ -154,6 +155,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
 |[0180](https://leetcode.com/problems/consecutive-numbers/description/)|[Consecutive Numbers](./0180-ConsecutiveNumbers/) | Database | [Oracle SQL](./0180-ConsecutiveNumbers/Oracle/ConsecutiveNumbers.sql)|Medium|
+|[0196](https://leetcode.com/problems/delete-duplicate-emails/description/)|[Delete Duplicate Emails](./0196-DeleteDuplicateEmails/) | Database | [Oracle SQL](./0196-DeleteDuplicateEmails/Oracle/DeleteDuplicateEmails.sql)|Easy|
 |[0197](https://leetcode.com/problems/rising-temperature/description/)|[Rising Temperature](./0197-RisingTemperature/) | Database | [MySQL](./0197-RisingTemperature/MySQL/RisingTemperature.sql)|Easy|
 |[0550](https://leetcode.com/problems/game-play-analysis-iv/description/)|[Game Play Analysis IV](./0550-GamePlayAnalysisIV/) | Database | [Oracle SQL](./0550-GamePlayAnalysisIV/Oracle/GamePlayAnalysisIV.sql)|Medium|
 |[0577](https://leetcode.com/problems/employee-bonus/description/)|[Employee Bonus](./0577-EmployeeBonus/) | Database | [Oracle SQL](./0577-EmployeeBonus/Oracle/EmployeeBonus.sql)|Easy|
@@ -161,6 +163,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0584](https://leetcode.com/problems/find-customer-referee/description/)|[Find Customer Referee](./0584-FindCustomerReferee/) | Database | [Oracle SQL](./0584-FindCustomerReferee/Oracle/FindCustomerReferee.sql)|Easy|
 |[0595](https://leetcode.com/problems/big-countries/description/)|[Big Countries](./0595-BigCountries/) | Database | [Oracle SQL](./0595-BigCountries/Oracle/BigCountries.sql)|Easy|
 |[0596](https://leetcode.com/problems/classes-more-than-5-students/description/)|[Classes More Than 5 Students](./0596-ClassesMoreThan5Students/) | Database | [Oracle SQL](./0596-ClassesMoreThan5Students/Oracle/ClassesMoreThan5Students.sql)|Easy|
+|[0610](https://leetcode.com/problems/triangle-judgement/description/)|[Triangle Judgement](./0610-TriangleJudgement/) | Database | [Oracle SQL](./0610-TriangleJudgement/Oracle/TriangleJudgement.sql)|Easy|
 |[0619](https://leetcode.com/problems/biggest-single-number/description/)|[Biggest Single Number](./0619-BiggestSingleNumber/) | Database | [Oracle SQL](./0619-BiggestSingleNumber/Oracle/BiggestSingleNumber.sql)|Easy|
 |[0620](https://leetcode.com/problems/not-boring-movies/description/)|[Not Boring Movies](./0620-NotBoringMovies/) | Database | [PostgreSQL](./0620-NotBoringMovies/PostgreSQL/NotBoringMovies.sql)|Easy|
 |[0626](https://leetcode.com/problems/exchange-seats/description/)|[Exchange Seats](./0626-ExchangeSeats/) | Database | [Oracle SQL](./0626-ExchangeSeats/Oracle/ExchangeSeats.sql)|Medium|
