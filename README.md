@@ -13,8 +13,8 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-90%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-61-19A974)
+![Progress](https://img.shields.io/badge/Progress-93%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-64-19A974)
 ![Static Badge](https://img.shields.io/badge/Medium-28-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
@@ -31,8 +31,11 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0941](https://leetcode.com/problems/valid-mountain-array/description/)|[Valid Mountain Array](./0941_ValidMountainArray/) | Array | [C++](./0941_ValidMountainArray/cpp/ValidMountainArray.cpp), [Python](./0941_ValidMountainArray/python/ValidMountainArray.py)|Easy|
 |[0977](https://leetcode.com/problems/squares-of-a-sorted-array/description/)|[Squares of a Sorted Array](./0977_SquaresOfASortedArray/) | Array, Sorting | [C++](./0977_SquaresOfASortedArray/cpp/SquaresOfASortedArray.cpp)|Easy|
 |[1295](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[Find Numbers with Even Number of Digits](./1295-FindNumberswithEvenNumberofDigits/) | Math, String | [C++](./1295-FindNumberswithEvenNumberofDigits/cpp/FindNumberswithEvenNumberofDigits.cpp), [Python](./1295-FindNumberswithEvenNumberofDigits/python/FindNumberswithEvenNumberofDigits.py)|Easy|
+|[1446](https://leetcode.com/problems/consecutive-characters/description/)|[Consecutive Characters](./1446-ConsecutiveCharacters/) | String | [C++](./1446-ConsecutiveCharacters/cpp/ConsecutiveCharacters.cpp)|Easy|
+|[1450](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/description/)|[Number of Students Doing Homework at a Given Time](./1450-NumberofStudentsDoingHomeworkataGivenTime/) | Array | [C++](./1450-NumberofStudentsDoingHomeworkataGivenTime/cpp/NumberofStudentsDoingHomeworkataGivenTime.cpp)|Easy|
 |[1480](https://leetcode.com/problems/running-sum-of-1d-array/description/)|[Running Sum of 1d Array](./1480-RunningSumOf1dArray/) | Array | [Python](./1480-RunningSumOf1dArray/python/RunningSumOf1dArray.py)|Easy|
 |[1464](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/)|[Maximum Product of Two Elements in an Array](./1464-MaximumProductofTwoElementsinanArray/) | Array | [C++](./1464-MaximumProductofTwoElementsinanArray/cpp/MaximumProductofTwoElementsinanArray.cpp)|Easy|
+|[1523](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|[Count Odd Numbers in an Interval Range](./1523-CountOddNumbersinanIntervalRange/) | Math | [C++](./1523-CountOddNumbersinanIntervalRange/cpp/CountOddNumbersinanIntervalRange.cpp)|Easy|
 |[1556](https://leetcode.com/problems/thousand-separator/description/)|[Thousand Separator](./1556-ThousandSperator/) | String | [Python](./1556-ThousandSperator/python/ThousandSeperator.py)|Easy|
 
 ---  
