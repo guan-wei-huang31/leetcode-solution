@@ -13,9 +13,9 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-87%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-59-19A974)
-![Static Badge](https://img.shields.io/badge/Medium-27-F38020)
+![Progress](https://img.shields.io/badge/Progress-90%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-61-19A974)
+![Static Badge](https://img.shields.io/badge/Medium-28-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
 ---
@@ -82,6 +82,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0387](https://leetcode.com/problems/first-unique-character-in-a-string/description/)|[First Unique Character in a String](./0387-FirstUniqueCharacter/) | Hash Table, Queue | [C++](./0387-FirstUniqueCharacter/cpp/FirstUniqueCharacter.cpp), [Python](./0387-FirstUniqueCharacter/pyhon/FirstUniqueCharacter.py)|Easy|
 |[0575](https://leetcode.com/problems/distribute-candies/)|[Distribute Candies](./0575-DistributeCandies/) | Hash Table | [C++](./0575-DistributeCandies/cpp/DistributeCandies.cpp)|Easy|
 |[1002](https://leetcode.com/problems/find-common-characters/description/)|[Find Common Characters](./1002-FindCommonCharacters/) | Hash Table | [C++](./1002-FindCommonCharacters/cpp/FindCommonCharacters.cpp)|Easy|
+|[1128](https://leetcode.com/problems/number-of-equivalent-domino-pairs/description/)|[Number of Equivalent Domino Pairs](./1128-NumberofEquivalentDominoPairs/) | Hash Table | [C++](./1128-NumberofEquivalentDominoPairs/cpp/NumberofEquivalentDominoPairs.cpp)|Easy|
 |[1512](https://leetcode.com/problems/number-of-good-pairs/description/)|[Number of Good Pairs](./1512-NumberofGoodPairs/) | Hash Table | [C++](./1512-NumberofGoodPairs/cpp/NumberofGoodPairs.cpp)|Easy|
 
 ---  
@@ -124,8 +125,8 @@ This repository is a work in progress as I continuously tackle new challenges an
 |---| ----- | -------- | -------- | ---------- |
 |[0020](https://leetcode.com/problems/valid-parentheses/description/)|[Valid Parentheses](./0020-ValidParentheses/) | Stack | [C++](./0020-ValidParentheses/cpp/ValidParentheses.cpp), [Python](./0020-ValidParentheses/python/ValidParentheses.py)|Easy|
 |[0150](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)|[Evaluate Reverse Polish Notation](./0150-EvaluateReversePolishNotation/) | Stack | [C++](./0150-EvaluateReversePolishNotation/cpp/EvaluateReversePolishNotation.cpp)|Medium|
-|[0739](https://leetcode.com/problems/daily-temperatures/description/)|[Daily Temperatures](./0739-DailyTemperatures/) | Stack | [C++](./0739-DailyTemperatures/cpp/DailyTemperatures.cpp)|Medium|
 |[0155](https://leetcode.com/problems/min-stack/description/)|[Min Stack](./0155-MinStack/) | Stack | [C++](./0155-MinStack/cpp/MinStack.cpp)|Medium|
+|[0739](https://leetcode.com/problems/daily-temperatures/description/)|[Daily Temperatures](./0739-DailyTemperatures/) | Stack | [C++](./0739-DailyTemperatures/cpp/DailyTemperatures.cpp)|Medium|
 
 ---  
 
@@ -151,6 +152,17 @@ This repository is a work in progress as I continuously tackle new challenges an
 
 ---  
 
+### **Bit Manipulation**
+- The problem involves direct binary representation manipulation (e.g., bitwise AND, OR, XOR, shifts).
+- You need to efficiently modify or check individual bits in an integer.
+- You aim to optimize operations like division, multiplication, or counting set bits using bitwise techniques.  
+
+| # | Title | Topics | Solutions | Difficulty |
+|---| ----- | -------- | -------- | ---------- |
+|[1342](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/)|[Number of Steps to Reduce a Number to Zero](./1342-NumberofStepstoReduceaNumbertoZero/) | Bit Manipulation | [C++](./1342-NumberofStepstoReduceaNumbertoZero/cpp/NumberofStepstoReduceaNumbertoZero.cpp)|Easy|
+
+--- 
+
 ### **DataBase**
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
@@ -173,6 +185,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[1075](https://leetcode.com/problems/project-employees-i/description/)|[Project Employees I](./1075-ProjectEmployeesI/) | Database | [Oracle SQL](./1075-ProjectEmployeesI/Oracle/ProjectEmployeesI.sql)|Easy|
 |[1141](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/description/)|[User Activity for the Past 30 Days I](./1141-UserActivityforthePast30DaysI/) | Database | [Oracle SQL](./1141-UserActivityforthePast30DaysI/Oracle/UserActivityforthePast30DaysI.sql)|Easy|
 |[1148](https://leetcode.com/problems/article-views-i/description/)|[Article Views I](./1148-ArticleViewsI/) | Database | [Oracle SQL](./1148-ArticleViewsI/Oracle/ArticleViewsI.sql)|Easy|
+|[1164](https://leetcode.com/problems/product-price-at-a-given-date/description/)|[Product Price at a Given Date](./1164-ProductPriceataGivenDate/) | Database | [Oracle SQL](./1164-ProductPriceataGivenDate/Oracle/ProductPriceataGivenDate.sql)|Medium|
 |[1174](https://leetcode.com/problems/immediate-food-delivery-ii/description/)|[Immediate Food Delivery II](./1174-ImmediateFoodDeliveryII/) | Database | [Oracle SQL](./1174-ImmediateFoodDeliveryII/Oracle/ImmediateFoodDeliveryII.sql)|Medium|
 |[1193](https://leetcode.com/problems/monthly-transactions-i/description/)|[Monthly Transactions I](./1193-MonthlyTransactionsI/) | Database | [Oracle SQL](./1193-MonthlyTransactionsI/Oracle/MonthlyTransactionsI.sql)|Medium|
 |[1204](https://leetcode.com/problems/last-person-to-fit-in-the-bus/description/)|[Last Person to Fit in the Bus](./1204-LastPersontoFitintheBus/) | Database | [Oracle SQL](./1204-LastPersontoFitintheBus/Oracle/LastPersontoFitintheBus.sql)|Medium|
