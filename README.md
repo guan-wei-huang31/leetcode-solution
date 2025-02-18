@@ -13,8 +13,8 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-93%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-64-19A974)
+![Progress](https://img.shields.io/badge/Progress-96%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-67-19A974)
 ![Static Badge](https://img.shields.io/badge/Medium-28-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
@@ -196,8 +196,11 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[1251](https://leetcode.com/problems/average-selling-price/description/)|[Average Selling Price](./1251-AverageSellingPrice/) | Database | [Oracle SQL](./1251-AverageSellingPrice/Oracle/AverageSellingPrice.sql)|Easy|
 |[1280](https://leetcode.com/problems/students-and-examinations/description/)|[Students and Examinations](./1280-StudentsandExaminations/) | Database | [Oracle SQL](./1280-StudentsandExaminations/Oracle/StudentsandExaminations.sql)|Easy|
 |[1378](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/)|[Replace Employee ID With The Unique Identifier](./1378-ReplaceEmployeeIDWithTheUniqueIdentifier/) | Database | [MySQL](./1378-ReplaceEmployeeIDWithTheUniqueIdentifier/MySQL/ReplaceEmployeeIDWithTheUniqueIdentifier.sql)|Easy|
+|[1527](https://leetcode.com/problems/patients-with-a-condition/description/)|[Patients With a Condition](./1527-PatientsWithaCondition/) | Database | [Oracle SQL](./1527-PatientsWithaCondition/Oracle/PatientsWithaCondition.sql)|Easy|
 |[1581](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/description/)|[Customer Who Visited but Did Not Make Any Transactions](./1581-CustomerWhoVisitedbutDidNotMakeAnyTransactions/) | Database | [MySQL](./1581-CustomerWhoVisitedbutDidNotMakeAnyTransactions/MySQL/CustomerWhoVisitedbutDidNotMakeAnyTransactions.sql)|Easy|
 |[1633](https://leetcode.com/problems/percentage-of-users-attended-a-contest/description/)|[Percentage of Users Attended a Contest](./1633-PercentageofUsersAttendedaContest/) | Database | [Oracle SQL](./1633-PercentageofUsersAttendedaContest/Oracle/PercentageofUsersAttendedaContest.sql)|Easy|
+|[1661](https://leetcode.com/problems/average-time-of-process-per-machine/description/)|[Average Time of Process per Machine](./1661-AverageTimeofProcessperMachine/) | Database | [Oracle SQL](./1661-AverageTimeofProcessperMachine/Oracle/AverageTimeofProcessperMachine.sql)|Easy|
+|[1667](https://leetcode.com/problems/fix-names-in-a-table/description/)|[Fix Names in a Table](./1667-FixNamesinaTable/) | Database | [Oracle SQL](./1667-FixNamesinaTable/Oracle/FixNamesinaTable.sql)|Easy|
 |[1683](https://leetcode.com/problems/invalid-tweets/description/)|[Invalid Tweets](./1683-InvalidTweets/) | Database | [Oracle SQL](./1683-InvalidTweets/Oracle/InvalidTweets.sql)|Easy|
 |[1757](https://leetcode.com/problems/recyclable-and-low-fat-products/description/)|[Recyclable and Low Fat Products](./1757-RecyclableandLowFatProducts/) | Database | [Oracle SQL](./1757-RecyclableandLowFatProducts/Oracle/RecyclableandLowFatProducts.sql)|Easy|
 |[1934](https://leetcode.com/problems/confirmation-rate/description/)|[Confirmation Rate](./1934-ConfirmationRate/) | Database | [Oracle SQL](./1934-ConfirmationRate/Oracle/ConfirmationRate.sql)|Medium|
