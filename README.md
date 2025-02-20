@@ -13,8 +13,8 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-96%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-67-19A974)
+![Progress](https://img.shields.io/badge/Progress-99%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-70-19A974)
 ![Static Badge](https://img.shields.io/badge/Medium-28-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
@@ -202,7 +202,10 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[1661](https://leetcode.com/problems/average-time-of-process-per-machine/description/)|[Average Time of Process per Machine](./1661-AverageTimeofProcessperMachine/) | Database | [Oracle SQL](./1661-AverageTimeofProcessperMachine/Oracle/AverageTimeofProcessperMachine.sql)|Easy|
 |[1667](https://leetcode.com/problems/fix-names-in-a-table/description/)|[Fix Names in a Table](./1667-FixNamesinaTable/) | Database | [Oracle SQL](./1667-FixNamesinaTable/Oracle/FixNamesinaTable.sql)|Easy|
 |[1683](https://leetcode.com/problems/invalid-tweets/description/)|[Invalid Tweets](./1683-InvalidTweets/) | Database | [Oracle SQL](./1683-InvalidTweets/Oracle/InvalidTweets.sql)|Easy|
+|[1729](https://leetcode.com/problems/find-followers-count/)|[Find Followers Count](./1729-FindFollowersCount/) | Database | [Oracle SQL](./1729-FindFollowersCount/Oracle/FindFollowersCount.sql)|Easy|
+|[1731](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/description/)|[The Number of Employees Which Report to Each Employee](./1731-TheNumberofEmployeesWhichReporttoEachEmployee/) | Database | [Oracle SQL](./1731-TheNumberofEmployeesWhichReporttoEachEmployee/Oracle/TheNumberofEmployeesWhichReporttoEachEmployee.sql)|Easy|
 |[1757](https://leetcode.com/problems/recyclable-and-low-fat-products/description/)|[Recyclable and Low Fat Products](./1757-RecyclableandLowFatProducts/) | Database | [Oracle SQL](./1757-RecyclableandLowFatProducts/Oracle/RecyclableandLowFatProducts.sql)|Easy|
+|[1789](https://leetcode.com/problems/primary-department-for-each-employee/description/)|[Primary Department for Each Employee](./1789-PrimaryDepartmentforEachEmployee/) | Database | [Oracle SQL](./1789-PrimaryDepartmentforEachEmployee/Oracle/PrimaryDepartmentforEachEmployee.sql)|Easy|
 |[1934](https://leetcode.com/problems/confirmation-rate/description/)|[Confirmation Rate](./1934-ConfirmationRate/) | Database | [Oracle SQL](./1934-ConfirmationRate/Oracle/ConfirmationRate.sql)|Medium|
 |[2356](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/description/)|[Number of Unique Subjects Taught by Each Teacher](./2356-NumberofUniqueSubjectsTaughtbyEachTeacher/) | Database | [Oracle SQL](./2356-NumberofUniqueSubjectsTaughtbyEachTeacher/Oracle/NumberofUniqueSubjectsTaughtbyEachTeacher.sql)|Easy|
 
