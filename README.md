@@ -13,8 +13,8 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-99%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-70-19A974)
+![Progress](https://img.shields.io/badge/Progress-102%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-73-19A974)
 ![Static Badge](https://img.shields.io/badge/Medium-28-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
@@ -169,7 +169,9 @@ This repository is a work in progress as I continuously tackle new challenges an
 ### **DataBase**
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
+|[0175](https://leetcode.com/problems/combine-two-tables/description/)|[Combine Two Tables](./0175-CombineTwoTables/) | Database | [Oracle SQL](./0175-CombineTwoTables/Oracle/CombineTwoTables.sql)|Easy|
 |[0180](https://leetcode.com/problems/consecutive-numbers/description/)|[Consecutive Numbers](./0180-ConsecutiveNumbers/) | Database | [Oracle SQL](./0180-ConsecutiveNumbers/Oracle/ConsecutiveNumbers.sql)|Medium|
+|[0181](https://leetcode.com/problems/employees-earning-more-than-their-managers/description/)|[Employees Earning More Than Their Managers](./0181-EmployeesEarningMoreThanTheirManagers/) | Database | [Oracle SQL](./0181-EmployeesEarningMoreThanTheirManagers/Oracle/EmployeesEarningMoreThanTheirManagers.sql)|Easy|
 |[0196](https://leetcode.com/problems/delete-duplicate-emails/description/)|[Delete Duplicate Emails](./0196-DeleteDuplicateEmails/) | Database | [Oracle SQL](./0196-DeleteDuplicateEmails/Oracle/DeleteDuplicateEmails.sql)|Easy|
 |[0197](https://leetcode.com/problems/rising-temperature/description/)|[Rising Temperature](./0197-RisingTemperature/) | Database | [MySQL](./0197-RisingTemperature/MySQL/RisingTemperature.sql)|Easy|
 |[0550](https://leetcode.com/problems/game-play-analysis-iv/description/)|[Game Play Analysis IV](./0550-GamePlayAnalysisIV/) | Database | [Oracle SQL](./0550-GamePlayAnalysisIV/Oracle/GamePlayAnalysisIV.sql)|Medium|
@@ -207,6 +209,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[1757](https://leetcode.com/problems/recyclable-and-low-fat-products/description/)|[Recyclable and Low Fat Products](./1757-RecyclableandLowFatProducts/) | Database | [Oracle SQL](./1757-RecyclableandLowFatProducts/Oracle/RecyclableandLowFatProducts.sql)|Easy|
 |[1789](https://leetcode.com/problems/primary-department-for-each-employee/description/)|[Primary Department for Each Employee](./1789-PrimaryDepartmentforEachEmployee/) | Database | [Oracle SQL](./1789-PrimaryDepartmentforEachEmployee/Oracle/PrimaryDepartmentforEachEmployee.sql)|Easy|
 |[1934](https://leetcode.com/problems/confirmation-rate/description/)|[Confirmation Rate](./1934-ConfirmationRate/) | Database | [Oracle SQL](./1934-ConfirmationRate/Oracle/ConfirmationRate.sql)|Medium|
+|[1978](https://leetcode.com/problems/employees-whose-manager-left-the-company/description/)|[Employees Whose Manager Left the Company](./1978-EmployeesWhoseManagerLefttheCompany/) | Database | [Oracle SQL](./1978-EmployeesWhoseManagerLefttheCompany/Oracle/EmployeesWhoseManagerLefttheCompany.sql)|Easy|
 |[2356](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/description/)|[Number of Unique Subjects Taught by Each Teacher](./2356-NumberofUniqueSubjectsTaughtbyEachTeacher/) | Database | [Oracle SQL](./2356-NumberofUniqueSubjectsTaughtbyEachTeacher/Oracle/NumberofUniqueSubjectsTaughtbyEachTeacher.sql)|Easy|
 
 ---
