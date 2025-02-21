@@ -1,0 +1,4 @@
+SELECT email
+FROM Person
+GROUP BY emaiL
+HAVING COUNT(id) > 1;
