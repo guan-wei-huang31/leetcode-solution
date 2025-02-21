@@ -13,8 +13,8 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-102%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-73-19A974)
+![Progress](https://img.shields.io/badge/Progress-105%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-76-19A974)
 ![Static Badge](https://img.shields.io/badge/Medium-28-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
@@ -172,8 +172,11 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0175](https://leetcode.com/problems/combine-two-tables/description/)|[Combine Two Tables](./0175-CombineTwoTables/) | Database | [Oracle SQL](./0175-CombineTwoTables/Oracle/CombineTwoTables.sql)|Easy|
 |[0180](https://leetcode.com/problems/consecutive-numbers/description/)|[Consecutive Numbers](./0180-ConsecutiveNumbers/) | Database | [Oracle SQL](./0180-ConsecutiveNumbers/Oracle/ConsecutiveNumbers.sql)|Medium|
 |[0181](https://leetcode.com/problems/employees-earning-more-than-their-managers/description/)|[Employees Earning More Than Their Managers](./0181-EmployeesEarningMoreThanTheirManagers/) | Database | [Oracle SQL](./0181-EmployeesEarningMoreThanTheirManagers/Oracle/EmployeesEarningMoreThanTheirManagers.sql)|Easy|
+|[0182](https://leetcode.com/problems/duplicate-emails/description/)|[Duplicate Emails](./0182-DuplicateEmails/) | Database | [Oracle SQL](./0182-DuplicateEmails/Oracle/DuplicateEmails.sql)|Easy|
+|[0183](https://leetcode.com/problems/customers-who-never-order/description/)|[Customers Who Never Order](./0183-CustomersWhoNeverOrder/) | Database | [Oracle SQL](./0183-CustomersWhoNeverOrder/Oracle/CustomersWhoNeverOrder.sql)|Easy|
 |[0196](https://leetcode.com/problems/delete-duplicate-emails/description/)|[Delete Duplicate Emails](./0196-DeleteDuplicateEmails/) | Database | [Oracle SQL](./0196-DeleteDuplicateEmails/Oracle/DeleteDuplicateEmails.sql)|Easy|
 |[0197](https://leetcode.com/problems/rising-temperature/description/)|[Rising Temperature](./0197-RisingTemperature/) | Database | [MySQL](./0197-RisingTemperature/MySQL/RisingTemperature.sql)|Easy|
+|[0511](https://leetcode.com/problems/game-play-analysis-i/description/)|[Game Play Analysis I](./0511-GamePlayAnalysisI/) | Database | [Oracle SQL](./0511-GamePlayAnalysisI/Oracle/GamePlayAnalysisI.sql)|Easy|
 |[0550](https://leetcode.com/problems/game-play-analysis-iv/description/)|[Game Play Analysis IV](./0550-GamePlayAnalysisIV/) | Database | [Oracle SQL](./0550-GamePlayAnalysisIV/Oracle/GamePlayAnalysisIV.sql)|Medium|
 |[0577](https://leetcode.com/problems/employee-bonus/description/)|[Employee Bonus](./0577-EmployeeBonus/) | Database | [Oracle SQL](./0577-EmployeeBonus/Oracle/EmployeeBonus.sql)|Easy|
 |[0570](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/description/)|[Managers with at Least 5 Direct Reports](./0570-ManagerswithatLeast5DirectReports/) | Database | [Oracle SQL](./0570-ManagerswithatLeast5DirectReports/Oracle/ManagerswithatLeast5DirectReports.sql)|Medium|
