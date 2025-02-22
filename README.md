@@ -13,9 +13,9 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-105%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-76-19A974)
-![Static Badge](https://img.shields.io/badge/Medium-28-F38020)
+![Progress](https://img.shields.io/badge/Progress-108%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-78-19A974)
+![Static Badge](https://img.shields.io/badge/Medium-29-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
 ---
@@ -112,8 +112,11 @@ This repository is a work in progress as I continuously tackle new challenges an
 
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
+|[0021](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists](./0021-MergeTwoSortedLists/) | Linked List | [C++](./0021-MergeTwoSortedLists/cpp/MergeTwoSortedLists.cpp), [Python](./0021-MergeTwoSortedLists/python/MergeTwoSortedLists.py)|Easy|
+|[0141](https://leetcode.com/problems/linked-list-cycle/description/)|[Linked List Cycle](./0141-LinkedListCycle/) | Linked List | [C++](./0141-LinkedListCycle/cpp/LinkedListCycle.cpp), [Python](./0141-LinkedListCycle/python/LinkedListCycle.py)|Easy|
+|[0143](https://leetcode.com/problems/reorder-list/)|[Reorder List](./0143-ReorderList/) | Linked List | [Python](./0143-ReorderList/python/ReorderList.py)|Medium|
 |[0203](https://leetcode.com/problems/remove-linked-list-elements/description/)|[Remove Linked List Elements](./0203-RemoveLinkedListElements/) | Linked List | [C++](./0203-RemoveLinkedListElements/cpp/RemoveLinkedListElements.cpp)|Easy|
-|[0206](https://leetcode.com/problems/reverse-linked-list/description/)|[Reverse Linked List](./0206-ReverseLinkedList/) | Linked List | [C++](./0206-ReverseLinkedList/cpp/ReverseLinkedList.cpp)|Easy|
+|[0206](https://leetcode.com/problems/reverse-linked-list/description/)|[Reverse Linked List](./0206-ReverseLinkedList/) | Linked List | [C++](./0206-ReverseLinkedList/cpp/ReverseLinkedList.cpp), [Python](./0206-ReverseLinkedList/python/ReverseLinkedList.py)|Easy|
 |[0707](https://leetcode.com/problems/design-linked-list/description/)|[Design Linked List](./0707-DesignLinkedList/) | Linked List | [C++](./0707-DesignLinkedList/cpp/DesignLinkedList.cpp)|Medium|
 |[0876](https://leetcode.com/problems/middle-of-the-linked-list/description/)|[Design Linked List](./0876-MiddleoftheLinkedList/) | Linked List, Two Pointers | [C++](./0876-MiddleoftheLinkedList/cpp/MiddleoftheLinkedList.cpp)|Easy|
 
