@@ -114,11 +114,11 @@ This repository is a work in progress as I continuously tackle new challenges an
 |---| ----- | -------- | -------- | ---------- |
 |[0021](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists](./0021-MergeTwoSortedLists/) | Linked List | [C++](./0021-MergeTwoSortedLists/cpp/MergeTwoSortedLists.cpp), [Python](./0021-MergeTwoSortedLists/python/MergeTwoSortedLists.py)|Easy|
 |[0141](https://leetcode.com/problems/linked-list-cycle/description/)|[Linked List Cycle](./0141-LinkedListCycle/) | Linked List | [C++](./0141-LinkedListCycle/cpp/LinkedListCycle.cpp), [Python](./0141-LinkedListCycle/python/LinkedListCycle.py)|Easy|
-|[0143](https://leetcode.com/problems/reorder-list/)|[Reorder List](./0143-ReorderList/) | Linked List | [Python](./0143-ReorderList/python/ReorderList.py)|Medium|
+|[0143](https://leetcode.com/problems/reorder-list/)|[Reorder List](./0143-ReorderList/) | Linked List | [C++](./0143-ReorderList/cpp/ReorderList.cpp), [Python](./0143-ReorderList/python/ReorderList.py)|Medium|
 |[0203](https://leetcode.com/problems/remove-linked-list-elements/description/)|[Remove Linked List Elements](./0203-RemoveLinkedListElements/) | Linked List | [C++](./0203-RemoveLinkedListElements/cpp/RemoveLinkedListElements.cpp)|Easy|
 |[0206](https://leetcode.com/problems/reverse-linked-list/description/)|[Reverse Linked List](./0206-ReverseLinkedList/) | Linked List | [C++](./0206-ReverseLinkedList/cpp/ReverseLinkedList.cpp), [Python](./0206-ReverseLinkedList/python/ReverseLinkedList.py)|Easy|
 |[0707](https://leetcode.com/problems/design-linked-list/description/)|[Design Linked List](./0707-DesignLinkedList/) | Linked List | [C++](./0707-DesignLinkedList/cpp/DesignLinkedList.cpp)|Medium|
-|[0876](https://leetcode.com/problems/middle-of-the-linked-list/description/)|[Design Linked List](./0876-MiddleoftheLinkedList/) | Linked List, Two Pointers | [C++](./0876-MiddleoftheLinkedList/cpp/MiddleoftheLinkedList.cpp)|Easy|
+|[0876](https://leetcode.com/problems/middle-of-the-linked-list/description/)|[Middle of the Linked List](./0876-MiddleoftheLinkedList/) | Linked List, Two Pointers | [C++](./0876-MiddleoftheLinkedList/cpp/MiddleoftheLinkedList.cpp)|Easy|
 
 ---  
 

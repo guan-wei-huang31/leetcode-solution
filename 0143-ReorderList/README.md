@@ -16,7 +16,7 @@ Given a singly linked list head, reorder it in-place such that the nodes appear 
 ---
 
 ## **Solutions Overview**
-### **Three-Step Approach (Python)**
+### **Three-Step Approach (C++)**
 This solution reorders the linked list in three steps:
 
 1. Find the middle of the list using the slow and fast pointer technique.
@@ -28,6 +28,56 @@ This solution reorders the linked list in three steps:
    - The original second half [4, 5] becomes [5, 4].
 3. Merge the first and second halves in an alternating pattern.
    - Take one node from the first half, then one from the second half, and repeat.
+ 
+- Language: C++
+- Code:
+  ```
+  class Solution {
+  public:
+      void reorderList(ListNode* head) {
+  		if (!head || !head->next) return;
+          // Find middle point
+          ListNode* slow = head;
+          ListNode* fast = head;
+          while(fast && fast->next){
+              slow = slow->next;
+              fast = fast->next->next;
+          }
+  
+          // Reverse second part
+          ListNode* second = slow->next;
+          slow->next = nullptr;
+          ListNode* prev = nullptr;
+          while(second){
+              ListNode* temp = second->next;
+              second->next = prev;
+              prev = second;
+              second = temp;
+          }
+  
+          // Merge prev and first
+          ListNode* first = head;
+          while(prev){
+              ListNode* temp1 = first->next;
+              ListNode* temp2 = prev->next;
+              first->next = prev;
+              prev->next = temp1;
+              first = temp1;
+              prev = temp2;
+          }
+      }
+  };
+  ```
+- Time Complexity: O(n)  
+  1. Finding the middle: O(n)
+  2. Reversing the second half: O(n)
+  3. Merging the two halves: O(n)
+  4. Total: O(n)
+- Space Complexity: O(1) 
+  The algorithm modifies the lists in-place. 
+  
+### **Three-Step Approach (Python)**
+This Python implementation follows the same logic as the C++ version:
  
 - Language: Python
 - Code:
