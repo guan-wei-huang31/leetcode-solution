@@ -13,8 +13,8 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-108%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-78-19A974)
+![Progress](https://img.shields.io/badge/Progress-111%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-81-19A974)
 ![Static Badge](https://img.shields.io/badge/Medium-29-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
@@ -186,11 +186,14 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[0584](https://leetcode.com/problems/find-customer-referee/description/)|[Find Customer Referee](./0584-FindCustomerReferee/) | Database | [Oracle SQL](./0584-FindCustomerReferee/Oracle/FindCustomerReferee.sql)|Easy|
 |[0595](https://leetcode.com/problems/big-countries/description/)|[Big Countries](./0595-BigCountries/) | Database | [Oracle SQL](./0595-BigCountries/Oracle/BigCountries.sql)|Easy|
 |[0596](https://leetcode.com/problems/classes-more-than-5-students/description/)|[Classes More Than 5 Students](./0596-ClassesMoreThan5Students/) | Database | [Oracle SQL](./0596-ClassesMoreThan5Students/Oracle/ClassesMoreThan5Students.sql)|Easy|
+|[0607](https://leetcode.com/problems/sales-person/description/)|[Sales Person](./0607-SalesPerson/) | Database | [Oracle SQL](./0607-SalesPerson/Oracle/SalesPerson.sql)|Easy|
 |[0610](https://leetcode.com/problems/triangle-judgement/description/)|[Triangle Judgement](./0610-TriangleJudgement/) | Database | [Oracle SQL](./0610-TriangleJudgement/Oracle/TriangleJudgement.sql)|Easy|
 |[0619](https://leetcode.com/problems/biggest-single-number/description/)|[Biggest Single Number](./0619-BiggestSingleNumber/) | Database | [Oracle SQL](./0619-BiggestSingleNumber/Oracle/BiggestSingleNumber.sql)|Easy|
 |[0620](https://leetcode.com/problems/not-boring-movies/description/)|[Not Boring Movies](./0620-NotBoringMovies/) | Database | [PostgreSQL](./0620-NotBoringMovies/PostgreSQL/NotBoringMovies.sql)|Easy|
 |[0626](https://leetcode.com/problems/exchange-seats/description/)|[Exchange Seats](./0626-ExchangeSeats/) | Database | [Oracle SQL](./0626-ExchangeSeats/Oracle/ExchangeSeats.sql)|Medium|
+|[0627](https://leetcode.com/problems/swap-salary/)|[Swap Salary](./0627-SwapSalary/) | Database | [Oracle SQL](./0627-SwapSalary/Oracle/SwapSalary.sql)|Easy|
 |[1045](https://leetcode.com/problems/customers-who-bought-all-products/description/)|[Customers Who Bought All Products](./1045-CustomersWhoBoughtAllProducts/) | Database | [Oracle SQL](./1045-CustomersWhoBoughtAllProducts/Oracle/CustomersWhoBoughtAllProducts.sql)|Medium|
+|[1050](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/description/)|[Actors and Directors Who Cooperated At Least Three Times](./1050-ActorsandDirectorsWhoCooperatedAtLeastThreeTimes/) | Database | [Oracle SQL](./1050-ActorsandDirectorsWhoCooperatedAtLeastThreeTimes/Oracle/ActorsandDirectorsWhoCooperatedAtLeastThreeTimes.sql)|Easy|
 |[1068](https://leetcode.com/problems/product-sales-analysis-i/description/)|[Product Sales Analysis I](./1068-ProductSalesAnalysisI/) | Database | [MySQL](./1068-ProductSalesAnalysisI/MySQL/ProductSalesAnalysisI.sql)|Easy|
 |[1070](https://leetcode.com/problems/product-sales-analysis-iii/description/)|[Product Sales Analysis III](./1070-ProductSalesAnalysisIII/) | Database | [Oracle SQL](./1070-ProductSalesAnalysisIII/Oracle/ProductSalesAnalysisIII.sql)|Medium|
 |[1075](https://leetcode.com/problems/project-employees-i/description/)|[Project Employees I](./1075-ProjectEmployeesI/) | Database | [Oracle SQL](./1075-ProjectEmployeesI/Oracle/ProjectEmployeesI.sql)|Easy|
