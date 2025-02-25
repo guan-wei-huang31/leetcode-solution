@@ -25,16 +25,21 @@ This solution uses a dummy node and two pointers (ptr_r and ptr_l) to find the n
           ListNode* ptr_r = dummy;
           ListNode* ptr_l = dummy;
   
-          while (n-- && ptr_r != nullptr) {
+          for (int i = 0; i <= n; i++) {
               ptr_r = ptr_r->next;
           }
-          ptr_r = ptr_r->next;
-          while (ptr_r) {
+  
+          while(ptr_r){
               ptr_r = ptr_r->next;
               ptr_l = ptr_l->next;
           }
-          ptr_l->next = ptr_l->next->next;
-          return dummy->next;
+          ListNode* toDelete = ptr_l->next;
+          ptr_l->next = toDelete->next;
+          delete toDelete; 
+          
+          ListNode* newHead = dummy->next;
+          delete dummy;
+          return newHead;
       }
   };
   ```
@@ -43,13 +48,40 @@ This solution uses a dummy node and two pointers (ptr_r and ptr_l) to find the n
 - Space Complexity: O(1)  
   As no additional data structures proportional to the size of the input are used.
 
+### **Two-Pointer Approach (Python)**
+This solution is the same as C++
+
+- Language: Python
+- Code:
+  ```
+  class Solution:
+      def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+          dummy = ListNode(0,head)
+          ptr_r = dummy
+          ptr_l = dummy
+          for _ in range(n+1):
+              ptr_r = ptr_r.next
+          
+          while ptr_r:
+              ptr_r = ptr_r.next
+              ptr_l = ptr_l.next
+          
+          ptr_l.next = ptr_l.next.next
+          return dummy.next
+  ```
+- Time Complexity: O(n)
+  The list is traversed twice (once to move ptr_r and once for both pointers together).
+- Space Complexity: O(1)  
+  As no additional data structures proportional to the size of the input are used.
+
+
 ---
 
 ## **Conclusion**
 The two-pointer approach is efficient for removing the n-th node from the end of a linked list. By leveraging a dummy node, the solution ensures edge cases such as removing the head node are handled seamlessly. This method is optimal in both time and space complexity.  
 
 ### **Future Plans**
-- Add more solutions using other languages like Python and Java.
+- Add more solutions using other languages like Java.
 - Implement automated tests to ensure correctness across edge cases.
 - Explore alternative algorithms to further optimize the performance for larger datasets.
 

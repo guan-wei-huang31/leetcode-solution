@@ -13,9 +13,9 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-111%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-81-19A974)
-![Static Badge](https://img.shields.io/badge/Medium-29-F38020)
+![Progress](https://img.shields.io/badge/Progress-113%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-82-19A974)
+![Static Badge](https://img.shields.io/badge/Medium-30-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
 ---
@@ -113,6 +113,8 @@ This repository is a work in progress as I continuously tackle new challenges an
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
 |[0021](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists](./0021-MergeTwoSortedLists/) | Linked List | [C++](./0021-MergeTwoSortedLists/cpp/MergeTwoSortedLists.cpp), [Python](./0021-MergeTwoSortedLists/python/MergeTwoSortedLists.py)|Easy|
+|[0083](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove Duplicates from Sorted List](./0083-RemoveDuplicatesfromSortedList/) | Linked List | [Python](./0083-RemoveDuplicatesfromSortedList/python/RemoveDuplicatesfromSortedList.py)|Easy|
+|[0138](https://leetcode.com/problems/copy-list-with-random-pointer/description/)|[Copy List with Random Pointer](./0138-CopyListwithRandomPointer/) | Linked List | [Python](./0138-CopyListwithRandomPointer/python/CopyListwithRandomPointer.py)|Medium|
 |[0141](https://leetcode.com/problems/linked-list-cycle/description/)|[Linked List Cycle](./0141-LinkedListCycle/) | Linked List | [C++](./0141-LinkedListCycle/cpp/LinkedListCycle.cpp), [Python](./0141-LinkedListCycle/python/LinkedListCycle.py)|Easy|
 |[0143](https://leetcode.com/problems/reorder-list/)|[Reorder List](./0143-ReorderList/) | Linked List | [C++](./0143-ReorderList/cpp/ReorderList.cpp), [Python](./0143-ReorderList/python/ReorderList.py)|Medium|
 |[0203](https://leetcode.com/problems/remove-linked-list-elements/description/)|[Remove Linked List Elements](./0203-RemoveLinkedListElements/) | Linked List | [C++](./0203-RemoveLinkedListElements/cpp/RemoveLinkedListElements.cpp)|Easy|
