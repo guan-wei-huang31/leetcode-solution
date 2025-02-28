@@ -13,8 +13,8 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-113%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-82-19A974)
+![Progress](https://img.shields.io/badge/Progress-116%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-85-19A974)
 ![Static Badge](https://img.shields.io/badge/Medium-30-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
@@ -203,12 +203,15 @@ This repository is a work in progress as I continuously tackle new challenges an
 |[1148](https://leetcode.com/problems/article-views-i/description/)|[Article Views I](./1148-ArticleViewsI/) | Database | [Oracle SQL](./1148-ArticleViewsI/Oracle/ArticleViewsI.sql)|Easy|
 |[1164](https://leetcode.com/problems/product-price-at-a-given-date/description/)|[Product Price at a Given Date](./1164-ProductPriceataGivenDate/) | Database | [Oracle SQL](./1164-ProductPriceataGivenDate/Oracle/ProductPriceataGivenDate.sql)|Medium|
 |[1174](https://leetcode.com/problems/immediate-food-delivery-ii/description/)|[Immediate Food Delivery II](./1174-ImmediateFoodDeliveryII/) | Database | [Oracle SQL](./1174-ImmediateFoodDeliveryII/Oracle/ImmediateFoodDeliveryII.sql)|Medium|
+|[1179](https://leetcode.com/problems/reformat-department-table/description/)|[Reformat Department Table](./1179-ReformatDepartmentTable/) | Database | [Oracle SQL](./1179-ReformatDepartmentTable/Oracle/ReformatDepartmentTable.sql)|Easy|
 |[1193](https://leetcode.com/problems/monthly-transactions-i/description/)|[Monthly Transactions I](./1193-MonthlyTransactionsI/) | Database | [Oracle SQL](./1193-MonthlyTransactionsI/Oracle/MonthlyTransactionsI.sql)|Medium|
 |[1204](https://leetcode.com/problems/last-person-to-fit-in-the-bus/description/)|[Last Person to Fit in the Bus](./1204-LastPersontoFitintheBus/) | Database | [Oracle SQL](./1204-LastPersontoFitintheBus/Oracle/LastPersontoFitintheBus.sql)|Medium|
 |[1211](https://leetcode.com/problems/queries-quality-and-percentage/description/)|[Queries Quality and Percentage](./1211-QueriesQualityandPercentage/) | Database | [Oracle SQL](./1211-QueriesQualityandPercentage/Oracle/QueriesQualityandPercentage.sql)|Easy|
 |[1251](https://leetcode.com/problems/average-selling-price/description/)|[Average Selling Price](./1251-AverageSellingPrice/) | Database | [Oracle SQL](./1251-AverageSellingPrice/Oracle/AverageSellingPrice.sql)|Easy|
 |[1280](https://leetcode.com/problems/students-and-examinations/description/)|[Students and Examinations](./1280-StudentsandExaminations/) | Database | [Oracle SQL](./1280-StudentsandExaminations/Oracle/StudentsandExaminations.sql)|Easy|
+|[1327](https://leetcode.com/problems/list-the-products-ordered-in-a-period/description/)|[List the Products Ordered in a Period](./1327-ListtheProductsOrderedinaPeriod/) | Database | [Oracle SQL](./1327-ListtheProductsOrderedinaPeriod/Oracle/ListtheProductsOrderedinaPeriod.sql)|Easy|
 |[1378](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/)|[Replace Employee ID With The Unique Identifier](./1378-ReplaceEmployeeIDWithTheUniqueIdentifier/) | Database | [MySQL](./1378-ReplaceEmployeeIDWithTheUniqueIdentifier/MySQL/ReplaceEmployeeIDWithTheUniqueIdentifier.sql)|Easy|
+|[1517](https://leetcode.com/problems/find-users-with-valid-e-mails/description/)|[Find Users With Valid E-Mails](./1517-FindUsersWithValidE-Mails/) | Database | [Oracle SQL](./1517-FindUsersWithValidE-Mails/Oracle/FindUsersWithValidE-Mails.sql)|Easy|
 |[1527](https://leetcode.com/problems/patients-with-a-condition/description/)|[Patients With a Condition](./1527-PatientsWithaCondition/) | Database | [Oracle SQL](./1527-PatientsWithaCondition/Oracle/PatientsWithaCondition.sql)|Easy|
 |[1581](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/description/)|[Customer Who Visited but Did Not Make Any Transactions](./1581-CustomerWhoVisitedbutDidNotMakeAnyTransactions/) | Database | [MySQL](./1581-CustomerWhoVisitedbutDidNotMakeAnyTransactions/MySQL/CustomerWhoVisitedbutDidNotMakeAnyTransactions.sql)|Easy|
 |[1633](https://leetcode.com/problems/percentage-of-users-attended-a-contest/description/)|[Percentage of Users Attended a Contest](./1633-PercentageofUsersAttendedaContest/) | Database | [Oracle SQL](./1633-PercentageofUsersAttendedaContest/Oracle/PercentageofUsersAttendedaContest.sql)|Easy|
