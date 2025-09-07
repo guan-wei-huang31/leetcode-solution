@@ -13,8 +13,8 @@ This repository is a work in progress as I continuously tackle new challenges an
 ![Oracle](https://custom-icon-badges.demolab.com/badge/Oracle-F80000?logo=oracle&logoColor=fff)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)&nbsp;
 ![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)  
-![Progress](https://img.shields.io/badge/Progress-117%2F3445-025E8C)
-![Static Badge](https://img.shields.io/badge/Easy-87-19A974)
+![Progress](https://img.shields.io/badge/Progress-119%2F3445-025E8C)
+![Static Badge](https://img.shields.io/badge/Easy-88-19A974)
 ![Static Badge](https://img.shields.io/badge/Medium-30-F38020)
 ![Static Badge](https://img.shields.io/badge/Hard-1-%23E60000)
 
@@ -156,6 +156,7 @@ This repository is a work in progress as I continuously tackle new challenges an
 
 | # | Title | Topics | Solutions | Difficulty |
 |---| ----- | -------- | -------- | ---------- |
+|[0100](https://leetcode.com/problems/same-tree/description/)|[Same Tree](./0100-SameTree/) | Tree, Recursive | [Python](./0100-SameTree/python/SameTree.py)|Easy|
 |[0104](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)|[Maximum Depth of Binary Tree](./0104-MaximumDepthofBinaryTree/) | Tree, Recursive | [Python](./0104-MaximumDepthofBinaryTree/python/MaximumDepthofBinaryTree.py)|Easy|
 |[0226](https://leetcode.com/problems/invert-binary-tree/description/)|[Invert Binary Tree](./0226-InvertBinaryTree/) | Tree, Recursive | [Python](./0226-InvertBinaryTree/python/InvertBinaryTree.py)|Easy|
 |[0572](https://leetcode.com/problems/subtree-of-another-tree/description/)|[Subtree of Another Tree](./0572-SubtreeofAnotherTree/) | Tree, Recursive | [Python](./0572-SubtreeofAnotherTree/python/SubtreeofAnotherTree.py)|Easy|
